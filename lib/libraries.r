@@ -8,6 +8,7 @@ library(readr)
 library(dplyr)
 library(tibble)
 
+
 options(gsubfn.engine="R")
 
 # Uvozimo funkcije za pobiranje in uvoz zemljevida.
