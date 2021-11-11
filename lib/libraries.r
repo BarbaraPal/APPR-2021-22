@@ -6,6 +6,7 @@ library(tmap)
 library(shiny)
 library(readr)
 library(dplyr)
+library(tibble)
 
 options(gsubfn.engine="R")
 
