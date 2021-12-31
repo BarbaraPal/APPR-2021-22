@@ -7,6 +7,9 @@ library(shiny)
 library(readr)
 library(dplyr)
 library(tibble)
+library(stringr)
+library(tidyverse)
+library(xml2)
 
 
 options(gsubfn.engine="R")
