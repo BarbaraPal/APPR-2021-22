@@ -236,3 +236,16 @@ shrani.tabela4 <- uvoz.indeksi.cen.stan.nepremicnin() %>%
   write_csv("podatki/shrani-indeksi-stan-nepremicnin.csv", na= "NA", append = FALSE, col_names = TRUE)
 
 # TABELA 5
+tabela5 <- function(){
+  full_join(tabela11(),
+            tabela111(),
+            by = c("leto", "statisticna_regija", "stevilo_prebivalcev")) %>%
+    select(-stevilo_prebivalcev)
+}
+
+shrani.tabela5 <- full_join(tabela5(), uvoz.selitve.prebivalstva()) %>%
+  filter(statisticna_regija != "SLOVENIJA") %>%
+  write_csv("podatki/shrani-migracije-med-regijami.csv", 
+            na= "NA", 
+            append = FALSE, 
+            col_names = TRUE)
