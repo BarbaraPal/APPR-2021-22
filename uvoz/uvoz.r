@@ -224,10 +224,15 @@ tabela2 <- function(){
     summarise(vrednosti = sum(vrednosti, na.rm = TRUE))
   return(tabela2)
 }  
-shrani.tabela2 <- tabela2 %>% write_csv("podatki/shrani-ocena-dokoncanih-stanovanj-po-vrstah-stanovanj.csv",
-                            na= "NA",
-                            append = FALSE,
-                            col_names = TRUE)
+shrani.tabela2 <- full_join(tabela2(), 
+                            uvoz.prebivalstvo(),
+                            by = c("statisticna_regija", "leto")) %>%
+  filter(statisticna_regija != "SLOVENIJA") %>%
+  write_csv("podatki/shrani-ocena-dokoncanih-stanovanj-po-vrstah-stanovanj.csv",
+            na= "NA",
+            append = FALSE,
+            col_names = TRUE) %>%
+  pivot_wider(names_from = MERITVE, values_from = vrednosti)
 
 # TABELA 3
 
