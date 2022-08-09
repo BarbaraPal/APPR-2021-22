@@ -1,1585 +1,738 @@
-MERITVE,leto,vrsta,statisticna_regija,vrednosti,stevilo_prebivalcev
-Površina [m2],2010,Dvosobna,Gorenjska,6616,202903
-Površina [m2],2010,Dvosobna,Goriška,1572,119080
-Površina [m2],2010,Dvosobna,Jugovzhodna Slovenija,2162,142092
-Površina [m2],2010,Dvosobna,Koroška,2228,72812
-Površina [m2],2010,Dvosobna,Obalno-kraška,3079,110412
-Površina [m2],2010,Dvosobna,Osrednjeslovenska,14349,529646
-Površina [m2],2010,Dvosobna,Podravska,8349,323343
-Površina [m2],2010,Dvosobna,Pomurska,2619,119548
-Površina [m2],2010,Dvosobna,Posavska,2770,70192
-Površina [m2],2010,Dvosobna,Primorsko-notranjska,1381,52217
-Površina [m2],2010,Dvosobna,Savinjska,8835,260025
-Površina [m2],2010,Dvosobna,Zasavska,96,44706
-Površina [m2],2010,Enosobna,Gorenjska,2069,202903
-Površina [m2],2010,Enosobna,Goriška,3513,119080
-Površina [m2],2010,Enosobna,Jugovzhodna Slovenija,905,142092
-Površina [m2],2010,Enosobna,Koroška,427,72812
-Površina [m2],2010,Enosobna,Obalno-kraška,1236,110412
-Površina [m2],2010,Enosobna,Osrednjeslovenska,8130,529646
-Površina [m2],2010,Enosobna,Podravska,1452,323343
-Površina [m2],2010,Enosobna,Pomurska,769,119548
-Površina [m2],2010,Enosobna,Posavska,521,70192
-Površina [m2],2010,Enosobna,Primorsko-notranjska,161,52217
-Površina [m2],2010,Enosobna,Savinjska,1932,260025
-Površina [m2],2010,Enosobna,Zasavska,0,44706
-Površina [m2],2010,Pet-,Gorenjska,49657,202903
-Površina [m2],2010,Pet-,Goriška,24856,119080
-Površina [m2],2010,Pet-,Jugovzhodna Slovenija,20315,142092
-Površina [m2],2010,Pet-,Koroška,11087,72812
-Površina [m2],2010,Pet-,Obalno-kraška,27943,110412
-Površina [m2],2010,Pet-,Osrednjeslovenska,109787,529646
-Površina [m2],2010,Pet-,Podravska,69690,323343
-Površina [m2],2010,Pet-,Pomurska,19291,119548
-Površina [m2],2010,Pet-,Posavska,12543,70192
-Površina [m2],2010,Pet-,Primorsko-notranjska,13367,52217
-Površina [m2],2010,Pet-,Savinjska,54333,260025
-Površina [m2],2010,Pet-,Zasavska,3230,44706
-Površina [m2],2010,Stanovanja,Gorenjska,105081,202903
-Površina [m2],2010,Stanovanja,Goriška,47534,119080
-Površina [m2],2010,Stanovanja,Jugovzhodna Slovenija,40024,142092
-Površina [m2],2010,Stanovanja,Koroška,22641,72812
-Površina [m2],2010,Stanovanja,Obalno-kraška,47971,110412
-Površina [m2],2010,Stanovanja,Osrednjeslovenska,214794,529646
-Površina [m2],2010,Stanovanja,Podravska,129417,323343
-Površina [m2],2010,Stanovanja,Pomurska,43413,119548
-Površina [m2],2010,Stanovanja,Posavska,26807,70192
-Površina [m2],2010,Stanovanja,Primorsko-notranjska,22547,52217
-Površina [m2],2010,Stanovanja,Savinjska,116416,260025
-Površina [m2],2010,Stanovanja,Zasavska,5467,44706
-Površina [m2],2010,Štirisobna,Gorenjska,33766,202903
-Površina [m2],2010,Štirisobna,Goriška,12249,119080
-Površina [m2],2010,Štirisobna,Jugovzhodna Slovenija,10368,142092
-Površina [m2],2010,Štirisobna,Koroška,3000,72812
-Površina [m2],2010,Štirisobna,Obalno-kraška,10081,110412
-Površina [m2],2010,Štirisobna,Osrednjeslovenska,53639,529646
-Površina [m2],2010,Štirisobna,Podravska,24455,323343
-Površina [m2],2010,Štirisobna,Pomurska,13467,119548
-Površina [m2],2010,Štirisobna,Posavska,6438,70192
-Površina [m2],2010,Štirisobna,Primorsko-notranjska,4631,52217
-Površina [m2],2010,Štirisobna,Savinjska,33500,260025
-Površina [m2],2010,Štirisobna,Zasavska,1952,44706
-Površina [m2],2010,Trisobna,Gorenjska,12973,202903
-Površina [m2],2010,Trisobna,Goriška,5344,119080
-Površina [m2],2010,Trisobna,Jugovzhodna Slovenija,6274,142092
-Površina [m2],2010,Trisobna,Koroška,5899,72812
-Površina [m2],2010,Trisobna,Obalno-kraška,5632,110412
-Površina [m2],2010,Trisobna,Osrednjeslovenska,28889,529646
-Površina [m2],2010,Trisobna,Podravska,25471,323343
-Površina [m2],2010,Trisobna,Pomurska,7267,119548
-Površina [m2],2010,Trisobna,Posavska,4535,70192
-Površina [m2],2010,Trisobna,Primorsko-notranjska,3007,52217
-Površina [m2],2010,Trisobna,Savinjska,17816,260025
-Površina [m2],2010,Trisobna,Zasavska,189,44706
-Površina [m2],2011,Dvosobna,Gorenjska,3024,203427
-Površina [m2],2011,Dvosobna,Goriška,986,119146
-Površina [m2],2011,Dvosobna,Jugovzhodna Slovenija,1573,142483
-Površina [m2],2011,Dvosobna,Koroška,484,72494
-Površina [m2],2011,Dvosobna,Obalno-kraška,4500,110760
-Površina [m2],2011,Dvosobna,Osrednjeslovenska,22085,533213
-Površina [m2],2011,Dvosobna,Podravska,4494,323119
-Površina [m2],2011,Dvosobna,Pomurska,1859,119145
-Površina [m2],2011,Dvosobna,Posavska,305,70167
-Površina [m2],2011,Dvosobna,Primorsko-notranjska,597,52287
-Površina [m2],2011,Dvosobna,Savinjska,10300,259726
-Površina [m2],2011,Dvosobna,Zasavska,1230,44222
-Površina [m2],2011,Enosobna,Gorenjska,846,203427
-Površina [m2],2011,Enosobna,Goriška,115,119146
-Površina [m2],2011,Enosobna,Jugovzhodna Slovenija,617,142483
-Površina [m2],2011,Enosobna,Koroška,27,72494
-Površina [m2],2011,Enosobna,Obalno-kraška,2643,110760
-Površina [m2],2011,Enosobna,Osrednjeslovenska,7559,533213
-Površina [m2],2011,Enosobna,Podravska,1300,323119
-Površina [m2],2011,Enosobna,Pomurska,644,119145
-Površina [m2],2011,Enosobna,Posavska,134,70167
-Površina [m2],2011,Enosobna,Primorsko-notranjska,344,52287
-Površina [m2],2011,Enosobna,Savinjska,3752,259726
-Površina [m2],2011,Enosobna,Zasavska,0,44222
-Površina [m2],2011,Pet-,Gorenjska,48569,203427
-Površina [m2],2011,Pet-,Goriška,20808,119146
-Površina [m2],2011,Pet-,Jugovzhodna Slovenija,22083,142483
-Površina [m2],2011,Pet-,Koroška,12004,72494
-Površina [m2],2011,Pet-,Obalno-kraška,19605,110760
-Površina [m2],2011,Pet-,Osrednjeslovenska,89748,533213
-Površina [m2],2011,Pet-,Podravska,82434,323119
-Površina [m2],2011,Pet-,Pomurska,20925,119145
-Površina [m2],2011,Pet-,Posavska,17245,70167
-Površina [m2],2011,Pet-,Primorsko-notranjska,12811,52287
-Površina [m2],2011,Pet-,Savinjska,55384,259726
-Površina [m2],2011,Pet-,Zasavska,4820,44222
-Površina [m2],2011,Stanovanja,Gorenjska,75999,203427
-Površina [m2],2011,Stanovanja,Goriška,36125,119146
-Površina [m2],2011,Stanovanja,Jugovzhodna Slovenija,37464,142483
-Površina [m2],2011,Stanovanja,Koroška,16002,72494
-Površina [m2],2011,Stanovanja,Obalno-kraška,41475,110760
-Površina [m2],2011,Stanovanja,Osrednjeslovenska,183099,533213
-Površina [m2],2011,Stanovanja,Podravska,139337,323119
-Površina [m2],2011,Stanovanja,Pomurska,40273,119145
-Površina [m2],2011,Stanovanja,Posavska,24957,70167
-Površina [m2],2011,Stanovanja,Primorsko-notranjska,19105,52287
-Površina [m2],2011,Stanovanja,Savinjska,105538,259726
-Površina [m2],2011,Stanovanja,Zasavska,8514,44222
-Površina [m2],2011,Štirisobna,Gorenjska,15386,203427
-Površina [m2],2011,Štirisobna,Goriška,10962,119146
-Površina [m2],2011,Štirisobna,Jugovzhodna Slovenija,10248,142483
-Površina [m2],2011,Štirisobna,Koroška,2362,72494
-Površina [m2],2011,Štirisobna,Obalno-kraška,9792,110760
-Površina [m2],2011,Štirisobna,Osrednjeslovenska,35266,533213
-Površina [m2],2011,Štirisobna,Podravska,36292,323119
-Površina [m2],2011,Štirisobna,Pomurska,11268,119145
-Površina [m2],2011,Štirisobna,Posavska,4507,70167
-Površina [m2],2011,Štirisobna,Primorsko-notranjska,4462,52287
-Površina [m2],2011,Štirisobna,Savinjska,24693,259726
-Površina [m2],2011,Štirisobna,Zasavska,2252,44222
-Površina [m2],2011,Trisobna,Gorenjska,8174,203427
-Površina [m2],2011,Trisobna,Goriška,3254,119146
-Površina [m2],2011,Trisobna,Jugovzhodna Slovenija,2943,142483
-Površina [m2],2011,Trisobna,Koroška,1125,72494
-Površina [m2],2011,Trisobna,Obalno-kraška,4935,110760
-Površina [m2],2011,Trisobna,Osrednjeslovenska,28441,533213
-Površina [m2],2011,Trisobna,Podravska,14817,323119
-Površina [m2],2011,Trisobna,Pomurska,5577,119145
-Površina [m2],2011,Trisobna,Posavska,2766,70167
-Površina [m2],2011,Trisobna,Primorsko-notranjska,891,52287
-Površina [m2],2011,Trisobna,Savinjska,11409,259726
-Površina [m2],2011,Trisobna,Zasavska,212,44222
-Površina [m2],2012,Dvosobna,Gorenjska,2242,204057
-Površina [m2],2012,Dvosobna,Goriška,2506,119236
-Površina [m2],2012,Dvosobna,Jugovzhodna Slovenija,1635,142680
-Površina [m2],2012,Dvosobna,Koroška,439,72364
-Površina [m2],2012,Dvosobna,Obalno-kraška,4252,111423
-Površina [m2],2012,Dvosobna,Osrednjeslovenska,4883,536484
-Površina [m2],2012,Dvosobna,Podravska,6699,323534
-Površina [m2],2012,Dvosobna,Pomurska,2187,118988
-Površina [m2],2012,Dvosobna,Posavska,435,70164
-Površina [m2],2012,Dvosobna,Primorsko-notranjska,124,52387
-Površina [m2],2012,Dvosobna,Savinjska,3713,260253
-Površina [m2],2012,Dvosobna,Zasavska,0,43926
-Površina [m2],2012,Enosobna,Gorenjska,856,204057
-Površina [m2],2012,Enosobna,Goriška,324,119236
-Površina [m2],2012,Enosobna,Jugovzhodna Slovenija,750,142680
-Površina [m2],2012,Enosobna,Koroška,139,72364
-Površina [m2],2012,Enosobna,Obalno-kraška,8874,111423
-Površina [m2],2012,Enosobna,Osrednjeslovenska,895,536484
-Površina [m2],2012,Enosobna,Podravska,1957,323534
-Površina [m2],2012,Enosobna,Pomurska,351,118988
-Površina [m2],2012,Enosobna,Posavska,63,70164
-Površina [m2],2012,Enosobna,Primorsko-notranjska,399,52387
-Površina [m2],2012,Enosobna,Savinjska,659,260253
-Površina [m2],2012,Enosobna,Zasavska,0,43926
-Površina [m2],2012,Pet-,Gorenjska,44168,204057
-Površina [m2],2012,Pet-,Goriška,21353,119236
-Površina [m2],2012,Pet-,Jugovzhodna Slovenija,23165,142680
-Površina [m2],2012,Pet-,Koroška,7916,72364
-Površina [m2],2012,Pet-,Obalno-kraška,15949,111423
-Površina [m2],2012,Pet-,Osrednjeslovenska,83064,536484
-Površina [m2],2012,Pet-,Podravska,58081,323534
-Površina [m2],2012,Pet-,Pomurska,22212,118988
-Površina [m2],2012,Pet-,Posavska,12661,70164
-Površina [m2],2012,Pet-,Primorsko-notranjska,12352,52387
-Površina [m2],2012,Pet-,Savinjska,44681,260253
-Površina [m2],2012,Pet-,Zasavska,2014,43926
-Površina [m2],2012,Stanovanja,Gorenjska,61060,204057
-Površina [m2],2012,Stanovanja,Goriška,40452,119236
-Površina [m2],2012,Stanovanja,Jugovzhodna Slovenija,33968,142680
-Površina [m2],2012,Stanovanja,Koroška,13630,72364
-Površina [m2],2012,Stanovanja,Obalno-kraška,46711,111423
-Površina [m2],2012,Stanovanja,Osrednjeslovenska,125716,536484
-Površina [m2],2012,Stanovanja,Podravska,114223,323534
-Površina [m2],2012,Stanovanja,Pomurska,38516,118988
-Površina [m2],2012,Stanovanja,Posavska,17353,70164
-Površina [m2],2012,Stanovanja,Primorsko-notranjska,18543,52387
-Površina [m2],2012,Stanovanja,Savinjska,82631,260253
-Površina [m2],2012,Stanovanja,Zasavska,3585,43926
-Površina [m2],2012,Štirisobna,Gorenjska,10344,204057
-Površina [m2],2012,Štirisobna,Goriška,10945,119236
-Površina [m2],2012,Štirisobna,Jugovzhodna Slovenija,5381,142680
-Površina [m2],2012,Štirisobna,Koroška,3738,72364
-Površina [m2],2012,Štirisobna,Obalno-kraška,10772,111423
-Površina [m2],2012,Štirisobna,Osrednjeslovenska,26909,536484
-Površina [m2],2012,Štirisobna,Podravska,30510,323534
-Površina [m2],2012,Štirisobna,Pomurska,9017,118988
-Površina [m2],2012,Štirisobna,Posavska,2664,70164
-Površina [m2],2012,Štirisobna,Primorsko-notranjska,4875,52387
-Površina [m2],2012,Štirisobna,Savinjska,22423,260253
-Površina [m2],2012,Štirisobna,Zasavska,1403,43926
-Površina [m2],2012,Trisobna,Gorenjska,3450,204057
-Površina [m2],2012,Trisobna,Goriška,5324,119236
-Površina [m2],2012,Trisobna,Jugovzhodna Slovenija,3037,142680
-Površina [m2],2012,Trisobna,Koroška,1398,72364
-Površina [m2],2012,Trisobna,Obalno-kraška,6864,111423
-Površina [m2],2012,Trisobna,Osrednjeslovenska,9965,536484
-Površina [m2],2012,Trisobna,Podravska,16976,323534
-Površina [m2],2012,Trisobna,Pomurska,4749,118988
-Površina [m2],2012,Trisobna,Posavska,1530,70164
-Površina [m2],2012,Trisobna,Primorsko-notranjska,793,52387
-Površina [m2],2012,Trisobna,Savinjska,11155,260253
-Površina [m2],2012,Trisobna,Zasavska,168,43926
-Površina [m2],2013,Dvosobna,Gorenjska,7548,203984
-Površina [m2],2013,Dvosobna,Goriška,686,119002
-Površina [m2],2013,Dvosobna,Jugovzhodna Slovenija,1043,142509
-Površina [m2],2013,Dvosobna,Koroška,180,72100
-Površina [m2],2013,Dvosobna,Obalno-kraška,2482,111936
-Površina [m2],2013,Dvosobna,Osrednjeslovenska,2654,541718
-Površina [m2],2013,Dvosobna,Podravska,4885,323238
-Površina [m2],2013,Dvosobna,Pomurska,1501,118022
-Površina [m2],2013,Dvosobna,Posavska,254,70211
-Površina [m2],2013,Dvosobna,Primorsko-notranjska,183,52382
-Površina [m2],2013,Dvosobna,Savinjska,9488,260217
-Površina [m2],2013,Dvosobna,Zasavska,156,43502
-Površina [m2],2013,Enosobna,Gorenjska,1869,203984
-Površina [m2],2013,Enosobna,Goriška,541,119002
-Površina [m2],2013,Enosobna,Jugovzhodna Slovenija,370,142509
-Površina [m2],2013,Enosobna,Koroška,37,72100
-Površina [m2],2013,Enosobna,Obalno-kraška,354,111936
-Površina [m2],2013,Enosobna,Osrednjeslovenska,1049,541718
-Površina [m2],2013,Enosobna,Podravska,1239,323238
-Površina [m2],2013,Enosobna,Pomurska,405,118022
-Površina [m2],2013,Enosobna,Posavska,85,70211
-Površina [m2],2013,Enosobna,Primorsko-notranjska,0,52382
-Površina [m2],2013,Enosobna,Savinjska,4977,260217
-Površina [m2],2013,Enosobna,Zasavska,204,43502
-Površina [m2],2013,Pet-,Gorenjska,29474,203984
-Površina [m2],2013,Pet-,Goriška,17924,119002
-Površina [m2],2013,Pet-,Jugovzhodna Slovenija,23555,142509
-Površina [m2],2013,Pet-,Koroška,10040,72100
-Površina [m2],2013,Pet-,Obalno-kraška,13092,111936
-Površina [m2],2013,Pet-,Osrednjeslovenska,75065,541718
-Površina [m2],2013,Pet-,Podravska,36456,323238
-Površina [m2],2013,Pet-,Pomurska,17002,118022
-Površina [m2],2013,Pet-,Posavska,9256,70211
-Površina [m2],2013,Pet-,Primorsko-notranjska,11103,52382
-Površina [m2],2013,Pet-,Savinjska,38119,260217
-Površina [m2],2013,Pet-,Zasavska,2356,43502
-Površina [m2],2013,Stanovanja,Gorenjska,59982,203984
-Površina [m2],2013,Stanovanja,Goriška,28171,119002
-Površina [m2],2013,Stanovanja,Jugovzhodna Slovenija,36040,142509
-Površina [m2],2013,Stanovanja,Koroška,16256,72100
-Površina [m2],2013,Stanovanja,Obalno-kraška,27829,111936
-Površina [m2],2013,Stanovanja,Osrednjeslovenska,103517,541718
-Površina [m2],2013,Stanovanja,Podravska,77085,323238
-Površina [m2],2013,Stanovanja,Pomurska,34213,118022
-Površina [m2],2013,Stanovanja,Posavska,16906,70211
-Površina [m2],2013,Stanovanja,Primorsko-notranjska,15714,52382
-Površina [m2],2013,Stanovanja,Savinjska,88032,260217
-Površina [m2],2013,Stanovanja,Zasavska,4183,43502
-Površina [m2],2013,Štirisobna,Gorenjska,14625,203984
-Površina [m2],2013,Štirisobna,Goriška,5768,119002
-Površina [m2],2013,Štirisobna,Jugovzhodna Slovenija,8489,142509
-Površina [m2],2013,Štirisobna,Koroška,3226,72100
-Površina [m2],2013,Štirisobna,Obalno-kraška,9309,111936
-Površina [m2],2013,Štirisobna,Osrednjeslovenska,19399,541718
-Površina [m2],2013,Štirisobna,Podravska,25981,323238
-Površina [m2],2013,Štirisobna,Pomurska,11411,118022
-Površina [m2],2013,Štirisobna,Posavska,4862,70211
-Površina [m2],2013,Štirisobna,Primorsko-notranjska,3679,52382
-Površina [m2],2013,Štirisobna,Savinjska,19853,260217
-Površina [m2],2013,Štirisobna,Zasavska,451,43502
-Površina [m2],2013,Trisobna,Gorenjska,6466,203984
-Površina [m2],2013,Trisobna,Goriška,3252,119002
-Površina [m2],2013,Trisobna,Jugovzhodna Slovenija,2583,142509
-Površina [m2],2013,Trisobna,Koroška,2773,72100
-Površina [m2],2013,Trisobna,Obalno-kraška,2592,111936
-Površina [m2],2013,Trisobna,Osrednjeslovenska,5350,541718
-Površina [m2],2013,Trisobna,Podravska,8524,323238
-Površina [m2],2013,Trisobna,Pomurska,3894,118022
-Površina [m2],2013,Trisobna,Posavska,2449,70211
-Površina [m2],2013,Trisobna,Primorsko-notranjska,749,52382
-Površina [m2],2013,Trisobna,Savinjska,15595,260217
-Površina [m2],2013,Trisobna,Zasavska,1016,43502
-Površina [m2],2014,Dvosobna,Gorenjska,1599,203894
-Površina [m2],2014,Dvosobna,Goriška,918,118374
-Površina [m2],2014,Dvosobna,Jugovzhodna Slovenija,719,142405
-Površina [m2],2014,Dvosobna,Koroška,2597,71546
-Površina [m2],2014,Dvosobna,Obalno-kraška,191,112848
-Površina [m2],2014,Dvosobna,Osrednjeslovenska,9875,546314
-Površina [m2],2014,Dvosobna,Podravska,3483,323328
-Površina [m2],2014,Dvosobna,Pomurska,1954,117133
-Površina [m2],2014,Dvosobna,Posavska,81,69958
-Površina [m2],2014,Dvosobna,Primorsko-notranjska,180,52449
-Površina [m2],2014,Dvosobna,Savinjska,676,259853
-Površina [m2],2014,Dvosobna,Zasavska,98,42983
-Površina [m2],2014,Enosobna,Gorenjska,317,203894
-Površina [m2],2014,Enosobna,Goriška,228,118374
-Površina [m2],2014,Enosobna,Jugovzhodna Slovenija,280,142405
-Površina [m2],2014,Enosobna,Koroška,330,71546
-Površina [m2],2014,Enosobna,Obalno-kraška,164,112848
-Površina [m2],2014,Enosobna,Osrednjeslovenska,4526,546314
-Površina [m2],2014,Enosobna,Podravska,1323,323328
-Površina [m2],2014,Enosobna,Pomurska,397,117133
-Površina [m2],2014,Enosobna,Posavska,111,69958
-Površina [m2],2014,Enosobna,Primorsko-notranjska,0,52449
-Površina [m2],2014,Enosobna,Savinjska,453,259853
-Površina [m2],2014,Enosobna,Zasavska,22,42983
-Površina [m2],2014,Pet-,Gorenjska,28279,203894
-Površina [m2],2014,Pet-,Goriška,18616,118374
-Površina [m2],2014,Pet-,Jugovzhodna Slovenija,22915,142405
-Površina [m2],2014,Pet-,Koroška,6090,71546
-Površina [m2],2014,Pet-,Obalno-kraška,13849,112848
-Površina [m2],2014,Pet-,Osrednjeslovenska,74139,546314
-Površina [m2],2014,Pet-,Podravska,38084,323328
-Površina [m2],2014,Pet-,Pomurska,16016,117133
-Površina [m2],2014,Pet-,Posavska,9922,69958
-Površina [m2],2014,Pet-,Primorsko-notranjska,5667,52449
-Površina [m2],2014,Pet-,Savinjska,38992,259853
-Površina [m2],2014,Pet-,Zasavska,4742,42983
-Površina [m2],2014,Stanovanja,Gorenjska,48787,203894
-Površina [m2],2014,Stanovanja,Goriška,28152,118374
-Površina [m2],2014,Stanovanja,Jugovzhodna Slovenija,31632,142405
-Površina [m2],2014,Stanovanja,Koroška,14593,71546
-Površina [m2],2014,Stanovanja,Obalno-kraška,21623,112848
-Površina [m2],2014,Stanovanja,Osrednjeslovenska,122003,546314
-Površina [m2],2014,Stanovanja,Podravska,72982,323328
-Površina [m2],2014,Stanovanja,Pomurska,29559,117133
-Površina [m2],2014,Stanovanja,Posavska,14788,69958
-Površina [m2],2014,Stanovanja,Primorsko-notranjska,10154,52449
-Površina [m2],2014,Stanovanja,Savinjska,58688,259853
-Površina [m2],2014,Stanovanja,Zasavska,5978,42983
-Površina [m2],2014,Štirisobna,Gorenjska,14346,203894
-Površina [m2],2014,Štirisobna,Goriška,5505,118374
-Površina [m2],2014,Štirisobna,Jugovzhodna Slovenija,6665,142405
-Površina [m2],2014,Štirisobna,Koroška,3331,71546
-Površina [m2],2014,Štirisobna,Obalno-kraška,5651,112848
-Površina [m2],2014,Štirisobna,Osrednjeslovenska,20311,546314
-Površina [m2],2014,Štirisobna,Podravska,21040,323328
-Površina [m2],2014,Štirisobna,Pomurska,6548,117133
-Površina [m2],2014,Štirisobna,Posavska,3200,69958
-Površina [m2],2014,Štirisobna,Primorsko-notranjska,3610,52449
-Površina [m2],2014,Štirisobna,Savinjska,14364,259853
-Površina [m2],2014,Štirisobna,Zasavska,851,42983
-Površina [m2],2014,Trisobna,Gorenjska,4246,203894
-Površina [m2],2014,Trisobna,Goriška,2885,118374
-Površina [m2],2014,Trisobna,Jugovzhodna Slovenija,1053,142405
-Površina [m2],2014,Trisobna,Koroška,2245,71546
-Površina [m2],2014,Trisobna,Obalno-kraška,1768,112848
-Površina [m2],2014,Trisobna,Osrednjeslovenska,13152,546314
-Površina [m2],2014,Trisobna,Podravska,9052,323328
-Površina [m2],2014,Trisobna,Pomurska,4644,117133
-Površina [m2],2014,Trisobna,Posavska,1474,69958
-Površina [m2],2014,Trisobna,Primorsko-notranjska,697,52449
-Površina [m2],2014,Trisobna,Savinjska,4203,259853
-Površina [m2],2014,Trisobna,Zasavska,265,42983
-Površina [m2],2015,Dvosobna,Gorenjska,757,203850
-Površina [m2],2015,Dvosobna,Goriška,1238,118188
-Površina [m2],2015,Dvosobna,Jugovzhodna Slovenija,1741,142373
-Površina [m2],2015,Dvosobna,Koroška,1188,71303
-Površina [m2],2015,Dvosobna,Obalno-kraška,350,112773
-Površina [m2],2015,Dvosobna,Osrednjeslovenska,3109,534518
-Površina [m2],2015,Dvosobna,Podravska,2085,323356
-Površina [m2],2015,Dvosobna,Pomurska,2143,116670
-Površina [m2],2015,Dvosobna,Posavska,526,75619
-Površina [m2],2015,Dvosobna,Primorsko-notranjska,366,52538
-Površina [m2],2015,Dvosobna,Savinjska,2127,253975
-Površina [m2],2015,Dvosobna,Zasavska,0,57711
-Površina [m2],2015,Enosobna,Gorenjska,356,203850
-Površina [m2],2015,Enosobna,Goriška,265,118188
-Površina [m2],2015,Enosobna,Jugovzhodna Slovenija,1206,142373
-Površina [m2],2015,Enosobna,Koroška,140,71303
-Površina [m2],2015,Enosobna,Obalno-kraška,342,112773
-Površina [m2],2015,Enosobna,Osrednjeslovenska,3967,534518
-Površina [m2],2015,Enosobna,Podravska,1033,323356
-Površina [m2],2015,Enosobna,Pomurska,513,116670
-Površina [m2],2015,Enosobna,Posavska,0,75619
-Površina [m2],2015,Enosobna,Primorsko-notranjska,44,52538
-Površina [m2],2015,Enosobna,Savinjska,341,253975
-Površina [m2],2015,Enosobna,Zasavska,88,57711
-Površina [m2],2015,Pet-,Gorenjska,23756,203850
-Površina [m2],2015,Pet-,Goriška,17372,118188
-Površina [m2],2015,Pet-,Jugovzhodna Slovenija,28825,142373
-Površina [m2],2015,Pet-,Koroška,5845,71303
-Površina [m2],2015,Pet-,Obalno-kraška,10354,112773
-Površina [m2],2015,Pet-,Osrednjeslovenska,65610,534518
-Površina [m2],2015,Pet-,Podravska,37646,323356
-Površina [m2],2015,Pet-,Pomurska,9451,116670
-Površina [m2],2015,Pet-,Posavska,7893,75619
-Površina [m2],2015,Pet-,Primorsko-notranjska,5670,52538
-Površina [m2],2015,Pet-,Savinjska,33543,253975
-Površina [m2],2015,Pet-,Zasavska,3807,57711
-Površina [m2],2015,Stanovanja,Gorenjska,43674,203850
-Površina [m2],2015,Stanovanja,Goriška,27597,118188
-Površina [m2],2015,Stanovanja,Jugovzhodna Slovenija,40384,142373
-Površina [m2],2015,Stanovanja,Koroška,11186,71303
-Površina [m2],2015,Stanovanja,Obalno-kraška,20372,112773
-Površina [m2],2015,Stanovanja,Osrednjeslovenska,102073,534518
-Površina [m2],2015,Stanovanja,Podravska,63228,323356
-Površina [m2],2015,Stanovanja,Pomurska,21540,116670
-Površina [m2],2015,Stanovanja,Posavska,12124,75619
-Površina [m2],2015,Stanovanja,Primorsko-notranjska,10833,52538
-Površina [m2],2015,Stanovanja,Savinjska,50154,253975
-Površina [m2],2015,Stanovanja,Zasavska,5315,57711
-Površina [m2],2015,Štirisobna,Gorenjska,13407,203850
-Površina [m2],2015,Štirisobna,Goriška,5508,118188
-Površina [m2],2015,Štirisobna,Jugovzhodna Slovenija,6464,142373
-Površina [m2],2015,Štirisobna,Koroška,3017,71303
-Površina [m2],2015,Štirisobna,Obalno-kraška,6406,112773
-Površina [m2],2015,Štirisobna,Osrednjeslovenska,19709,534518
-Površina [m2],2015,Štirisobna,Podravska,16055,323356
-Površina [m2],2015,Štirisobna,Pomurska,6796,116670
-Površina [m2],2015,Štirisobna,Posavska,1974,75619
-Površina [m2],2015,Štirisobna,Primorsko-notranjska,4016,52538
-Površina [m2],2015,Štirisobna,Savinjska,10640,253975
-Površina [m2],2015,Štirisobna,Zasavska,1267,57711
-Površina [m2],2015,Trisobna,Gorenjska,5398,203850
-Površina [m2],2015,Trisobna,Goriška,3214,118188
-Površina [m2],2015,Trisobna,Jugovzhodna Slovenija,2148,142373
-Površina [m2],2015,Trisobna,Koroška,996,71303
-Površina [m2],2015,Trisobna,Obalno-kraška,2920,112773
-Površina [m2],2015,Trisobna,Osrednjeslovenska,9678,534518
-Površina [m2],2015,Trisobna,Podravska,6409,323356
-Površina [m2],2015,Trisobna,Pomurska,2637,116670
-Površina [m2],2015,Trisobna,Posavska,1731,75619
-Površina [m2],2015,Trisobna,Primorsko-notranjska,737,52538
-Površina [m2],2015,Trisobna,Savinjska,3503,253975
-Površina [m2],2015,Trisobna,Zasavska,153,57711
-Površina [m2],2016,Dvosobna,Gorenjska,1050,203838
-Površina [m2],2016,Dvosobna,Goriška,993,118064
-Površina [m2],2016,Dvosobna,Jugovzhodna Slovenija,815,142566
-Površina [m2],2016,Dvosobna,Koroška,988,71040
-Površina [m2],2016,Dvosobna,Obalno-kraška,3008,113070
-Površina [m2],2016,Dvosobna,Osrednjeslovenska,1574,537023
-Površina [m2],2016,Dvosobna,Podravska,2826,322553
-Površina [m2],2016,Dvosobna,Pomurska,3101,116078
-Površina [m2],2016,Dvosobna,Posavska,939,75711
-Površina [m2],2016,Dvosobna,Primorsko-notranjska,0,52523
-Površina [m2],2016,Dvosobna,Savinjska,872,254318
-Površina [m2],2016,Dvosobna,Zasavska,361,57404
-Površina [m2],2016,Enosobna,Gorenjska,968,203838
-Površina [m2],2016,Enosobna,Goriška,892,118064
-Površina [m2],2016,Enosobna,Jugovzhodna Slovenija,276,142566
-Površina [m2],2016,Enosobna,Koroška,293,71040
-Površina [m2],2016,Enosobna,Obalno-kraška,900,113070
-Površina [m2],2016,Enosobna,Osrednjeslovenska,1491,537023
-Površina [m2],2016,Enosobna,Podravska,1044,322553
-Površina [m2],2016,Enosobna,Pomurska,1345,116078
-Površina [m2],2016,Enosobna,Posavska,96,75711
-Površina [m2],2016,Enosobna,Primorsko-notranjska,0,52523
-Površina [m2],2016,Enosobna,Savinjska,801,254318
-Površina [m2],2016,Enosobna,Zasavska,190,57404
-Površina [m2],2016,Pet-,Gorenjska,22838,203838
-Površina [m2],2016,Pet-,Goriška,19378,118064
-Površina [m2],2016,Pet-,Jugovzhodna Slovenija,23320,142566
-Površina [m2],2016,Pet-,Koroška,6057,71040
-Površina [m2],2016,Pet-,Obalno-kraška,11579,113070
-Površina [m2],2016,Pet-,Osrednjeslovenska,73532,537023
-Površina [m2],2016,Pet-,Podravska,35589,322553
-Površina [m2],2016,Pet-,Pomurska,18305,116078
-Površina [m2],2016,Pet-,Posavska,9922,75711
-Površina [m2],2016,Pet-,Primorsko-notranjska,5082,52523
-Površina [m2],2016,Pet-,Savinjska,34961,254318
-Površina [m2],2016,Pet-,Zasavska,2844,57404
-Površina [m2],2016,Stanovanja,Gorenjska,39286,203838
-Površina [m2],2016,Stanovanja,Goriška,33826,118064
-Površina [m2],2016,Stanovanja,Jugovzhodna Slovenija,35541,142566
-Površina [m2],2016,Stanovanja,Koroška,12569,71040
-Površina [m2],2016,Stanovanja,Obalno-kraška,28096,113070
-Površina [m2],2016,Stanovanja,Osrednjeslovenska,109621,537023
-Površina [m2],2016,Stanovanja,Podravska,72054,322553
-Površina [m2],2016,Stanovanja,Pomurska,36569,116078
-Površina [m2],2016,Stanovanja,Posavska,17123,75711
-Površina [m2],2016,Stanovanja,Primorsko-notranjska,8878,52523
-Površina [m2],2016,Stanovanja,Savinjska,50878,254318
-Površina [m2],2016,Stanovanja,Zasavska,5720,57404
-Površina [m2],2016,Štirisobna,Gorenjska,10725,203838
-Površina [m2],2016,Štirisobna,Goriška,9113,118064
-Površina [m2],2016,Štirisobna,Jugovzhodna Slovenija,8731,142566
-Površina [m2],2016,Štirisobna,Koroška,2421,71040
-Površina [m2],2016,Štirisobna,Obalno-kraška,8022,113070
-Površina [m2],2016,Štirisobna,Osrednjeslovenska,23531,537023
-Površina [m2],2016,Štirisobna,Podravska,20917,322553
-Površina [m2],2016,Štirisobna,Pomurska,8522,116078
-Površina [m2],2016,Štirisobna,Posavska,4100,75711
-Površina [m2],2016,Štirisobna,Primorsko-notranjska,2593,52523
-Površina [m2],2016,Štirisobna,Savinjska,8776,254318
-Površina [m2],2016,Štirisobna,Zasavska,1239,57404
-Površina [m2],2016,Trisobna,Gorenjska,3705,203838
-Površina [m2],2016,Trisobna,Goriška,3450,118064
-Površina [m2],2016,Trisobna,Jugovzhodna Slovenija,2399,142566
-Površina [m2],2016,Trisobna,Koroška,2810,71040
-Površina [m2],2016,Trisobna,Obalno-kraška,4587,113070
-Površina [m2],2016,Trisobna,Osrednjeslovenska,9493,537023
-Površina [m2],2016,Trisobna,Podravska,11678,322553
-Površina [m2],2016,Trisobna,Pomurska,5296,116078
-Površina [m2],2016,Trisobna,Posavska,2066,75711
-Površina [m2],2016,Trisobna,Primorsko-notranjska,1203,52523
-Površina [m2],2016,Trisobna,Savinjska,5468,254318
-Površina [m2],2016,Trisobna,Zasavska,1086,57404
-Površina [m2],2017,Dvosobna,Gorenjska,4957,203800
-Površina [m2],2017,Dvosobna,Goriška,692,117747
-Površina [m2],2017,Dvosobna,Jugovzhodna Slovenija,1310,142711
-Površina [m2],2017,Dvosobna,Koroška,931,70761
-Površina [m2],2017,Dvosobna,Obalno-kraška,589,113517
-Površina [m2],2017,Dvosobna,Osrednjeslovenska,5225,539672
-Površina [m2],2017,Dvosobna,Podravska,1771,322043
-Površina [m2],2017,Dvosobna,Pomurska,1384,115477
-Površina [m2],2017,Dvosobna,Posavska,1222,75544
-Površina [m2],2017,Dvosobna,Primorsko-notranjska,189,52582
-Površina [m2],2017,Dvosobna,Savinjska,2520,254761
-Površina [m2],2017,Dvosobna,Zasavska,133,57280
-Površina [m2],2017,Enosobna,Gorenjska,2376,203800
-Površina [m2],2017,Enosobna,Goriška,133,117747
-Površina [m2],2017,Enosobna,Jugovzhodna Slovenija,610,142711
-Površina [m2],2017,Enosobna,Koroška,392,70761
-Površina [m2],2017,Enosobna,Obalno-kraška,804,113517
-Površina [m2],2017,Enosobna,Osrednjeslovenska,1785,539672
-Površina [m2],2017,Enosobna,Podravska,1378,322043
-Površina [m2],2017,Enosobna,Pomurska,693,115477
-Površina [m2],2017,Enosobna,Posavska,418,75544
-Površina [m2],2017,Enosobna,Primorsko-notranjska,72,52582
-Površina [m2],2017,Enosobna,Savinjska,1541,254761
-Površina [m2],2017,Enosobna,Zasavska,45,57280
-Površina [m2],2017,Pet-,Gorenjska,18681,203800
-Površina [m2],2017,Pet-,Goriška,19276,117747
-Površina [m2],2017,Pet-,Jugovzhodna Slovenija,24446,142711
-Površina [m2],2017,Pet-,Koroška,7644,70761
-Površina [m2],2017,Pet-,Obalno-kraška,7388,113517
-Površina [m2],2017,Pet-,Osrednjeslovenska,81654,539672
-Površina [m2],2017,Pet-,Podravska,42365,322043
-Površina [m2],2017,Pet-,Pomurska,11456,115477
-Površina [m2],2017,Pet-,Posavska,12032,75544
-Površina [m2],2017,Pet-,Primorsko-notranjska,5114,52582
-Površina [m2],2017,Pet-,Savinjska,27587,254761
-Površina [m2],2017,Pet-,Zasavska,1962,57280
-Površina [m2],2017,Stanovanja,Gorenjska,40401,203800
-Površina [m2],2017,Stanovanja,Goriška,29834,117747
-Površina [m2],2017,Stanovanja,Jugovzhodna Slovenija,40612,142711
-Površina [m2],2017,Stanovanja,Koroška,12718,70761
-Površina [m2],2017,Stanovanja,Obalno-kraška,15550,113517
-Površina [m2],2017,Stanovanja,Osrednjeslovenska,120283,539672
-Površina [m2],2017,Stanovanja,Podravska,74895,322043
-Površina [m2],2017,Stanovanja,Pomurska,24649,115477
-Površina [m2],2017,Stanovanja,Posavska,20018,75544
-Površina [m2],2017,Stanovanja,Primorsko-notranjska,8910,52582
-Površina [m2],2017,Stanovanja,Savinjska,50055,254761
-Površina [m2],2017,Stanovanja,Zasavska,3061,57280
-Površina [m2],2017,Štirisobna,Gorenjska,8339,203800
-Površina [m2],2017,Štirisobna,Goriška,6129,117747
-Površina [m2],2017,Štirisobna,Jugovzhodna Slovenija,9550,142711
-Površina [m2],2017,Štirisobna,Koroška,2480,70761
-Površina [m2],2017,Štirisobna,Obalno-kraška,5217,113517
-Površina [m2],2017,Štirisobna,Osrednjeslovenska,23140,539672
-Površina [m2],2017,Štirisobna,Podravska,20070,322043
-Površina [m2],2017,Štirisobna,Pomurska,7990,115477
-Površina [m2],2017,Štirisobna,Posavska,3605,75544
-Površina [m2],2017,Štirisobna,Primorsko-notranjska,2159,52582
-Površina [m2],2017,Štirisobna,Savinjska,12939,254761
-Površina [m2],2017,Štirisobna,Zasavska,640,57280
-Površina [m2],2017,Trisobna,Gorenjska,6048,203800
-Površina [m2],2017,Trisobna,Goriška,3604,117747
-Površina [m2],2017,Trisobna,Jugovzhodna Slovenija,4696,142711
-Površina [m2],2017,Trisobna,Koroška,1271,70761
-Površina [m2],2017,Trisobna,Obalno-kraška,1552,113517
-Površina [m2],2017,Trisobna,Osrednjeslovenska,8479,539672
-Površina [m2],2017,Trisobna,Podravska,9311,322043
-Površina [m2],2017,Trisobna,Pomurska,3126,115477
-Površina [m2],2017,Trisobna,Posavska,2741,75544
-Površina [m2],2017,Trisobna,Primorsko-notranjska,1376,52582
-Površina [m2],2017,Trisobna,Savinjska,5468,254761
-Površina [m2],2017,Trisobna,Zasavska,281,57280
-Površina [m2],2018,Dvosobna,Gorenjska,934,203636
-Površina [m2],2018,Dvosobna,Goriška,1493,117260
-Površina [m2],2018,Dvosobna,Jugovzhodna Slovenija,1402,142819
-Površina [m2],2018,Dvosobna,Koroška,516,70550
-Površina [m2],2018,Dvosobna,Obalno-kraška,726,113961
-Površina [m2],2018,Dvosobna,Osrednjeslovenska,8841,542306
-Površina [m2],2018,Dvosobna,Podravska,4607,322058
-Površina [m2],2018,Dvosobna,Pomurska,1183,114776
-Površina [m2],2018,Dvosobna,Posavska,1005,75359
-Površina [m2],2018,Dvosobna,Primorsko-notranjska,264,52334
-Površina [m2],2018,Dvosobna,Savinjska,2918,254760
-Površina [m2],2018,Dvosobna,Zasavska,46,57061
-Površina [m2],2018,Enosobna,Gorenjska,454,203636
-Površina [m2],2018,Enosobna,Goriška,270,117260
-Površina [m2],2018,Enosobna,Jugovzhodna Slovenija,307,142819
-Površina [m2],2018,Enosobna,Koroška,188,70550
-Površina [m2],2018,Enosobna,Obalno-kraška,275,113961
-Površina [m2],2018,Enosobna,Osrednjeslovenska,3311,542306
-Površina [m2],2018,Enosobna,Podravska,1242,322058
-Površina [m2],2018,Enosobna,Pomurska,852,114776
-Površina [m2],2018,Enosobna,Posavska,125,75359
-Površina [m2],2018,Enosobna,Primorsko-notranjska,46,52334
-Površina [m2],2018,Enosobna,Savinjska,674,254760
-Površina [m2],2018,Enosobna,Zasavska,0,57061
-Površina [m2],2018,Pet-,Gorenjska,29134,203636
-Površina [m2],2018,Pet-,Goriška,15768,117260
-Površina [m2],2018,Pet-,Jugovzhodna Slovenija,23754,142819
-Površina [m2],2018,Pet-,Koroška,5050,70550
-Površina [m2],2018,Pet-,Obalno-kraška,12747,113961
-Površina [m2],2018,Pet-,Osrednjeslovenska,71255,542306
-Površina [m2],2018,Pet-,Podravska,40645,322058
-Površina [m2],2018,Pet-,Pomurska,10616,114776
-Površina [m2],2018,Pet-,Posavska,8251,75359
-Površina [m2],2018,Pet-,Primorsko-notranjska,5428,52334
-Površina [m2],2018,Pet-,Savinjska,29153,254760
-Površina [m2],2018,Pet-,Zasavska,1051,57061
-Površina [m2],2018,Stanovanja,Gorenjska,41992,203636
-Površina [m2],2018,Stanovanja,Goriška,26811,117260
-Površina [m2],2018,Stanovanja,Jugovzhodna Slovenija,39338,142819
-Površina [m2],2018,Stanovanja,Koroška,9137,70550
-Površina [m2],2018,Stanovanja,Obalno-kraška,23321,113961
-Površina [m2],2018,Stanovanja,Osrednjeslovenska,114726,542306
-Površina [m2],2018,Stanovanja,Podravska,86496,322058
-Površina [m2],2018,Stanovanja,Pomurska,24828,114776
-Površina [m2],2018,Stanovanja,Posavska,15562,75359
-Površina [m2],2018,Stanovanja,Primorsko-notranjska,9901,52334
-Površina [m2],2018,Stanovanja,Savinjska,54008,254760
-Površina [m2],2018,Stanovanja,Zasavska,1873,57061
-Površina [m2],2018,Štirisobna,Gorenjska,6751,203636
-Površina [m2],2018,Štirisobna,Goriška,6095,117260
-Površina [m2],2018,Štirisobna,Jugovzhodna Slovenija,9967,142819
-Površina [m2],2018,Štirisobna,Koroška,2264,70550
-Površina [m2],2018,Štirisobna,Obalno-kraška,4962,113961
-Površina [m2],2018,Štirisobna,Osrednjeslovenska,21571,542306
-Površina [m2],2018,Štirisobna,Podravska,29230,322058
-Površina [m2],2018,Štirisobna,Pomurska,7256,114776
-Površina [m2],2018,Štirisobna,Posavska,2483,75359
-Površina [m2],2018,Štirisobna,Primorsko-notranjska,3751,52334
-Površina [m2],2018,Štirisobna,Savinjska,14959,254760
-Površina [m2],2018,Štirisobna,Zasavska,454,57061
-Površina [m2],2018,Trisobna,Gorenjska,4719,203636
-Površina [m2],2018,Trisobna,Goriška,3185,117260
-Površina [m2],2018,Trisobna,Jugovzhodna Slovenija,3908,142819
-Površina [m2],2018,Trisobna,Koroška,1119,70550
-Površina [m2],2018,Trisobna,Obalno-kraška,4611,113961
-Površina [m2],2018,Trisobna,Osrednjeslovenska,9748,542306
-Površina [m2],2018,Trisobna,Podravska,10772,322058
-Površina [m2],2018,Trisobna,Pomurska,4921,114776
-Površina [m2],2018,Trisobna,Posavska,3698,75359
-Površina [m2],2018,Trisobna,Primorsko-notranjska,412,52334
-Površina [m2],2018,Trisobna,Savinjska,6304,254760
-Površina [m2],2018,Trisobna,Zasavska,322,57061
-Površina [m2],2019,Dvosobna,Gorenjska,2254,204670
-Površina [m2],2019,Dvosobna,Goriška,441,117616
-Površina [m2],2019,Dvosobna,Jugovzhodna Slovenija,1985,144032
-Površina [m2],2019,Dvosobna,Koroška,200,70588
-Površina [m2],2019,Dvosobna,Obalno-kraška,1396,115016
-Površina [m2],2019,Dvosobna,Osrednjeslovenska,8084,549171
-Površina [m2],2019,Dvosobna,Podravska,4279,324104
-Površina [m2],2019,Dvosobna,Pomurska,2075,114287
-Površina [m2],2019,Dvosobna,Posavska,557,75559
-Površina [m2],2019,Dvosobna,Primorsko-notranjska,426,52544
-Površina [m2],2019,Dvosobna,Savinjska,2645,256359
-Površina [m2],2019,Dvosobna,Zasavska,201,56962
-Površina [m2],2019,Enosobna,Gorenjska,707,204670
-Površina [m2],2019,Enosobna,Goriška,342,117616
-Površina [m2],2019,Enosobna,Jugovzhodna Slovenija,96,144032
-Površina [m2],2019,Enosobna,Koroška,0,70588
-Površina [m2],2019,Enosobna,Obalno-kraška,316,115016
-Površina [m2],2019,Enosobna,Osrednjeslovenska,2275,549171
-Površina [m2],2019,Enosobna,Podravska,1387,324104
-Površina [m2],2019,Enosobna,Pomurska,856,114287
-Površina [m2],2019,Enosobna,Posavska,260,75559
-Površina [m2],2019,Enosobna,Primorsko-notranjska,160,52544
-Površina [m2],2019,Enosobna,Savinjska,2014,256359
-Površina [m2],2019,Enosobna,Zasavska,153,56962
-Površina [m2],2019,Pet-,Gorenjska,24341,204670
-Površina [m2],2019,Pet-,Goriška,14600,117616
-Površina [m2],2019,Pet-,Jugovzhodna Slovenija,17780,144032
-Površina [m2],2019,Pet-,Koroška,5220,70588
-Površina [m2],2019,Pet-,Obalno-kraška,11915,115016
-Površina [m2],2019,Pet-,Osrednjeslovenska,89811,549171
-Površina [m2],2019,Pet-,Podravska,36315,324104
-Površina [m2],2019,Pet-,Pomurska,9570,114287
-Površina [m2],2019,Pet-,Posavska,7690,75559
-Površina [m2],2019,Pet-,Primorsko-notranjska,5033,52544
-Površina [m2],2019,Pet-,Savinjska,27540,256359
-Površina [m2],2019,Pet-,Zasavska,1676,56962
-Površina [m2],2019,Stanovanja,Gorenjska,46179,204670
-Površina [m2],2019,Stanovanja,Goriška,22048,117616
-Površina [m2],2019,Stanovanja,Jugovzhodna Slovenija,30112,144032
-Površina [m2],2019,Stanovanja,Koroška,9816,70588
-Površina [m2],2019,Stanovanja,Obalno-kraška,21885,115016
-Površina [m2],2019,Stanovanja,Osrednjeslovenska,142237,549171
-Površina [m2],2019,Stanovanja,Podravska,87864,324104
-Površina [m2],2019,Stanovanja,Pomurska,27544,114287
-Površina [m2],2019,Stanovanja,Posavska,13906,75559
-Površina [m2],2019,Stanovanja,Primorsko-notranjska,8871,52544
-Površina [m2],2019,Stanovanja,Savinjska,59270,256359
-Površina [m2],2019,Stanovanja,Zasavska,2265,56962
-Površina [m2],2019,Štirisobna,Gorenjska,13330,204670
-Površina [m2],2019,Štirisobna,Goriška,4944,117616
-Površina [m2],2019,Štirisobna,Jugovzhodna Slovenija,7572,144032
-Površina [m2],2019,Štirisobna,Koroška,3475,70588
-Površina [m2],2019,Štirisobna,Obalno-kraška,4760,115016
-Površina [m2],2019,Štirisobna,Osrednjeslovenska,23005,549171
-Površina [m2],2019,Štirisobna,Podravska,29212,324104
-Površina [m2],2019,Štirisobna,Pomurska,9873,114287
-Površina [m2],2019,Štirisobna,Posavska,2470,75559
-Površina [m2],2019,Štirisobna,Primorsko-notranjska,2277,52544
-Površina [m2],2019,Štirisobna,Savinjska,18763,256359
-Površina [m2],2019,Štirisobna,Zasavska,151,56962
-Površina [m2],2019,Trisobna,Gorenjska,5547,204670
-Površina [m2],2019,Trisobna,Goriška,1721,117616
-Površina [m2],2019,Trisobna,Jugovzhodna Slovenija,2679,144032
-Površina [m2],2019,Trisobna,Koroška,921,70588
-Površina [m2],2019,Trisobna,Obalno-kraška,3498,115016
-Površina [m2],2019,Trisobna,Osrednjeslovenska,19062,549171
-Površina [m2],2019,Trisobna,Podravska,16671,324104
-Površina [m2],2019,Trisobna,Pomurska,5170,114287
-Površina [m2],2019,Trisobna,Posavska,2929,75559
-Površina [m2],2019,Trisobna,Primorsko-notranjska,975,52544
-Površina [m2],2019,Trisobna,Savinjska,8308,256359
-Površina [m2],2019,Trisobna,Zasavska,84,56962
-Površina [m2],2020,Dvosobna,Gorenjska,1597,206621
-Površina [m2],2020,Dvosobna,Goriška,602,118041
-Površina [m2],2020,Dvosobna,Jugovzhodna Slovenija,1035,145357
-Površina [m2],2020,Dvosobna,Koroška,912,70755
-Površina [m2],2020,Dvosobna,Obalno-kraška,298,115913
-Površina [m2],2020,Dvosobna,Osrednjeslovenska,8830,555274
-Površina [m2],2020,Dvosobna,Podravska,3996,325994
-Površina [m2],2020,Dvosobna,Pomurska,1785,114238
-Površina [m2],2020,Dvosobna,Posavska,1309,75824
-Površina [m2],2020,Dvosobna,Primorsko-notranjska,0,52841
-Površina [m2],2020,Dvosobna,Savinjska,3783,257847
-Površina [m2],2020,Dvosobna,Zasavska,0,57156
-Površina [m2],2020,Enosobna,Gorenjska,4482,206621
-Površina [m2],2020,Enosobna,Goriška,273,118041
-Površina [m2],2020,Enosobna,Jugovzhodna Slovenija,659,145357
-Površina [m2],2020,Enosobna,Koroška,750,70755
-Površina [m2],2020,Enosobna,Obalno-kraška,532,115913
-Površina [m2],2020,Enosobna,Osrednjeslovenska,3888,555274
-Površina [m2],2020,Enosobna,Podravska,1243,325994
-Površina [m2],2020,Enosobna,Pomurska,1187,114238
-Površina [m2],2020,Enosobna,Posavska,223,75824
-Površina [m2],2020,Enosobna,Primorsko-notranjska,95,52841
-Površina [m2],2020,Enosobna,Savinjska,1829,257847
-Površina [m2],2020,Enosobna,Zasavska,302,57156
-Površina [m2],2020,Pet-,Gorenjska,26124,206621
-Površina [m2],2020,Pet-,Goriška,13737,118041
-Površina [m2],2020,Pet-,Jugovzhodna Slovenija,24940,145357
-Površina [m2],2020,Pet-,Koroška,8077,70755
-Površina [m2],2020,Pet-,Obalno-kraška,10873,115913
-Površina [m2],2020,Pet-,Osrednjeslovenska,87519,555274
-Površina [m2],2020,Pet-,Podravska,56729,325994
-Površina [m2],2020,Pet-,Pomurska,16399,114238
-Površina [m2],2020,Pet-,Posavska,9317,75824
-Površina [m2],2020,Pet-,Primorsko-notranjska,3668,52841
-Površina [m2],2020,Pet-,Savinjska,26447,257847
-Površina [m2],2020,Pet-,Zasavska,1498,57156
-Površina [m2],2020,Stanovanja,Gorenjska,53332,206621
-Površina [m2],2020,Stanovanja,Goriška,22215,118041
-Površina [m2],2020,Stanovanja,Jugovzhodna Slovenija,38282,145357
-Površina [m2],2020,Stanovanja,Koroška,14367,70755
-Površina [m2],2020,Stanovanja,Obalno-kraška,22851,115913
-Površina [m2],2020,Stanovanja,Osrednjeslovenska,138533,555274
-Površina [m2],2020,Stanovanja,Podravska,99954,325994
-Površina [m2],2020,Stanovanja,Pomurska,33329,114238
-Površina [m2],2020,Stanovanja,Posavska,20199,75824
-Površina [m2],2020,Stanovanja,Primorsko-notranjska,5724,52841
-Površina [m2],2020,Stanovanja,Savinjska,55846,257847
-Površina [m2],2020,Stanovanja,Zasavska,3653,57156
-Površina [m2],2020,Štirisobna,Gorenjska,13071,206621
-Površina [m2],2020,Štirisobna,Goriška,4172,118041
-Površina [m2],2020,Štirisobna,Jugovzhodna Slovenija,8545,145357
-Površina [m2],2020,Štirisobna,Koroška,2313,70755
-Površina [m2],2020,Štirisobna,Obalno-kraška,7978,115913
-Površina [m2],2020,Štirisobna,Osrednjeslovenska,23338,555274
-Površina [m2],2020,Štirisobna,Podravska,26319,325994
-Površina [m2],2020,Štirisobna,Pomurska,8088,114238
-Površina [m2],2020,Štirisobna,Posavska,2931,75824
-Površina [m2],2020,Štirisobna,Primorsko-notranjska,1236,52841
-Površina [m2],2020,Štirisobna,Savinjska,15063,257847
-Površina [m2],2020,Štirisobna,Zasavska,814,57156
-Površina [m2],2020,Trisobna,Gorenjska,8058,206621
-Površina [m2],2020,Trisobna,Goriška,3431,118041
-Površina [m2],2020,Trisobna,Jugovzhodna Slovenija,3103,145357
-Površina [m2],2020,Trisobna,Koroška,2315,70755
-Površina [m2],2020,Trisobna,Obalno-kraška,3170,115913
-Površina [m2],2020,Trisobna,Osrednjeslovenska,14958,555274
-Površina [m2],2020,Trisobna,Podravska,11667,325994
-Površina [m2],2020,Trisobna,Pomurska,5870,114238
-Površina [m2],2020,Trisobna,Posavska,6419,75824
-Površina [m2],2020,Trisobna,Primorsko-notranjska,725,52841
-Površina [m2],2020,Trisobna,Savinjska,8724,257847
-Površina [m2],2020,Trisobna,Zasavska,1039,57156
-Število,2010,Dvosobna,Gorenjska,100,202903
-Število,2010,Dvosobna,Goriška,29,119080
-Število,2010,Dvosobna,Jugovzhodna Slovenija,30,142092
-Število,2010,Dvosobna,Koroška,48,72812
-Število,2010,Dvosobna,Obalno-kraška,49,110412
-Število,2010,Dvosobna,Osrednjeslovenska,257,529646
-Število,2010,Dvosobna,Podravska,116,323343
-Število,2010,Dvosobna,Pomurska,43,119548
-Število,2010,Dvosobna,Posavska,33,70192
-Število,2010,Dvosobna,Primorsko-notranjska,24,52217
-Število,2010,Dvosobna,Savinjska,178,260025
-Število,2010,Dvosobna,Zasavska,1,44706
-Število,2010,Enosobna,Gorenjska,49,202903
-Število,2010,Enosobna,Goriška,77,119080
-Število,2010,Enosobna,Jugovzhodna Slovenija,26,142092
-Število,2010,Enosobna,Koroška,11,72812
-Število,2010,Enosobna,Obalno-kraška,34,110412
-Število,2010,Enosobna,Osrednjeslovenska,221,529646
-Število,2010,Enosobna,Podravska,27,323343
-Število,2010,Enosobna,Pomurska,17,119548
-Število,2010,Enosobna,Posavska,6,70192
-Število,2010,Enosobna,Primorsko-notranjska,3,52217
-Število,2010,Enosobna,Savinjska,51,260025
-Število,2010,Enosobna,Zasavska,0,44706
-Število,2010,Pet-,Gorenjska,247,202903
-Število,2010,Pet-,Goriška,142,119080
-Število,2010,Pet-,Jugovzhodna Slovenija,99,142092
-Število,2010,Pet-,Koroška,56,72812
-Število,2010,Pet-,Obalno-kraška,156,110412
-Število,2010,Pet-,Osrednjeslovenska,588,529646
-Število,2010,Pet-,Podravska,373,323343
-Število,2010,Pet-,Pomurska,108,119548
-Število,2010,Pet-,Posavska,70,70192
-Število,2010,Pet-,Primorsko-notranjska,64,52217
-Število,2010,Pet-,Savinjska,291,260025
-Število,2010,Pet-,Zasavska,17,44706
-Število,2010,Stanovanja,Gorenjska,694,202903
-Število,2010,Stanovanja,Goriška,387,119080
-Število,2010,Stanovanja,Jugovzhodna Slovenija,310,142092
-Število,2010,Stanovanja,Koroška,209,72812
-Število,2010,Stanovanja,Obalno-kraška,377,110412
-Število,2010,Stanovanja,Osrednjeslovenska,1817,529646
-Število,2010,Stanovanja,Podravska,904,323343
-Število,2010,Stanovanja,Pomurska,317,119548
-Število,2010,Stanovanja,Posavska,193,70192
-Število,2010,Stanovanja,Primorsko-notranjska,158,52217
-Število,2010,Stanovanja,Savinjska,956,260025
-Število,2010,Stanovanja,Zasavska,33,44706
-Število,2010,Štirisobna,Gorenjska,191,202903
-Število,2010,Štirisobna,Goriška,80,119080
-Število,2010,Štirisobna,Jugovzhodna Slovenija,79,142092
-Število,2010,Štirisobna,Koroška,23,72812
-Število,2010,Štirisobna,Obalno-kraška,78,110412
-Število,2010,Štirisobna,Osrednjeslovenska,426,529646
-Število,2010,Štirisobna,Podravska,169,323343
-Število,2010,Štirisobna,Pomurska,86,119548
-Število,2010,Štirisobna,Posavska,51,70192
-Število,2010,Štirisobna,Primorsko-notranjska,34,52217
-Število,2010,Štirisobna,Savinjska,228,260025
-Število,2010,Štirisobna,Zasavska,13,44706
-Število,2010,Trisobna,Gorenjska,107,202903
-Število,2010,Trisobna,Goriška,59,119080
-Število,2010,Trisobna,Jugovzhodna Slovenija,76,142092
-Število,2010,Trisobna,Koroška,71,72812
-Število,2010,Trisobna,Obalno-kraška,60,110412
-Število,2010,Trisobna,Osrednjeslovenska,325,529646
-Število,2010,Trisobna,Podravska,219,323343
-Število,2010,Trisobna,Pomurska,63,119548
-Število,2010,Trisobna,Posavska,33,70192
-Število,2010,Trisobna,Primorsko-notranjska,33,52217
-Število,2010,Trisobna,Savinjska,208,260025
-Število,2010,Trisobna,Zasavska,2,44706
-Število,2011,Dvosobna,Gorenjska,64,203427
-Število,2011,Dvosobna,Goriška,16,119146
-Število,2011,Dvosobna,Jugovzhodna Slovenija,19,142483
-Število,2011,Dvosobna,Koroška,9,72494
-Število,2011,Dvosobna,Obalno-kraška,73,110760
-Število,2011,Dvosobna,Osrednjeslovenska,378,533213
-Število,2011,Dvosobna,Podravska,64,323119
-Število,2011,Dvosobna,Pomurska,23,119145
-Število,2011,Dvosobna,Posavska,4,70167
-Število,2011,Dvosobna,Primorsko-notranjska,12,52287
-Število,2011,Dvosobna,Savinjska,176,259726
-Število,2011,Dvosobna,Zasavska,25,44222
-Število,2011,Enosobna,Gorenjska,18,203427
-Število,2011,Enosobna,Goriška,3,119146
-Število,2011,Enosobna,Jugovzhodna Slovenija,13,142483
-Število,2011,Enosobna,Koroška,1,72494
-Število,2011,Enosobna,Obalno-kraška,67,110760
-Število,2011,Enosobna,Osrednjeslovenska,195,533213
-Število,2011,Enosobna,Podravska,25,323119
-Število,2011,Enosobna,Pomurska,12,119145
-Število,2011,Enosobna,Posavska,2,70167
-Število,2011,Enosobna,Primorsko-notranjska,8,52287
-Število,2011,Enosobna,Savinjska,84,259726
-Število,2011,Enosobna,Zasavska,0,44222
-Število,2011,Pet-,Gorenjska,226,203427
-Število,2011,Pet-,Goriška,112,119146
-Število,2011,Pet-,Jugovzhodna Slovenija,103,142483
-Število,2011,Pet-,Koroška,53,72494
-Število,2011,Pet-,Obalno-kraška,116,110760
-Število,2011,Pet-,Osrednjeslovenska,451,533213
-Število,2011,Pet-,Podravska,533,323119
-Število,2011,Pet-,Pomurska,110,119145
-Število,2011,Pet-,Posavska,100,70167
-Število,2011,Pet-,Primorsko-notranjska,92,52287
-Število,2011,Pet-,Savinjska,289,259726
-Število,2011,Pet-,Zasavska,23,44222
-Število,2011,Stanovanja,Gorenjska,498,203427
-Število,2011,Stanovanja,Goriška,241,119146
-Število,2011,Stanovanja,Jugovzhodna Slovenija,225,142483
-Število,2011,Stanovanja,Koroška,87,72494
-Število,2011,Stanovanja,Obalno-kraška,373,110760
-Število,2011,Stanovanja,Osrednjeslovenska,1568,533213
-Število,2011,Stanovanja,Podravska,981,323119
-Število,2011,Stanovanja,Pomurska,271,119145
-Število,2011,Stanovanja,Posavska,164,70167
-Število,2011,Stanovanja,Primorsko-notranjska,162,52287
-Število,2011,Stanovanja,Savinjska,860,259726
-Število,2011,Stanovanja,Zasavska,68,44222
-Število,2011,Štirisobna,Gorenjska,101,203427
-Število,2011,Štirisobna,Goriška,75,119146
-Število,2011,Štirisobna,Jugovzhodna Slovenija,61,142483
-Število,2011,Štirisobna,Koroška,16,72494
-Število,2011,Štirisobna,Obalno-kraška,68,110760
-Število,2011,Štirisobna,Osrednjeslovenska,249,533213
-Število,2011,Štirisobna,Podravska,240,323119
-Število,2011,Štirisobna,Pomurska,71,119145
-Število,2011,Štirisobna,Posavska,34,70167
-Število,2011,Štirisobna,Primorsko-notranjska,40,52287
-Število,2011,Štirisobna,Savinjska,174,259726
-Število,2011,Štirisobna,Zasavska,18,44222
-Število,2011,Trisobna,Gorenjska,89,203427
-Število,2011,Trisobna,Goriška,35,119146
-Število,2011,Trisobna,Jugovzhodna Slovenija,29,142483
-Število,2011,Trisobna,Koroška,8,72494
-Število,2011,Trisobna,Obalno-kraška,49,110760
-Število,2011,Trisobna,Osrednjeslovenska,295,533213
-Število,2011,Trisobna,Podravska,119,323119
-Število,2011,Trisobna,Pomurska,55,119145
-Število,2011,Trisobna,Posavska,24,70167
-Število,2011,Trisobna,Primorsko-notranjska,10,52287
-Število,2011,Trisobna,Savinjska,137,259726
-Število,2011,Trisobna,Zasavska,2,44222
-Število,2012,Dvosobna,Gorenjska,39,204057
-Število,2012,Dvosobna,Goriška,37,119236
-Število,2012,Dvosobna,Jugovzhodna Slovenija,30,142680
-Število,2012,Dvosobna,Koroška,5,72364
-Število,2012,Dvosobna,Obalno-kraška,80,111423
-Število,2012,Dvosobna,Osrednjeslovenska,45,536484
-Število,2012,Dvosobna,Podravska,113,323534
-Število,2012,Dvosobna,Pomurska,26,118988
-Število,2012,Dvosobna,Posavska,5,70164
-Število,2012,Dvosobna,Primorsko-notranjska,2,52387
-Število,2012,Dvosobna,Savinjska,63,260253
-Število,2012,Dvosobna,Zasavska,0,43926
-Število,2012,Enosobna,Gorenjska,25,204057
-Število,2012,Enosobna,Goriška,9,119236
-Število,2012,Enosobna,Jugovzhodna Slovenija,20,142680
-Število,2012,Enosobna,Koroška,2,72364
-Število,2012,Enosobna,Obalno-kraška,254,111423
-Število,2012,Enosobna,Osrednjeslovenska,19,536484
-Število,2012,Enosobna,Podravska,42,323534
-Število,2012,Enosobna,Pomurska,9,118988
-Število,2012,Enosobna,Posavska,1,70164
-Število,2012,Enosobna,Primorsko-notranjska,4,52387
-Število,2012,Enosobna,Savinjska,16,260253
-Število,2012,Enosobna,Zasavska,0,43926
-Število,2012,Pet-,Gorenjska,221,204057
-Število,2012,Pet-,Goriška,108,119236
-Število,2012,Pet-,Jugovzhodna Slovenija,108,142680
-Število,2012,Pet-,Koroška,39,72364
-Število,2012,Pet-,Obalno-kraška,80,111423
-Število,2012,Pet-,Osrednjeslovenska,425,536484
-Število,2012,Pet-,Podravska,375,323534
-Število,2012,Pet-,Pomurska,106,118988
-Število,2012,Pet-,Posavska,90,70164
-Število,2012,Pet-,Primorsko-notranjska,58,52387
-Število,2012,Pet-,Savinjska,239,260253
-Število,2012,Pet-,Zasavska,11,43926
-Število,2012,Stanovanja,Gorenjska,375,204057
-Število,2012,Stanovanja,Goriška,291,119236
-Število,2012,Stanovanja,Jugovzhodna Slovenija,237,142680
-Število,2012,Stanovanja,Koroška,81,72364
-Število,2012,Stanovanja,Obalno-kraška,555,111423
-Število,2012,Stanovanja,Osrednjeslovenska,777,536484
-Število,2012,Stanovanja,Podravska,905,323534
-Število,2012,Stanovanja,Pomurska,234,118988
-Število,2012,Stanovanja,Posavska,129,70164
-Število,2012,Stanovanja,Primorsko-notranjska,107,52387
-Število,2012,Stanovanja,Savinjska,595,260253
-Število,2012,Stanovanja,Zasavska,21,43926
-Število,2012,Štirisobna,Gorenjska,64,204057
-Število,2012,Štirisobna,Goriška,80,119236
-Število,2012,Štirisobna,Jugovzhodna Slovenija,38,142680
-Število,2012,Štirisobna,Koroška,21,72364
-Število,2012,Štirisobna,Obalno-kraška,79,111423
-Število,2012,Štirisobna,Osrednjeslovenska,183,536484
-Število,2012,Štirisobna,Podravska,203,323534
-Število,2012,Štirisobna,Pomurska,58,118988
-Število,2012,Štirisobna,Posavska,21,70164
-Število,2012,Štirisobna,Primorsko-notranjska,35,52387
-Število,2012,Štirisobna,Savinjska,154,260253
-Število,2012,Štirisobna,Zasavska,8,43926
-Število,2012,Trisobna,Gorenjska,26,204057
-Število,2012,Trisobna,Goriška,57,119236
-Število,2012,Trisobna,Jugovzhodna Slovenija,41,142680
-Število,2012,Trisobna,Koroška,14,72364
-Število,2012,Trisobna,Obalno-kraška,62,111423
-Število,2012,Trisobna,Osrednjeslovenska,105,536484
-Število,2012,Trisobna,Podravska,172,323534
-Število,2012,Trisobna,Pomurska,35,118988
-Število,2012,Trisobna,Posavska,12,70164
-Število,2012,Trisobna,Primorsko-notranjska,8,52387
-Število,2012,Trisobna,Savinjska,123,260253
-Število,2012,Trisobna,Zasavska,2,43926
-Število,2013,Dvosobna,Gorenjska,119,203984
-Število,2013,Dvosobna,Goriška,10,119002
-Število,2013,Dvosobna,Jugovzhodna Slovenija,12,142509
-Število,2013,Dvosobna,Koroška,3,72100
-Število,2013,Dvosobna,Obalno-kraška,39,111936
-Število,2013,Dvosobna,Osrednjeslovenska,38,541718
-Število,2013,Dvosobna,Podravska,70,323238
-Število,2013,Dvosobna,Pomurska,20,118022
-Število,2013,Dvosobna,Posavska,3,70211
-Število,2013,Dvosobna,Primorsko-notranjska,4,52382
-Število,2013,Dvosobna,Savinjska,105,260217
-Število,2013,Dvosobna,Zasavska,3,43502
-Število,2013,Enosobna,Gorenjska,30,203984
-Število,2013,Enosobna,Goriška,10,119002
-Število,2013,Enosobna,Jugovzhodna Slovenija,8,142509
-Število,2013,Enosobna,Koroška,1,72100
-Število,2013,Enosobna,Obalno-kraška,7,111936
-Število,2013,Enosobna,Osrednjeslovenska,15,541718
-Število,2013,Enosobna,Podravska,19,323238
-Število,2013,Enosobna,Pomurska,8,118022
-Število,2013,Enosobna,Posavska,2,70211
-Število,2013,Enosobna,Primorsko-notranjska,0,52382
-Število,2013,Enosobna,Savinjska,51,260217
-Število,2013,Enosobna,Zasavska,6,43502
-Število,2013,Pet-,Gorenjska,146,203984
-Število,2013,Pet-,Goriška,94,119002
-Število,2013,Pet-,Jugovzhodna Slovenija,113,142509
-Število,2013,Pet-,Koroška,52,72100
-Število,2013,Pet-,Obalno-kraška,68,111936
-Število,2013,Pet-,Osrednjeslovenska,384,541718
-Število,2013,Pet-,Podravska,194,323238
-Število,2013,Pet-,Pomurska,83,118022
-Število,2013,Pet-,Posavska,55,70211
-Število,2013,Pet-,Primorsko-notranjska,57,52382
-Število,2013,Pet-,Savinjska,220,260217
-Število,2013,Pet-,Zasavska,13,43502
-Število,2013,Stanovanja,Gorenjska,465,203984
-Število,2013,Stanovanja,Goriška,188,119002
-Število,2013,Stanovanja,Jugovzhodna Slovenija,213,142509
-Število,2013,Stanovanja,Koroška,103,72100
-Število,2013,Stanovanja,Obalno-kraška,191,111936
-Število,2013,Stanovanja,Osrednjeslovenska,615,541718
-Število,2013,Stanovanja,Podravska,546,323238
-Število,2013,Stanovanja,Pomurska,227,118022
-Število,2013,Stanovanja,Posavska,118,70211
-Število,2013,Stanovanja,Primorsko-notranjska,93,52382
-Število,2013,Stanovanja,Savinjska,686,260217
-Število,2013,Stanovanja,Zasavska,39,43502
-Število,2013,Štirisobna,Gorenjska,94,203984
-Število,2013,Štirisobna,Goriška,36,119002
-Število,2013,Štirisobna,Jugovzhodna Slovenija,55,142509
-Število,2013,Štirisobna,Koroška,21,72100
-Število,2013,Štirisobna,Obalno-kraška,54,111936
-Število,2013,Štirisobna,Osrednjeslovenska,125,541718
-Število,2013,Štirisobna,Podravska,176,323238
-Število,2013,Štirisobna,Pomurska,77,118022
-Število,2013,Štirisobna,Posavska,36,70211
-Število,2013,Štirisobna,Primorsko-notranjska,23,52382
-Število,2013,Štirisobna,Savinjska,130,260217
-Število,2013,Štirisobna,Zasavska,4,43502
-Število,2013,Trisobna,Gorenjska,76,203984
-Število,2013,Trisobna,Goriška,38,119002
-Število,2013,Trisobna,Jugovzhodna Slovenija,25,142509
-Število,2013,Trisobna,Koroška,26,72100
-Število,2013,Trisobna,Obalno-kraška,23,111936
-Število,2013,Trisobna,Osrednjeslovenska,53,541718
-Število,2013,Trisobna,Podravska,87,323238
-Število,2013,Trisobna,Pomurska,39,118022
-Število,2013,Trisobna,Posavska,22,70211
-Število,2013,Trisobna,Primorsko-notranjska,9,52382
-Število,2013,Trisobna,Savinjska,180,260217
-Število,2013,Trisobna,Zasavska,13,43502
-Število,2014,Dvosobna,Gorenjska,28,203894
-Število,2014,Dvosobna,Goriška,13,118374
-Število,2014,Dvosobna,Jugovzhodna Slovenija,11,142405
-Število,2014,Dvosobna,Koroška,41,71546
-Število,2014,Dvosobna,Obalno-kraška,4,112848
-Število,2014,Dvosobna,Osrednjeslovenska,164,546314
-Število,2014,Dvosobna,Podravska,51,323328
-Število,2014,Dvosobna,Pomurska,23,117133
-Število,2014,Dvosobna,Posavska,1,69958
-Število,2014,Dvosobna,Primorsko-notranjska,3,52449
-Število,2014,Dvosobna,Savinjska,12,259853
-Število,2014,Dvosobna,Zasavska,2,42983
-Število,2014,Enosobna,Gorenjska,8,203894
-Število,2014,Enosobna,Goriška,3,118374
-Število,2014,Enosobna,Jugovzhodna Slovenija,8,142405
-Število,2014,Enosobna,Koroška,10,71546
-Število,2014,Enosobna,Obalno-kraška,5,112848
-Število,2014,Enosobna,Osrednjeslovenska,128,546314
-Število,2014,Enosobna,Podravska,32,323328
-Število,2014,Enosobna,Pomurska,10,117133
-Število,2014,Enosobna,Posavska,1,69958
-Število,2014,Enosobna,Primorsko-notranjska,0,52449
-Število,2014,Enosobna,Savinjska,10,259853
-Število,2014,Enosobna,Zasavska,1,42983
-Število,2014,Pet-,Gorenjska,132,203894
-Število,2014,Pet-,Goriška,93,118374
-Število,2014,Pet-,Jugovzhodna Slovenija,121,142405
-Število,2014,Pet-,Koroška,32,71546
-Število,2014,Pet-,Obalno-kraška,75,112848
-Število,2014,Pet-,Osrednjeslovenska,385,546314
-Število,2014,Pet-,Podravska,202,323328
-Število,2014,Pet-,Pomurska,91,117133
-Število,2014,Pet-,Posavska,62,69958
-Število,2014,Pet-,Primorsko-notranjska,30,52449
-Število,2014,Pet-,Savinjska,215,259853
-Število,2014,Pet-,Zasavska,23,42983
-Število,2014,Stanovanja,Gorenjska,291,203894
-Število,2014,Stanovanja,Goriška,172,118374
-Število,2014,Stanovanja,Jugovzhodna Slovenija,196,142405
-Število,2014,Stanovanja,Koroška,123,71546
-Število,2014,Stanovanja,Obalno-kraška,139,112848
-Število,2014,Stanovanja,Osrednjeslovenska,941,546314
-Število,2014,Stanovanja,Podravska,529,323328
-Število,2014,Stanovanja,Pomurska,216,117133
-Število,2014,Stanovanja,Posavska,99,69958
-Število,2014,Stanovanja,Primorsko-notranjska,65,52449
-Število,2014,Stanovanja,Savinjska,357,259853
-Število,2014,Stanovanja,Zasavska,35,42983
-Število,2014,Štirisobna,Gorenjska,85,203894
-Število,2014,Štirisobna,Goriška,37,118374
-Število,2014,Štirisobna,Jugovzhodna Slovenija,43,142405
-Število,2014,Štirisobna,Koroška,21,71546
-Število,2014,Štirisobna,Obalno-kraška,39,112848
-Število,2014,Štirisobna,Osrednjeslovenska,132,546314
-Število,2014,Štirisobna,Podravska,150,323328
-Število,2014,Štirisobna,Pomurska,50,117133
-Število,2014,Štirisobna,Posavska,23,69958
-Število,2014,Štirisobna,Primorsko-notranjska,27,52449
-Število,2014,Štirisobna,Savinjska,86,259853
-Število,2014,Štirisobna,Zasavska,6,42983
-Število,2014,Trisobna,Gorenjska,38,203894
-Število,2014,Trisobna,Goriška,26,118374
-Število,2014,Trisobna,Jugovzhodna Slovenija,13,142405
-Število,2014,Trisobna,Koroška,19,71546
-Število,2014,Trisobna,Obalno-kraška,16,112848
-Število,2014,Trisobna,Osrednjeslovenska,132,546314
-Število,2014,Trisobna,Podravska,94,323328
-Število,2014,Trisobna,Pomurska,42,117133
-Število,2014,Trisobna,Posavska,12,69958
-Število,2014,Trisobna,Primorsko-notranjska,5,52449
-Število,2014,Trisobna,Savinjska,34,259853
-Število,2014,Trisobna,Zasavska,3,42983
-Število,2015,Dvosobna,Gorenjska,10,203850
-Število,2015,Dvosobna,Goriška,14,118188
-Število,2015,Dvosobna,Jugovzhodna Slovenija,21,142373
-Število,2015,Dvosobna,Koroška,12,71303
-Število,2015,Dvosobna,Obalno-kraška,5,112773
-Število,2015,Dvosobna,Osrednjeslovenska,49,534518
-Število,2015,Dvosobna,Podravska,29,323356
-Število,2015,Dvosobna,Pomurska,37,116670
-Število,2015,Dvosobna,Posavska,10,75619
-Število,2015,Dvosobna,Primorsko-notranjska,5,52538
-Število,2015,Dvosobna,Savinjska,39,253975
-Število,2015,Dvosobna,Zasavska,0,57711
-Število,2015,Enosobna,Gorenjska,3,203850
-Število,2015,Enosobna,Goriška,6,118188
-Število,2015,Enosobna,Jugovzhodna Slovenija,23,142373
-Število,2015,Enosobna,Koroška,4,71303
-Število,2015,Enosobna,Obalno-kraška,8,112773
-Število,2015,Enosobna,Osrednjeslovenska,66,534518
-Število,2015,Enosobna,Podravska,19,323356
-Število,2015,Enosobna,Pomurska,13,116670
-Število,2015,Enosobna,Posavska,0,75619
-Število,2015,Enosobna,Primorsko-notranjska,1,52538
-Število,2015,Enosobna,Savinjska,9,253975
-Število,2015,Enosobna,Zasavska,2,57711
-Število,2015,Pet-,Gorenjska,116,203850
-Število,2015,Pet-,Goriška,101,118188
-Število,2015,Pet-,Jugovzhodna Slovenija,146,142373
-Število,2015,Pet-,Koroška,33,71303
-Število,2015,Pet-,Obalno-kraška,58,112773
-Število,2015,Pet-,Osrednjeslovenska,349,534518
-Število,2015,Pet-,Podravska,201,323356
-Število,2015,Pet-,Pomurska,59,116670
-Število,2015,Pet-,Posavska,50,75619
-Število,2015,Pet-,Primorsko-notranjska,36,52538
-Število,2015,Pet-,Savinjska,201,253975
-Število,2015,Pet-,Zasavska,20,57711
-Število,2015,Stanovanja,Gorenjska,251,203850
-Število,2015,Stanovanja,Goriška,184,118188
-Število,2015,Stanovanja,Jugovzhodna Slovenija,252,142373
-Število,2015,Stanovanja,Koroška,79,71303
-Število,2015,Stanovanja,Obalno-kraška,145,112773
-Število,2015,Stanovanja,Osrednjeslovenska,698,534518
-Število,2015,Stanovanja,Podravska,427,323356
-Število,2015,Stanovanja,Pomurska,187,116670
-Število,2015,Stanovanja,Posavska,92,75619
-Število,2015,Stanovanja,Primorsko-notranjska,72,52538
-Število,2015,Stanovanja,Savinjska,356,253975
-Število,2015,Stanovanja,Zasavska,33,57711
-Število,2015,Štirisobna,Gorenjska,78,203850
-Število,2015,Štirisobna,Goriška,37,118188
-Število,2015,Štirisobna,Jugovzhodna Slovenija,44,142373
-Število,2015,Štirisobna,Koroška,19,71303
-Število,2015,Štirisobna,Obalno-kraška,44,112773
-Število,2015,Štirisobna,Osrednjeslovenska,136,534518
-Število,2015,Štirisobna,Podravska,106,323356
-Število,2015,Štirisobna,Pomurska,52,116670
-Število,2015,Štirisobna,Posavska,17,75619
-Število,2015,Štirisobna,Primorsko-notranjska,23,52538
-Število,2015,Štirisobna,Savinjska,71,253975
-Število,2015,Štirisobna,Zasavska,9,57711
-Število,2015,Trisobna,Gorenjska,44,203850
-Število,2015,Trisobna,Goriška,26,118188
-Število,2015,Trisobna,Jugovzhodna Slovenija,18,142373
-Število,2015,Trisobna,Koroška,11,71303
-Število,2015,Trisobna,Obalno-kraška,30,112773
-Število,2015,Trisobna,Osrednjeslovenska,98,534518
-Število,2015,Trisobna,Podravska,72,323356
-Število,2015,Trisobna,Pomurska,26,116670
-Število,2015,Trisobna,Posavska,15,75619
-Število,2015,Trisobna,Primorsko-notranjska,7,52538
-Število,2015,Trisobna,Savinjska,36,253975
-Število,2015,Trisobna,Zasavska,2,57711
-Število,2016,Dvosobna,Gorenjska,12,203838
-Število,2016,Dvosobna,Goriška,14,118064
-Število,2016,Dvosobna,Jugovzhodna Slovenija,12,142566
-Število,2016,Dvosobna,Koroška,10,71040
-Število,2016,Dvosobna,Obalno-kraška,55,113070
-Število,2016,Dvosobna,Osrednjeslovenska,19,537023
-Število,2016,Dvosobna,Podravska,48,322553
-Število,2016,Dvosobna,Pomurska,39,116078
-Število,2016,Dvosobna,Posavska,12,75711
-Število,2016,Dvosobna,Primorsko-notranjska,0,52523
-Število,2016,Dvosobna,Savinjska,12,254318
-Število,2016,Dvosobna,Zasavska,7,57404
-Število,2016,Enosobna,Gorenjska,10,203838
-Število,2016,Enosobna,Goriška,10,118064
-Število,2016,Enosobna,Jugovzhodna Slovenija,4,142566
-Število,2016,Enosobna,Koroška,4,71040
-Število,2016,Enosobna,Obalno-kraška,23,113070
-Število,2016,Enosobna,Osrednjeslovenska,29,537023
-Število,2016,Enosobna,Podravska,28,322553
-Število,2016,Enosobna,Pomurska,34,116078
-Število,2016,Enosobna,Posavska,2,75711
-Število,2016,Enosobna,Primorsko-notranjska,0,52523
-Število,2016,Enosobna,Savinjska,9,254318
-Število,2016,Enosobna,Zasavska,2,57404
-Število,2016,Pet-,Gorenjska,120,203838
-Število,2016,Pet-,Goriška,99,118064
-Število,2016,Pet-,Jugovzhodna Slovenija,107,142566
-Število,2016,Pet-,Koroška,29,71040
-Število,2016,Pet-,Obalno-kraška,63,113070
-Število,2016,Pet-,Osrednjeslovenska,358,537023
-Število,2016,Pet-,Podravska,186,322553
-Število,2016,Pet-,Pomurska,110,116078
-Število,2016,Pet-,Posavska,55,75711
-Število,2016,Pet-,Primorsko-notranjska,29,52523
-Število,2016,Pet-,Savinjska,203,254318
-Število,2016,Pet-,Zasavska,14,57404
-Število,2016,Stanovanja,Gorenjska,241,203838
-Število,2016,Stanovanja,Goriška,223,118064
-Število,2016,Stanovanja,Jugovzhodna Slovenija,200,142566
-Število,2016,Stanovanja,Koroška,79,71040
-Število,2016,Stanovanja,Obalno-kraška,225,113070
-Število,2016,Stanovanja,Osrednjeslovenska,628,537023
-Število,2016,Stanovanja,Podravska,513,322553
-Število,2016,Stanovanja,Pomurska,305,116078
-Število,2016,Stanovanja,Posavska,116,75711
-Število,2016,Stanovanja,Primorsko-notranjska,57,52523
-Število,2016,Stanovanja,Savinjska,344,254318
-Število,2016,Stanovanja,Zasavska,44,57404
-Število,2016,Štirisobna,Gorenjska,66,203838
-Število,2016,Štirisobna,Goriška,66,118064
-Število,2016,Štirisobna,Jugovzhodna Slovenija,54,142566
-Število,2016,Štirisobna,Koroška,15,71040
-Število,2016,Štirisobna,Obalno-kraška,48,113070
-Število,2016,Štirisobna,Osrednjeslovenska,147,537023
-Število,2016,Štirisobna,Podravska,142,322553
-Število,2016,Štirisobna,Pomurska,68,116078
-Število,2016,Štirisobna,Posavska,28,75711
-Število,2016,Štirisobna,Primorsko-notranjska,18,52523
-Število,2016,Štirisobna,Savinjska,69,254318
-Število,2016,Štirisobna,Zasavska,9,57404
-Število,2016,Trisobna,Gorenjska,33,203838
-Število,2016,Trisobna,Goriška,34,118064
-Število,2016,Trisobna,Jugovzhodna Slovenija,23,142566
-Število,2016,Trisobna,Koroška,21,71040
-Število,2016,Trisobna,Obalno-kraška,36,113070
-Število,2016,Trisobna,Osrednjeslovenska,75,537023
-Število,2016,Trisobna,Podravska,109,322553
-Število,2016,Trisobna,Pomurska,54,116078
-Število,2016,Trisobna,Posavska,19,75711
-Število,2016,Trisobna,Primorsko-notranjska,10,52523
-Število,2016,Trisobna,Savinjska,51,254318
-Število,2016,Trisobna,Zasavska,12,57404
-Število,2017,Dvosobna,Gorenjska,62,203800
-Število,2017,Dvosobna,Goriška,8,117747
-Število,2017,Dvosobna,Jugovzhodna Slovenija,14,142711
-Število,2017,Dvosobna,Koroška,14,70761
-Število,2017,Dvosobna,Obalno-kraška,9,113517
-Število,2017,Dvosobna,Osrednjeslovenska,83,539672
-Število,2017,Dvosobna,Podravska,22,322043
-Število,2017,Dvosobna,Pomurska,25,115477
-Število,2017,Dvosobna,Posavska,18,75544
-Število,2017,Dvosobna,Primorsko-notranjska,3,52582
-Število,2017,Dvosobna,Savinjska,31,254761
-Število,2017,Dvosobna,Zasavska,1,57280
-Število,2017,Enosobna,Gorenjska,33,203800
-Število,2017,Enosobna,Goriška,3,117747
-Število,2017,Enosobna,Jugovzhodna Slovenija,10,142711
-Število,2017,Enosobna,Koroška,7,70761
-Število,2017,Enosobna,Obalno-kraška,11,113517
-Število,2017,Enosobna,Osrednjeslovenska,41,539672
-Število,2017,Enosobna,Podravska,32,322043
-Število,2017,Enosobna,Pomurska,17,115477
-Število,2017,Enosobna,Posavska,8,75544
-Število,2017,Enosobna,Primorsko-notranjska,1,52582
-Število,2017,Enosobna,Savinjska,33,254761
-Število,2017,Enosobna,Zasavska,1,57280
-Število,2017,Pet-,Gorenjska,102,203800
-Število,2017,Pet-,Goriška,97,117747
-Število,2017,Pet-,Jugovzhodna Slovenija,120,142711
-Število,2017,Pet-,Koroška,39,70761
-Število,2017,Pet-,Obalno-kraška,40,113517
-Število,2017,Pet-,Osrednjeslovenska,459,539672
-Število,2017,Pet-,Podravska,222,322043
-Število,2017,Pet-,Pomurska,67,115477
-Število,2017,Pet-,Posavska,77,75544
-Število,2017,Pet-,Primorsko-notranjska,24,52582
-Število,2017,Pet-,Savinjska,162,254761
-Število,2017,Pet-,Zasavska,12,57280
-Število,2017,Stanovanja,Gorenjska,309,203800
-Število,2017,Stanovanja,Goriška,177,117747
-Število,2017,Stanovanja,Jugovzhodna Slovenija,244,142711
-Število,2017,Stanovanja,Koroška,86,70761
-Število,2017,Stanovanja,Obalno-kraška,111,113517
-Število,2017,Stanovanja,Osrednjeslovenska,828,539672
-Število,2017,Stanovanja,Podravska,507,322043
-Število,2017,Stanovanja,Pomurska,195,115477
-Število,2017,Stanovanja,Posavska,148,75544
-Število,2017,Stanovanja,Primorsko-notranjska,56,52582
-Število,2017,Stanovanja,Savinjska,360,254761
-Število,2017,Stanovanja,Zasavska,23,57280
-Število,2017,Štirisobna,Gorenjska,55,203800
-Število,2017,Štirisobna,Goriška,42,117747
-Število,2017,Štirisobna,Jugovzhodna Slovenija,61,142711
-Število,2017,Štirisobna,Koroška,14,70761
-Število,2017,Štirisobna,Obalno-kraška,40,113517
-Število,2017,Štirisobna,Osrednjeslovenska,152,539672
-Število,2017,Štirisobna,Podravska,142,322043
-Število,2017,Štirisobna,Pomurska,55,115477
-Število,2017,Štirisobna,Posavska,25,75544
-Število,2017,Štirisobna,Primorsko-notranjska,14,52582
-Število,2017,Štirisobna,Savinjska,82,254761
-Število,2017,Štirisobna,Zasavska,6,57280
-Število,2017,Trisobna,Gorenjska,57,203800
-Število,2017,Trisobna,Goriška,27,117747
-Število,2017,Trisobna,Jugovzhodna Slovenija,39,142711
-Število,2017,Trisobna,Koroška,12,70761
-Število,2017,Trisobna,Obalno-kraška,11,113517
-Število,2017,Trisobna,Osrednjeslovenska,93,539672
-Število,2017,Trisobna,Podravska,89,322043
-Število,2017,Trisobna,Pomurska,31,115477
-Število,2017,Trisobna,Posavska,20,75544
-Število,2017,Trisobna,Primorsko-notranjska,14,52582
-Število,2017,Trisobna,Savinjska,52,254761
-Število,2017,Trisobna,Zasavska,3,57280
-Število,2018,Dvosobna,Gorenjska,14,203636
-Število,2018,Dvosobna,Goriška,18,117260
-Število,2018,Dvosobna,Jugovzhodna Slovenija,18,142819
-Število,2018,Dvosobna,Koroška,7,70550
-Število,2018,Dvosobna,Obalno-kraška,14,113961
-Število,2018,Dvosobna,Osrednjeslovenska,103,542306
-Število,2018,Dvosobna,Podravska,66,322058
-Število,2018,Dvosobna,Pomurska,18,114776
-Število,2018,Dvosobna,Posavska,10,75359
-Število,2018,Dvosobna,Primorsko-notranjska,4,52334
-Število,2018,Dvosobna,Savinjska,43,254760
-Število,2018,Dvosobna,Zasavska,1,57061
-Število,2018,Enosobna,Gorenjska,7,203636
-Število,2018,Enosobna,Goriška,5,117260
-Število,2018,Enosobna,Jugovzhodna Slovenija,5,142819
-Število,2018,Enosobna,Koroška,5,70550
-Število,2018,Enosobna,Obalno-kraška,5,113961
-Število,2018,Enosobna,Osrednjeslovenska,34,542306
-Število,2018,Enosobna,Podravska,24,322058
-Število,2018,Enosobna,Pomurska,21,114776
-Število,2018,Enosobna,Posavska,2,75359
-Število,2018,Enosobna,Primorsko-notranjska,1,52334
-Število,2018,Enosobna,Savinjska,15,254760
-Število,2018,Enosobna,Zasavska,0,57061
-Število,2018,Pet-,Gorenjska,141,203636
-Število,2018,Pet-,Goriška,88,117260
-Število,2018,Pet-,Jugovzhodna Slovenija,122,142819
-Število,2018,Pet-,Koroška,31,70550
-Število,2018,Pet-,Obalno-kraška,64,113961
-Število,2018,Pet-,Osrednjeslovenska,379,542306
-Število,2018,Pet-,Podravska,222,322058
-Število,2018,Pet-,Pomurska,63,114776
-Število,2018,Pet-,Posavska,48,75359
-Število,2018,Pet-,Primorsko-notranjska,28,52334
-Število,2018,Pet-,Savinjska,157,254760
-Število,2018,Pet-,Zasavska,7,57061
-Število,2018,Stanovanja,Gorenjska,249,203636
-Število,2018,Stanovanja,Goriška,191,117260
-Število,2018,Stanovanja,Jugovzhodna Slovenija,239,142819
-Število,2018,Stanovanja,Koroška,70,70550
-Število,2018,Stanovanja,Obalno-kraška,161,113961
-Število,2018,Stanovanja,Osrednjeslovenska,762,542306
-Število,2018,Stanovanja,Podravska,622,322058
-Število,2018,Stanovanja,Pomurska,200,114776
-Število,2018,Stanovanja,Posavska,98,75359
-Število,2018,Stanovanja,Primorsko-notranjska,61,52334
-Število,2018,Stanovanja,Savinjska,368,254760
-Število,2018,Stanovanja,Zasavska,16,57061
-Število,2018,Štirisobna,Gorenjska,47,203636
-Število,2018,Štirisobna,Goriška,47,117260
-Število,2018,Štirisobna,Jugovzhodna Slovenija,61,142819
-Število,2018,Štirisobna,Koroška,15,70550
-Število,2018,Štirisobna,Obalno-kraška,34,113961
-Število,2018,Štirisobna,Osrednjeslovenska,143,542306
-Število,2018,Štirisobna,Podravska,207,322058
-Število,2018,Štirisobna,Pomurska,52,114776
-Število,2018,Štirisobna,Posavska,16,75359
-Število,2018,Štirisobna,Primorsko-notranjska,24,52334
-Število,2018,Štirisobna,Savinjska,98,254760
-Število,2018,Štirisobna,Zasavska,4,57061
-Število,2018,Trisobna,Gorenjska,40,203636
-Število,2018,Trisobna,Goriška,33,117260
-Število,2018,Trisobna,Jugovzhodna Slovenija,33,142819
-Število,2018,Trisobna,Koroška,12,70550
-Število,2018,Trisobna,Obalno-kraška,44,113961
-Število,2018,Trisobna,Osrednjeslovenska,103,542306
-Število,2018,Trisobna,Podravska,103,322058
-Število,2018,Trisobna,Pomurska,46,114776
-Število,2018,Trisobna,Posavska,22,75359
-Število,2018,Trisobna,Primorsko-notranjska,4,52334
-Število,2018,Trisobna,Savinjska,55,254760
-Število,2018,Trisobna,Zasavska,4,57061
-Število,2019,Dvosobna,Gorenjska,39,204670
-Število,2019,Dvosobna,Goriška,6,117616
-Število,2019,Dvosobna,Jugovzhodna Slovenija,37,144032
-Število,2019,Dvosobna,Koroška,3,70588
-Število,2019,Dvosobna,Obalno-kraška,18,115016
-Število,2019,Dvosobna,Osrednjeslovenska,105,549171
-Število,2019,Dvosobna,Podravska,67,324104
-Število,2019,Dvosobna,Pomurska,36,114287
-Število,2019,Dvosobna,Posavska,7,75559
-Število,2019,Dvosobna,Primorsko-notranjska,8,52544
-Število,2019,Dvosobna,Savinjska,32,256359
-Število,2019,Dvosobna,Zasavska,3,56962
-Število,2019,Enosobna,Gorenjska,8,204670
-Število,2019,Enosobna,Goriška,6,117616
-Število,2019,Enosobna,Jugovzhodna Slovenija,3,144032
-Število,2019,Enosobna,Koroška,0,70588
-Število,2019,Enosobna,Obalno-kraška,9,115016
-Število,2019,Enosobna,Osrednjeslovenska,39,549171
-Število,2019,Enosobna,Podravska,24,324104
-Število,2019,Enosobna,Pomurska,22,114287
-Število,2019,Enosobna,Posavska,5,75559
-Število,2019,Enosobna,Primorsko-notranjska,2,52544
-Število,2019,Enosobna,Savinjska,22,256359
-Število,2019,Enosobna,Zasavska,1,56962
-Število,2019,Pet-,Gorenjska,122,204670
-Število,2019,Pet-,Goriška,77,117616
-Število,2019,Pet-,Jugovzhodna Slovenija,116,144032
-Število,2019,Pet-,Koroška,33,70588
-Število,2019,Pet-,Obalno-kraška,78,115016
-Število,2019,Pet-,Osrednjeslovenska,462,549171
-Število,2019,Pet-,Podravska,201,324104
-Število,2019,Pet-,Pomurska,65,114287
-Število,2019,Pet-,Posavska,44,75559
-Število,2019,Pet-,Primorsko-notranjska,34,52544
-Število,2019,Pet-,Savinjska,150,256359
-Število,2019,Pet-,Zasavska,10,56962
-Število,2019,Stanovanja,Gorenjska,296,204670
-Število,2019,Stanovanja,Goriška,142,117616
-Število,2019,Stanovanja,Jugovzhodna Slovenija,241,144032
-Število,2019,Stanovanja,Koroška,67,70588
-Število,2019,Stanovanja,Obalno-kraška,173,115016
-Število,2019,Stanovanja,Osrednjeslovenska,978,549171
-Število,2019,Stanovanja,Podravska,656,324104
-Število,2019,Stanovanja,Pomurska,253,114287
-Število,2019,Stanovanja,Posavska,96,75559
-Število,2019,Stanovanja,Primorsko-notranjska,70,52544
-Število,2019,Stanovanja,Savinjska,427,256359
-Število,2019,Stanovanja,Zasavska,16,56962
-Število,2019,Štirisobna,Gorenjska,80,204670
-Število,2019,Štirisobna,Goriška,37,117616
-Število,2019,Štirisobna,Jugovzhodna Slovenija,57,144032
-Število,2019,Štirisobna,Koroška,23,70588
-Število,2019,Štirisobna,Obalno-kraška,35,115016
-Število,2019,Štirisobna,Osrednjeslovenska,169,549171
-Število,2019,Štirisobna,Podravska,207,324104
-Število,2019,Štirisobna,Pomurska,76,114287
-Število,2019,Štirisobna,Posavska,16,75559
-Število,2019,Štirisobna,Primorsko-notranjska,17,52544
-Število,2019,Štirisobna,Savinjska,150,256359
-Število,2019,Štirisobna,Zasavska,1,56962
-Število,2019,Trisobna,Gorenjska,47,204670
-Število,2019,Trisobna,Goriška,16,117616
-Število,2019,Trisobna,Jugovzhodna Slovenija,28,144032
-Število,2019,Trisobna,Koroška,8,70588
-Število,2019,Trisobna,Obalno-kraška,33,115016
-Število,2019,Trisobna,Osrednjeslovenska,203,549171
-Število,2019,Trisobna,Podravska,157,324104
-Število,2019,Trisobna,Pomurska,54,114287
-Število,2019,Trisobna,Posavska,24,75559
-Število,2019,Trisobna,Primorsko-notranjska,9,52544
-Število,2019,Trisobna,Savinjska,73,256359
-Število,2019,Trisobna,Zasavska,1,56962
-Število,2020,Dvosobna,Gorenjska,25,206621
-Število,2020,Dvosobna,Goriška,8,118041
-Število,2020,Dvosobna,Jugovzhodna Slovenija,16,145357
-Število,2020,Dvosobna,Koroška,16,70755
-Število,2020,Dvosobna,Obalno-kraška,4,115913
-Število,2020,Dvosobna,Osrednjeslovenska,104,555274
-Število,2020,Dvosobna,Podravska,48,325994
-Število,2020,Dvosobna,Pomurska,28,114238
-Število,2020,Dvosobna,Posavska,14,75824
-Število,2020,Dvosobna,Primorsko-notranjska,0,52841
-Število,2020,Dvosobna,Savinjska,58,257847
-Število,2020,Dvosobna,Zasavska,0,57156
-Število,2020,Enosobna,Gorenjska,68,206621
-Število,2020,Enosobna,Goriška,3,118041
-Število,2020,Enosobna,Jugovzhodna Slovenija,8,145357
-Število,2020,Enosobna,Koroška,18,70755
-Število,2020,Enosobna,Obalno-kraška,5,115913
-Število,2020,Enosobna,Osrednjeslovenska,53,555274
-Število,2020,Enosobna,Podravska,21,325994
-Število,2020,Enosobna,Pomurska,13,114238
-Število,2020,Enosobna,Posavska,5,75824
-Število,2020,Enosobna,Primorsko-notranjska,1,52841
-Število,2020,Enosobna,Savinjska,22,257847
-Število,2020,Enosobna,Zasavska,2,57156
-Število,2020,Pet-,Gorenjska,143,206621
-Število,2020,Pet-,Goriška,74,118041
-Število,2020,Pet-,Jugovzhodna Slovenija,153,145357
-Število,2020,Pet-,Koroška,58,70755
-Število,2020,Pet-,Obalno-kraška,54,115913
-Število,2020,Pet-,Osrednjeslovenska,454,555274
-Število,2020,Pet-,Podravska,324,325994
-Število,2020,Pet-,Pomurska,89,114238
-Število,2020,Pet-,Posavska,59,75824
-Število,2020,Pet-,Primorsko-notranjska,21,52841
-Število,2020,Pet-,Savinjska,154,257847
-Število,2020,Pet-,Zasavska,8,57156
-Število,2020,Stanovanja,Gorenjska,382,206621
-Število,2020,Stanovanja,Goriška,139,118041
-Število,2020,Stanovanja,Jugovzhodna Slovenija,262,145357
-Število,2020,Stanovanja,Koroška,132,70755
-Število,2020,Stanovanja,Obalno-kraška,139,115913
-Število,2020,Stanovanja,Osrednjeslovenska,926,555274
-Število,2020,Stanovanja,Podravska,680,325994
-Število,2020,Stanovanja,Pomurska,245,114238
-Število,2020,Stanovanja,Posavska,158,75824
-Število,2020,Stanovanja,Primorsko-notranjska,36,52841
-Število,2020,Stanovanja,Savinjska,417,257847
-Število,2020,Stanovanja,Zasavska,24,57156
-Število,2020,Štirisobna,Gorenjska,74,206621
-Število,2020,Štirisobna,Goriška,27,118041
-Število,2020,Štirisobna,Jugovzhodna Slovenija,57,145357
-Število,2020,Štirisobna,Koroška,14,70755
-Število,2020,Štirisobna,Obalno-kraška,55,115913
-Število,2020,Štirisobna,Osrednjeslovenska,166,555274
-Število,2020,Štirisobna,Podravska,183,325994
-Število,2020,Štirisobna,Pomurska,58,114238
-Število,2020,Štirisobna,Posavska,17,75824
-Število,2020,Štirisobna,Primorsko-notranjska,7,52841
-Število,2020,Štirisobna,Savinjska,101,257847
-Število,2020,Štirisobna,Zasavska,6,57156
-Število,2020,Trisobna,Gorenjska,72,206621
-Število,2020,Trisobna,Goriška,27,118041
-Število,2020,Trisobna,Jugovzhodna Slovenija,28,145357
-Število,2020,Trisobna,Koroška,26,70755
-Število,2020,Trisobna,Obalno-kraška,21,115913
-Število,2020,Trisobna,Osrednjeslovenska,149,555274
-Število,2020,Trisobna,Podravska,104,325994
-Število,2020,Trisobna,Pomurska,57,114238
-Število,2020,Trisobna,Posavska,63,75824
-Število,2020,Trisobna,Primorsko-notranjska,7,52841
-Število,2020,Trisobna,Savinjska,82,257847
-Število,2020,Trisobna,Zasavska,8,57156
+leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
+2010,Dvosobna,Gorenjska,202903,6616,100
+2010,Dvosobna,Goriška,119080,1572,29
+2010,Dvosobna,Jugovzhodna Slovenija,142092,2720,36
+2010,Dvosobna,Koroška,72812,2228,48
+2010,Dvosobna,Obalno-kraška,110412,2499,39
+2010,Dvosobna,Osrednjeslovenska,529646,13506,249
+2010,Dvosobna,Podravska,323343,8349,116
+2010,Dvosobna,Pomurska,119548,2619,43
+2010,Dvosobna,Primorsko-notranjska,52217,1381,24
+2010,Dvosobna,Savinjska,260025,8835,178
+2010,Dvosobna,Zasavska,44706,381,3
+2010,Enosobna,Gorenjska,202903,2069,49
+2010,Enosobna,Goriška,119080,3513,77
+2010,Enosobna,Jugovzhodna Slovenija,142092,905,26
+2010,Enosobna,Koroška,72812,427,11
+2010,Enosobna,Obalno-kraška,110412,960,28
+2010,Enosobna,Osrednjeslovenska,529646,8130,221
+2010,Enosobna,Podravska,323343,1478,28
+2010,Enosobna,Pomurska,119548,769,17
+2010,Enosobna,Primorsko-notranjska,52217,161,3
+2010,Enosobna,Savinjska,260025,1906,50
+2010,Enosobna,Zasavska,44706,0,0
+2010,Pet-,Gorenjska,202903,49496,246
+2010,Pet-,Goriška,119080,24856,142
+2010,Pet-,Jugovzhodna Slovenija,142092,21380,105
+2010,Pet-,Koroška,72812,11087,56
+2010,Pet-,Obalno-kraška,110412,25300,138
+2010,Pet-,Osrednjeslovenska,529646,102432,548
+2010,Pet-,Podravska,323343,69690,373
+2010,Pet-,Pomurska,119548,19291,108
+2010,Pet-,Primorsko-notranjska,52217,15014,76
+2010,Pet-,Savinjska,260025,54100,289
+2010,Pet-,Zasavska,44706,9681,52
+2010,Stanovanja,Gorenjska,202903,104920,693
+2010,Stanovanja,Goriška,119080,47534,387
+2010,Stanovanja,Jugovzhodna Slovenija,142092,44786,346
+2010,Stanovanja,Koroška,72812,22641,209
+2010,Stanovanja,Obalno-kraška,110412,43826,336
+2010,Stanovanja,Osrednjeslovenska,529646,199905,1721
+2010,Stanovanja,Podravska,323343,129443,905
+2010,Stanovanja,Pomurska,119548,43413,317
+2010,Stanovanja,Primorsko-notranjska,52217,24473,173
+2010,Stanovanja,Savinjska,260025,116157,953
+2010,Stanovanja,Zasavska,44706,15755,94
+2010,Štirisobna,Gorenjska,202903,33766,191
+2010,Štirisobna,Goriška,119080,12249,80
+2010,Štirisobna,Jugovzhodna Slovenija,142092,11286,85
+2010,Štirisobna,Koroška,72812,3000,23
+2010,Štirisobna,Obalno-kraška,110412,9632,74
+2010,Štirisobna,Osrednjeslovenska,529646,49548,399
+2010,Štirisobna,Podravska,323343,24455,169
+2010,Štirisobna,Pomurska,119548,13467,86
+2010,Štirisobna,Primorsko-notranjska,52217,4868,36
+2010,Štirisobna,Savinjska,260025,33500,228
+2010,Štirisobna,Zasavska,44706,5125,34
+2010,Trisobna,Gorenjska,202903,12973,107
+2010,Trisobna,Goriška,119080,5344,59
+2010,Trisobna,Jugovzhodna Slovenija,142092,8495,94
+2010,Trisobna,Koroška,72812,5899,71
+2010,Trisobna,Obalno-kraška,110412,5435,57
+2010,Trisobna,Osrednjeslovenska,529646,26289,304
+2010,Trisobna,Podravska,323343,25471,219
+2010,Trisobna,Pomurska,119548,7267,63
+2010,Trisobna,Primorsko-notranjska,52217,3049,34
+2010,Trisobna,Savinjska,260025,17816,208
+2010,Trisobna,Zasavska,44706,568,5
+2011,Dvosobna,Gorenjska,203427,3024,64
+2011,Dvosobna,Goriška,119146,986,16
+2011,Dvosobna,Jugovzhodna Slovenija,142483,1665,21
+2011,Dvosobna,Koroška,72494,484,9
+2011,Dvosobna,Obalno-kraška,110760,4439,72
+2011,Dvosobna,Osrednjeslovenska,533213,21993,376
+2011,Dvosobna,Podravska,323119,4494,64
+2011,Dvosobna,Pomurska,119145,1859,23
+2011,Dvosobna,Primorsko-notranjska,52287,658,13
+2011,Dvosobna,Savinjska,259726,10300,176
+2011,Dvosobna,Zasavska,44222,1230,25
+2011,Enosobna,Gorenjska,203427,770,16
+2011,Enosobna,Goriška,119146,115,3
+2011,Enosobna,Jugovzhodna Slovenija,142483,677,14
+2011,Enosobna,Koroška,72494,27,1
+2011,Enosobna,Obalno-kraška,110760,2643,67
+2011,Enosobna,Osrednjeslovenska,533213,7575,196
+2011,Enosobna,Podravska,323119,1300,25
+2011,Enosobna,Pomurska,119145,644,12
+2011,Enosobna,Primorsko-notranjska,52287,344,8
+2011,Enosobna,Savinjska,259726,3752,84
+2011,Enosobna,Zasavska,44222,0,0
+2011,Pet-,Gorenjska,203427,48335,224
+2011,Pet-,Goriška,119146,20808,112
+2011,Pet-,Jugovzhodna Slovenija,142483,24043,115
+2011,Pet-,Koroška,72494,12004,53
+2011,Pet-,Obalno-kraška,110760,16838,97
+2011,Pet-,Osrednjeslovenska,533213,80548,404
+2011,Pet-,Podravska,323119,82966,537
+2011,Pet-,Pomurska,119145,20925,110
+2011,Pet-,Primorsko-notranjska,52287,15398,110
+2011,Pet-,Savinjska,259726,54339,282
+2011,Pet-,Zasavska,44222,12294,60
+2011,Stanovanja,Gorenjska,203427,75630,493
+2011,Stanovanja,Goriška,119146,36125,241
+2011,Stanovanja,Jugovzhodna Slovenija,142483,42051,256
+2011,Stanovanja,Koroška,72494,16002,87
+2011,Stanovanja,Obalno-kraška,110760,37998,348
+2011,Stanovanja,Osrednjeslovenska,533213,170011,1495
+2011,Stanovanja,Podravska,323119,140370,987
+2011,Stanovanja,Pomurska,119145,40273,271
+2011,Stanovanja,Primorsko-notranjska,52287,22302,185
+2011,Stanovanja,Savinjska,259726,103811,849
+2011,Stanovanja,Zasavska,44222,17384,115
+2011,Štirisobna,Gorenjska,203427,15386,101
+2011,Štirisobna,Goriška,119146,10962,75
+2011,Štirisobna,Jugovzhodna Slovenija,142483,11997,72
+2011,Štirisobna,Koroška,72494,2362,16
+2011,Štirisobna,Obalno-kraška,110760,9243,64
+2011,Štirisobna,Osrednjeslovenska,533213,33099,235
+2011,Štirisobna,Podravska,323119,36793,242
+2011,Štirisobna,Pomurska,119145,11268,71
+2011,Štirisobna,Primorsko-notranjska,52287,5011,44
+2011,Štirisobna,Savinjska,259726,24101,171
+2011,Štirisobna,Zasavska,44222,2670,21
+2011,Trisobna,Gorenjska,203427,8115,88
+2011,Trisobna,Goriška,119146,3254,35
+2011,Trisobna,Jugovzhodna Slovenija,142483,3669,34
+2011,Trisobna,Koroška,72494,1125,8
+2011,Trisobna,Obalno-kraška,110760,4835,48
+2011,Trisobna,Osrednjeslovenska,533213,26796,284
+2011,Trisobna,Podravska,323119,14817,119
+2011,Trisobna,Pomurska,119145,5577,55
+2011,Trisobna,Primorsko-notranjska,52287,891,10
+2011,Trisobna,Savinjska,259726,11319,136
+2011,Trisobna,Zasavska,44222,1190,9
+2012,Dvosobna,Gorenjska,204057,2210,38
+2012,Dvosobna,Goriška,119236,2506,37
+2012,Dvosobna,Jugovzhodna Slovenija,142680,1879,33
+2012,Dvosobna,Koroška,72364,439,5
+2012,Dvosobna,Obalno-kraška,111423,4188,79
+2012,Dvosobna,Osrednjeslovenska,536484,4598,42
+2012,Dvosobna,Podravska,323534,6699,113
+2012,Dvosobna,Pomurska,118988,2187,26
+2012,Dvosobna,Primorsko-notranjska,52387,188,3
+2012,Dvosobna,Savinjska,260253,3651,62
+2012,Dvosobna,Zasavska,43926,73,1
+2012,Enosobna,Gorenjska,204057,836,24
+2012,Enosobna,Goriška,119236,324,9
+2012,Enosobna,Jugovzhodna Slovenija,142680,750,20
+2012,Enosobna,Koroška,72364,139,2
+2012,Enosobna,Obalno-kraška,111423,8837,253
+2012,Enosobna,Osrednjeslovenska,536484,915,20
+2012,Enosobna,Podravska,323534,1957,42
+2012,Enosobna,Pomurska,118988,351,9
+2012,Enosobna,Primorsko-notranjska,52387,436,5
+2012,Enosobna,Savinjska,260253,659,16
+2012,Enosobna,Zasavska,43926,0,0
+2012,Pet-,Gorenjska,204057,43903,219
+2012,Pet-,Goriška,119236,21353,108
+2012,Pet-,Jugovzhodna Slovenija,142680,23935,113
+2012,Pet-,Koroška,72364,7916,39
+2012,Pet-,Obalno-kraška,111423,13881,70
+2012,Pet-,Osrednjeslovenska,536484,72958,372
+2012,Pet-,Podravska,323534,58746,378
+2012,Pet-,Pomurska,118988,22212,106
+2012,Pet-,Primorsko-notranjska,52387,14089,66
+2012,Pet-,Savinjska,260253,43721,234
+2012,Pet-,Zasavska,43926,11615,61
+2012,Stanovanja,Gorenjska,204057,60491,367
+2012,Stanovanja,Goriška,119236,40452,291
+2012,Stanovanja,Jugovzhodna Slovenija,142680,36726,261
+2012,Stanovanja,Koroška,72364,13630,81
+2012,Stanovanja,Obalno-kraška,111423,43736,536
+2012,Stanovanja,Osrednjeslovenska,536484,112162,694
+2012,Stanovanja,Podravska,323534,114988,909
+2012,Stanovanja,Pomurska,118988,38516,234
+2012,Stanovanja,Primorsko-notranjska,52387,20669,120
+2012,Stanovanja,Savinjska,260253,81421,587
+2012,Stanovanja,Zasavska,43926,14950,88
+2012,Štirisobna,Gorenjska,204057,10137,61
+2012,Štirisobna,Goriška,119236,10945,80
+2012,Štirisobna,Jugovzhodna Slovenija,142680,6556,48
+2012,Štirisobna,Koroška,72364,3738,21
+2012,Štirisobna,Obalno-kraška,111423,10288,75
+2012,Štirisobna,Osrednjeslovenska,536484,24749,166
+2012,Štirisobna,Podravska,323534,30610,204
+2012,Štirisobna,Pomurska,118988,9017,58
+2012,Štirisobna,Primorsko-notranjska,52387,4981,36
+2012,Štirisobna,Savinjska,260253,22323,153
+2012,Štirisobna,Zasavska,43926,2595,18
+2012,Trisobna,Gorenjska,204057,3405,25
+2012,Trisobna,Goriška,119236,5324,57
+2012,Trisobna,Jugovzhodna Slovenija,142680,3606,47
+2012,Trisobna,Koroška,72364,1398,14
+2012,Trisobna,Obalno-kraška,111423,6542,59
+2012,Trisobna,Osrednjeslovenska,536484,8942,94
+2012,Trisobna,Podravska,323534,16976,172
+2012,Trisobna,Pomurska,118988,4749,35
+2012,Trisobna,Primorsko-notranjska,52387,975,10
+2012,Trisobna,Savinjska,260253,11067,122
+2012,Trisobna,Zasavska,43926,667,8
+2013,Dvosobna,Gorenjska,203984,7548,119
+2013,Dvosobna,Goriška,119002,686,10
+2013,Dvosobna,Jugovzhodna Slovenija,142509,1139,13
+2013,Dvosobna,Koroška,72100,180,3
+2013,Dvosobna,Obalno-kraška,111936,2345,36
+2013,Dvosobna,Osrednjeslovenska,541718,2335,33
+2013,Dvosobna,Podravska,323238,4885,70
+2013,Dvosobna,Pomurska,118022,1501,20
+2013,Dvosobna,Primorsko-notranjska,52382,320,7
+2013,Dvosobna,Savinjska,260217,9488,105
+2013,Dvosobna,Zasavska,43502,379,7
+2013,Enosobna,Gorenjska,203984,1604,29
+2013,Enosobna,Goriška,119002,541,10
+2013,Enosobna,Jugovzhodna Slovenija,142509,370,8
+2013,Enosobna,Koroška,72100,37,1
+2013,Enosobna,Obalno-kraška,111936,354,7
+2013,Enosobna,Osrednjeslovenska,541718,1314,16
+2013,Enosobna,Podravska,323238,1239,19
+2013,Enosobna,Pomurska,118022,405,8
+2013,Enosobna,Primorsko-notranjska,52382,0,0
+2013,Enosobna,Savinjska,260217,4923,49
+2013,Enosobna,Zasavska,43502,204,6
+2013,Pet-,Gorenjska,203984,29116,142
+2013,Pet-,Goriška,119002,17924,94
+2013,Pet-,Jugovzhodna Slovenija,142509,24237,118
+2013,Pet-,Koroška,72100,10040,52
+2013,Pet-,Obalno-kraška,111936,11143,55
+2013,Pet-,Osrednjeslovenska,541718,68715,352
+2013,Pet-,Podravska,323238,36456,194
+2013,Pet-,Pomurska,118022,17002,83
+2013,Pet-,Primorsko-notranjska,52382,12883,68
+2013,Pet-,Savinjska,260217,37984,219
+2013,Pet-,Zasavska,43502,8382,44
+2013,Stanovanja,Gorenjska,203984,59359,460
+2013,Stanovanja,Goriška,119002,28171,188
+2013,Stanovanja,Jugovzhodna Slovenija,142509,37741,227
+2013,Stanovanja,Koroška,72100,16256,103
+2013,Stanovanja,Obalno-kraška,111936,25646,174
+2013,Stanovanja,Osrednjeslovenska,541718,95651,566
+2013,Stanovanja,Podravska,323238,77202,547
+2013,Stanovanja,Pomurska,118022,34213,227
+2013,Stanovanja,Primorsko-notranjska,52382,17728,108
+2013,Stanovanja,Savinjska,260217,87652,681
+2013,Stanovanja,Zasavska,43502,10971,79
+2013,Štirisobna,Gorenjska,203984,14625,94
+2013,Štirisobna,Goriška,119002,5768,36
+2013,Štirisobna,Jugovzhodna Slovenija,142509,8946,58
+2013,Štirisobna,Koroška,72100,3226,21
+2013,Štirisobna,Obalno-kraška,111936,9212,53
+2013,Štirisobna,Osrednjeslovenska,541718,18403,117
+2013,Štirisobna,Podravska,323238,26098,177
+2013,Štirisobna,Pomurska,118022,11411,77
+2013,Štirisobna,Primorsko-notranjska,52382,3776,24
+2013,Štirisobna,Savinjska,260217,19662,128
+2013,Štirisobna,Zasavska,43502,990,9
+2013,Trisobna,Gorenjska,203984,6466,76
+2013,Trisobna,Goriška,119002,3252,38
+2013,Trisobna,Jugovzhodna Slovenija,142509,3049,30
+2013,Trisobna,Koroška,72100,2773,26
+2013,Trisobna,Obalno-kraška,111936,2592,23
+2013,Trisobna,Osrednjeslovenska,541718,4884,48
+2013,Trisobna,Podravska,323238,8524,87
+2013,Trisobna,Pomurska,118022,3894,39
+2013,Trisobna,Primorsko-notranjska,52382,749,9
+2013,Trisobna,Savinjska,260217,15595,180
+2013,Trisobna,Zasavska,43502,1016,13
+2014,Dvosobna,Gorenjska,203894,1599,28
+2014,Dvosobna,Goriška,118374,918,13
+2014,Dvosobna,Jugovzhodna Slovenija,142405,1007,13
+2014,Dvosobna,Koroška,71546,2597,41
+2014,Dvosobna,Obalno-kraška,112848,114,2
+2014,Dvosobna,Osrednjeslovenska,546314,9483,160
+2014,Dvosobna,Podravska,323328,3483,51
+2014,Dvosobna,Pomurska,117133,1954,23
+2014,Dvosobna,Primorsko-notranjska,52449,180,3
+2014,Dvosobna,Savinjska,259853,622,11
+2014,Dvosobna,Zasavska,42983,202,4
+2014,Enosobna,Gorenjska,203894,317,8
+2014,Enosobna,Goriška,118374,228,3
+2014,Enosobna,Jugovzhodna Slovenija,142405,310,9
+2014,Enosobna,Koroška,71546,330,10
+2014,Enosobna,Obalno-kraška,112848,164,5
+2014,Enosobna,Osrednjeslovenska,546314,4496,127
+2014,Enosobna,Podravska,323328,1323,32
+2014,Enosobna,Pomurska,117133,397,10
+2014,Enosobna,Primorsko-notranjska,52449,0,0
+2014,Enosobna,Savinjska,259853,453,10
+2014,Enosobna,Zasavska,42983,22,1
+2014,Pet-,Gorenjska,203894,27229,129
+2014,Pet-,Goriška,118374,18616,93
+2014,Pet-,Jugovzhodna Slovenija,142405,24212,127
+2014,Pet-,Koroška,71546,6090,32
+2014,Pet-,Obalno-kraška,112848,11238,58
+2014,Pet-,Osrednjeslovenska,546314,67871,351
+2014,Pet-,Podravska,323328,38084,202
+2014,Pet-,Pomurska,117133,16016,91
+2014,Pet-,Primorsko-notranjska,52449,7921,43
+2014,Pet-,Savinjska,259853,38513,213
+2014,Pet-,Zasavska,42983,10763,54
+2014,Stanovanja,Gorenjska,203894,47737,288
+2014,Stanovanja,Goriška,118374,28152,172
+2014,Stanovanja,Jugovzhodna Slovenija,142405,34867,217
+2014,Stanovanja,Koroška,71546,14593,123
+2014,Stanovanja,Obalno-kraška,112848,18809,118
+2014,Stanovanja,Osrednjeslovenska,546314,112913,882
+2014,Stanovanja,Podravska,323328,73173,530
+2014,Stanovanja,Pomurska,117133,29559,216
+2014,Stanovanja,Primorsko-notranjska,52449,12474,79
+2014,Stanovanja,Savinjska,259853,57754,351
+2014,Stanovanja,Zasavska,42983,12883,76
+2014,Štirisobna,Gorenjska,203894,14346,85
+2014,Štirisobna,Goriška,118374,5505,37
+2014,Štirisobna,Jugovzhodna Slovenija,142405,8139,54
+2014,Štirisobna,Koroška,71546,3331,21
+2014,Štirisobna,Obalno-kraška,112848,5525,37
+2014,Štirisobna,Osrednjeslovenska,546314,18529,118
+2014,Štirisobna,Podravska,323328,21231,151
+2014,Štirisobna,Pomurska,117133,6548,50
+2014,Štirisobna,Primorsko-notranjska,52449,3676,28
+2014,Štirisobna,Savinjska,259853,14173,85
+2014,Štirisobna,Zasavska,42983,1159,9
+2014,Trisobna,Gorenjska,203894,4246,38
+2014,Trisobna,Goriška,118374,2885,26
+2014,Trisobna,Jugovzhodna Slovenija,142405,1199,14
+2014,Trisobna,Koroška,71546,2245,19
+2014,Trisobna,Obalno-kraška,112848,1768,16
+2014,Trisobna,Osrednjeslovenska,546314,12534,126
+2014,Trisobna,Podravska,323328,9052,94
+2014,Trisobna,Pomurska,117133,4644,42
+2014,Trisobna,Primorsko-notranjska,52449,697,5
+2014,Trisobna,Savinjska,259853,3993,32
+2014,Trisobna,Zasavska,42983,737,8
+2015,Dvosobna,Gorenjska,203850,757,10
+2015,Dvosobna,Goriška,118188,1238,14
+2015,Dvosobna,Jugovzhodna Slovenija,142373,1841,23
+2015,Dvosobna,Koroška,71303,1188,12
+2015,Dvosobna,Obalno-kraška,112773,350,5
+2015,Dvosobna,Osrednjeslovenska,534518,3009,47
+2015,Dvosobna,Podravska,323356,2085,29
+2015,Dvosobna,Pomurska,116670,2143,37
+2015,Dvosobna,Primorsko-notranjska,52538,366,5
+2015,Dvosobna,Savinjska,253975,2127,39
+2015,Dvosobna,Zasavska,57711,0,0
+2015,Enosobna,Gorenjska,203850,356,3
+2015,Enosobna,Goriška,118188,265,6
+2015,Enosobna,Jugovzhodna Slovenija,142373,1312,25
+2015,Enosobna,Koroška,71303,140,4
+2015,Enosobna,Obalno-kraška,112773,342,8
+2015,Enosobna,Osrednjeslovenska,534518,3861,64
+2015,Enosobna,Podravska,323356,1033,19
+2015,Enosobna,Pomurska,116670,513,13
+2015,Enosobna,Primorsko-notranjska,52538,44,1
+2015,Enosobna,Savinjska,253975,341,9
+2015,Enosobna,Zasavska,57711,88,2
+2015,Pet-,Gorenjska,203850,23236,113
+2015,Pet-,Goriška,118188,17372,101
+2015,Pet-,Jugovzhodna Slovenija,142373,31331,161
+2015,Pet-,Koroška,71303,5845,33
+2015,Pet-,Obalno-kraška,112773,7167,40
+2015,Pet-,Osrednjeslovenska,534518,59826,319
+2015,Pet-,Podravska,323356,37787,202
+2015,Pet-,Pomurska,116670,9451,59
+2015,Pet-,Primorsko-notranjska,52538,8219,48
+2015,Pet-,Savinjska,253975,32662,195
+2015,Pet-,Zasavska,57711,7605,38
+2015,Stanovanja,Gorenjska,203850,42968,247
+2015,Stanovanja,Goriška,118188,27597,184
+2015,Stanovanja,Jugovzhodna Slovenija,142373,44589,284
+2015,Stanovanja,Koroška,71303,11186,79
+2015,Stanovanja,Obalno-kraška,112773,16855,125
+2015,Stanovanja,Osrednjeslovenska,534518,94776,652
+2015,Stanovanja,Podravska,323356,63369,428
+2015,Stanovanja,Pomurska,116670,21540,187
+2015,Stanovanja,Primorsko-notranjska,52538,13712,86
+2015,Stanovanja,Savinjska,253975,49273,350
+2015,Stanovanja,Zasavska,57711,9113,51
+2015,Štirisobna,Gorenjska,203850,13221,77
+2015,Štirisobna,Goriška,118188,5508,37
+2015,Štirisobna,Jugovzhodna Slovenija,142373,7131,49
+2015,Štirisobna,Koroška,71303,3017,19
+2015,Štirisobna,Obalno-kraška,112773,6175,43
+2015,Štirisobna,Osrednjeslovenska,534518,19228,132
+2015,Štirisobna,Podravska,323356,16055,106
+2015,Štirisobna,Pomurska,116670,6796,52
+2015,Štirisobna,Primorsko-notranjska,52538,4247,24
+2015,Štirisobna,Savinjska,253975,10640,71
+2015,Štirisobna,Zasavska,57711,1267,9
+2015,Trisobna,Gorenjska,203850,5398,44
+2015,Trisobna,Goriška,118188,3214,26
+2015,Trisobna,Jugovzhodna Slovenija,142373,2974,26
+2015,Trisobna,Koroška,71303,996,11
+2015,Trisobna,Obalno-kraška,112773,2821,29
+2015,Trisobna,Osrednjeslovenska,534518,8852,90
+2015,Trisobna,Podravska,323356,6409,72
+2015,Trisobna,Pomurska,116670,2637,26
+2015,Trisobna,Primorsko-notranjska,52538,836,8
+2015,Trisobna,Savinjska,253975,3503,36
+2015,Trisobna,Zasavska,57711,153,2
+2016,Dvosobna,Gorenjska,203838,1050,12
+2016,Dvosobna,Goriška,118064,993,14
+2016,Dvosobna,Jugovzhodna Slovenija,142566,867,13
+2016,Dvosobna,Koroška,71040,988,10
+2016,Dvosobna,Obalno-kraška,113070,3008,55
+2016,Dvosobna,Osrednjeslovenska,537023,1454,17
+2016,Dvosobna,Podravska,322553,2826,48
+2016,Dvosobna,Pomurska,116078,3101,39
+2016,Dvosobna,Primorsko-notranjska,52523,0,0
+2016,Dvosobna,Savinjska,254318,872,12
+2016,Dvosobna,Zasavska,57404,429,8
+2016,Enosobna,Gorenjska,203838,968,10
+2016,Enosobna,Goriška,118064,892,10
+2016,Enosobna,Jugovzhodna Slovenija,142566,314,5
+2016,Enosobna,Koroška,71040,293,4
+2016,Enosobna,Obalno-kraška,113070,900,23
+2016,Enosobna,Osrednjeslovenska,537023,1377,27
+2016,Enosobna,Podravska,322553,1044,28
+2016,Enosobna,Pomurska,116078,1345,34
+2016,Enosobna,Primorsko-notranjska,52523,0,0
+2016,Enosobna,Savinjska,254318,801,9
+2016,Enosobna,Zasavska,57404,266,3
+2016,Pet-,Gorenjska,203838,22243,116
+2016,Pet-,Goriška,118064,19378,99
+2016,Pet-,Jugovzhodna Slovenija,142566,24741,115
+2016,Pet-,Koroška,71040,6057,29
+2016,Pet-,Obalno-kraška,113070,10858,57
+2016,Pet-,Osrednjeslovenska,537023,67734,327
+2016,Pet-,Podravska,322553,35759,187
+2016,Pet-,Pomurska,116078,18305,110
+2016,Pet-,Primorsko-notranjska,52523,5599,33
+2016,Pet-,Savinjska,254318,34398,200
+2016,Pet-,Zasavska,57404,7816,41
+2016,Stanovanja,Gorenjska,203838,38691,237
+2016,Stanovanja,Goriška,118064,33826,223
+2016,Stanovanja,Jugovzhodna Slovenija,142566,38776,221
+2016,Stanovanja,Koroška,71040,12569,79
+2016,Stanovanja,Obalno-kraška,113070,27158,216
+2016,Stanovanja,Osrednjeslovenska,537023,101200,578
+2016,Stanovanja,Podravska,322553,72460,516
+2016,Stanovanja,Pomurska,116078,36569,305
+2016,Stanovanja,Primorsko-notranjska,52523,9395,61
+2016,Stanovanja,Savinjska,254318,49972,338
+2016,Stanovanja,Zasavska,57404,11501,77
+2016,Štirisobna,Gorenjska,203838,10725,66
+2016,Štirisobna,Goriška,118064,9113,66
+2016,Štirisobna,Jugovzhodna Slovenija,142566,10220,63
+2016,Štirisobna,Koroška,71040,2421,15
+2016,Štirisobna,Obalno-kraška,113070,7848,46
+2016,Štirisobna,Osrednjeslovenska,537023,21760,136
+2016,Štirisobna,Podravska,322553,21153,144
+2016,Štirisobna,Pomurska,116078,8522,68
+2016,Štirisobna,Primorsko-notranjska,52523,2593,18
+2016,Štirisobna,Savinjska,254318,8540,67
+2016,Štirisobna,Zasavska,57404,1521,11
+2016,Trisobna,Gorenjska,203838,3705,33
+2016,Trisobna,Goriška,118064,3450,34
+2016,Trisobna,Jugovzhodna Slovenija,142566,2634,25
+2016,Trisobna,Koroška,71040,2810,21
+2016,Trisobna,Obalno-kraška,113070,4544,35
+2016,Trisobna,Osrednjeslovenska,537023,8875,71
+2016,Trisobna,Podravska,322553,11678,109
+2016,Trisobna,Pomurska,116078,5296,54
+2016,Trisobna,Primorsko-notranjska,52523,1203,10
+2016,Trisobna,Savinjska,254318,5361,50
+2016,Trisobna,Zasavska,57404,1469,14
+2017,Dvosobna,Gorenjska,203800,4957,62
+2017,Dvosobna,Goriška,117747,692,8
+2017,Dvosobna,Jugovzhodna Slovenija,142711,3927,51
+2017,Dvosobna,Koroška,70761,931,14
+2017,Dvosobna,Obalno-kraška,113517,438,7
+2017,Dvosobna,Osrednjeslovenska,539672,2448,43
+2017,Dvosobna,Podravska,322043,1771,22
+2017,Dvosobna,Pomurska,115477,1384,25
+2017,Dvosobna,Primorsko-notranjska,52582,261,4
+2017,Dvosobna,Savinjska,254761,2520,31
+2017,Dvosobna,Zasavska,57280,293,4
+2017,Enosobna,Gorenjska,203800,2376,33
+2017,Enosobna,Goriška,117747,133,3
+2017,Enosobna,Jugovzhodna Slovenija,142711,655,11
+2017,Enosobna,Koroška,70761,392,7
+2017,Enosobna,Obalno-kraška,113517,804,11
+2017,Enosobna,Osrednjeslovenska,539672,1687,38
+2017,Enosobna,Podravska,322043,1378,32
+2017,Enosobna,Pomurska,115477,693,17
+2017,Enosobna,Primorsko-notranjska,52582,72,1
+2017,Enosobna,Savinjska,254761,1541,33
+2017,Enosobna,Zasavska,57280,98,3
+2017,Pet-,Gorenjska,203800,18280,99
+2017,Pet-,Goriška,117747,19276,97
+2017,Pet-,Jugovzhodna Slovenija,142711,27270,134
+2017,Pet-,Koroška,70761,7644,39
+2017,Pet-,Obalno-kraška,113517,6967,37
+2017,Pet-,Osrednjeslovenska,539672,75312,429
+2017,Pet-,Podravska,322043,42545,223
+2017,Pet-,Pomurska,115477,11456,67
+2017,Pet-,Primorsko-notranjska,52582,5535,27
+2017,Pet-,Savinjska,254761,27284,160
+2017,Pet-,Zasavska,57280,5881,31
+2017,Stanovanja,Gorenjska,203800,40000,306
+2017,Stanovanja,Goriška,117747,29834,177
+2017,Stanovanja,Jugovzhodna Slovenija,142711,49931,339
+2017,Stanovanja,Koroška,70761,12718,86
+2017,Stanovanja,Obalno-kraška,113517,14882,105
+2017,Stanovanja,Osrednjeslovenska,539672,106563,704
+2017,Stanovanja,Podravska,322043,75191,509
+2017,Stanovanja,Pomurska,115477,24649,195
+2017,Stanovanja,Primorsko-notranjska,52582,9499,61
+2017,Stanovanja,Savinjska,254761,49636,357
+2017,Stanovanja,Zasavska,57280,7863,55
+2017,Štirisobna,Gorenjska,203800,8339,55
+2017,Štirisobna,Goriška,117747,6129,42
+2017,Štirisobna,Jugovzhodna Slovenija,142711,10266,66
+2017,Štirisobna,Koroška,70761,2480,14
+2017,Štirisobna,Obalno-kraška,113517,5121,39
+2017,Štirisobna,Osrednjeslovenska,539672,22013,142
+2017,Štirisobna,Podravska,322043,20186,143
+2017,Štirisobna,Pomurska,115477,7990,55
+2017,Štirisobna,Primorsko-notranjska,52582,2255,15
+2017,Štirisobna,Savinjska,254761,12823,81
+2017,Štirisobna,Zasavska,57280,1051,11
+2017,Trisobna,Gorenjska,203800,6048,57
+2017,Trisobna,Goriška,117747,3604,27
+2017,Trisobna,Jugovzhodna Slovenija,142711,7813,77
+2017,Trisobna,Koroška,70761,1271,12
+2017,Trisobna,Obalno-kraška,113517,1552,11
+2017,Trisobna,Osrednjeslovenska,539672,5103,52
+2017,Trisobna,Podravska,322043,9311,89
+2017,Trisobna,Pomurska,115477,3126,31
+2017,Trisobna,Primorsko-notranjska,52582,1376,14
+2017,Trisobna,Savinjska,254761,5468,52
+2017,Trisobna,Zasavska,57280,540,6
+2018,Dvosobna,Gorenjska,203636,934,14
+2018,Dvosobna,Goriška,117260,1493,18
+2018,Dvosobna,Jugovzhodna Slovenija,142819,1402,18
+2018,Dvosobna,Koroška,70550,516,7
+2018,Dvosobna,Obalno-kraška,113961,588,12
+2018,Dvosobna,Osrednjeslovenska,542306,8841,103
+2018,Dvosobna,Podravska,322058,4607,66
+2018,Dvosobna,Pomurska,114776,1183,18
+2018,Dvosobna,Primorsko-notranjska,52334,402,6
+2018,Dvosobna,Savinjska,254760,2918,43
+2018,Dvosobna,Zasavska,57061,46,1
+2018,Enosobna,Gorenjska,203636,454,7
+2018,Enosobna,Goriška,117260,270,5
+2018,Enosobna,Jugovzhodna Slovenija,142819,307,5
+2018,Enosobna,Koroška,70550,188,5
+2018,Enosobna,Obalno-kraška,113961,275,5
+2018,Enosobna,Osrednjeslovenska,542306,3311,34
+2018,Enosobna,Podravska,322058,1368,26
+2018,Enosobna,Pomurska,114776,852,21
+2018,Enosobna,Primorsko-notranjska,52334,46,1
+2018,Enosobna,Savinjska,254760,548,13
+2018,Enosobna,Zasavska,57061,0,0
+2018,Pet-,Gorenjska,203636,28602,137
+2018,Pet-,Goriška,117260,15768,88
+2018,Pet-,Jugovzhodna Slovenija,142819,25121,131
+2018,Pet-,Koroška,70550,5050,31
+2018,Pet-,Obalno-kraška,113961,11647,59
+2018,Pet-,Osrednjeslovenska,542306,67724,359
+2018,Pet-,Podravska,322058,41328,225
+2018,Pet-,Pomurska,114776,10616,63
+2018,Pet-,Primorsko-notranjska,52334,6288,32
+2018,Pet-,Savinjska,254760,28470,154
+2018,Pet-,Zasavska,57061,3747,22
+2018,Stanovanja,Gorenjska,203636,41460,245
+2018,Stanovanja,Goriška,117260,26811,191
+2018,Stanovanja,Jugovzhodna Slovenija,142819,41538,255
+2018,Stanovanja,Koroška,70550,9137,70
+2018,Stanovanja,Obalno-kraška,113961,21789,152
+2018,Stanovanja,Osrednjeslovenska,542306,109590,727
+2018,Stanovanja,Podravska,322058,87505,629
+2018,Stanovanja,Pomurska,114776,24828,200
+2018,Stanovanja,Primorsko-notranjska,52334,11193,69
+2018,Stanovanja,Savinjska,254760,52904,360
+2018,Stanovanja,Zasavska,57061,5341,39
+2018,Štirisobna,Gorenjska,203636,6751,47
+2018,Štirisobna,Goriška,117260,6095,47
+2018,Štirisobna,Jugovzhodna Slovenija,142819,10334,64
+2018,Štirisobna,Koroška,70550,2264,15
+2018,Štirisobna,Obalno-kraška,113961,4753,33
+2018,Štirisobna,Osrednjeslovenska,542306,20557,134
+2018,Štirisobna,Podravska,322058,29375,208
+2018,Štirisobna,Pomurska,114776,7256,52
+2018,Štirisobna,Primorsko-notranjska,52334,3960,25
+2018,Štirisobna,Savinjska,254760,14814,97
+2018,Štirisobna,Zasavska,57061,1101,10
+2018,Trisobna,Gorenjska,203636,4719,40
+2018,Trisobna,Goriška,117260,3185,33
+2018,Trisobna,Jugovzhodna Slovenija,142819,4374,37
+2018,Trisobna,Koroška,70550,1119,12
+2018,Trisobna,Obalno-kraška,113961,4526,43
+2018,Trisobna,Osrednjeslovenska,542306,9157,97
+2018,Trisobna,Podravska,322058,10827,104
+2018,Trisobna,Pomurska,114776,4921,46
+2018,Trisobna,Primorsko-notranjska,52334,497,5
+2018,Trisobna,Savinjska,254760,6154,53
+2018,Trisobna,Zasavska,57061,447,6
+2019,Dvosobna,Gorenjska,204670,2254,39
+2019,Dvosobna,Goriška,117616,441,6
+2019,Dvosobna,Jugovzhodna Slovenija,144032,2515,42
+2019,Dvosobna,Koroška,70588,200,3
+2019,Dvosobna,Obalno-kraška,115016,1335,17
+2019,Dvosobna,Osrednjeslovenska,549171,7554,100
+2019,Dvosobna,Podravska,324104,4279,67
+2019,Dvosobna,Pomurska,114287,2075,36
+2019,Dvosobna,Primorsko-notranjska,52544,426,8
+2019,Dvosobna,Savinjska,256359,2645,32
+2019,Dvosobna,Zasavska,56962,201,3
+2019,Enosobna,Gorenjska,204670,707,8
+2019,Enosobna,Goriška,117616,342,6
+2019,Enosobna,Jugovzhodna Slovenija,144032,146,4
+2019,Enosobna,Koroška,70588,0,0
+2019,Enosobna,Obalno-kraška,115016,213,7
+2019,Enosobna,Osrednjeslovenska,549171,2071,37
+2019,Enosobna,Podravska,324104,1387,24
+2019,Enosobna,Pomurska,114287,856,22
+2019,Enosobna,Primorsko-notranjska,52544,225,3
+2019,Enosobna,Savinjska,256359,2014,22
+2019,Enosobna,Zasavska,56962,307,2
+2019,Pet-,Gorenjska,204670,23666,118
+2019,Pet-,Goriška,117616,14600,77
+2019,Pet-,Jugovzhodna Slovenija,144032,18386,119
+2019,Pet-,Koroška,70588,5220,33
+2019,Pet-,Obalno-kraška,115016,10223,68
+2019,Pet-,Osrednjeslovenska,549171,87351,450
+2019,Pet-,Podravska,324104,36374,202
+2019,Pet-,Pomurska,114287,9570,65
+2019,Pet-,Primorsko-notranjska,52544,6635,43
+2019,Pet-,Savinjska,256359,27355,148
+2019,Pet-,Zasavska,56962,4205,23
+2019,Stanovanja,Gorenjska,204670,45504,292
+2019,Stanovanja,Goriška,117616,22048,142
+2019,Stanovanja,Jugovzhodna Slovenija,144032,32892,260
+2019,Stanovanja,Koroška,70588,9816,67
+2019,Stanovanja,Obalno-kraška,115016,19859,158
+2019,Stanovanja,Osrednjeslovenska,549171,137449,949
+2019,Stanovanja,Podravska,324104,89260,665
+2019,Stanovanja,Pomurska,114287,27544,253
+2019,Stanovanja,Primorsko-notranjska,52544,10640,81
+2019,Stanovanja,Savinjska,256359,57748,417
+2019,Stanovanja,Zasavska,56962,4948,30
+2019,Štirisobna,Gorenjska,204670,13330,80
+2019,Štirisobna,Goriška,117616,4944,37
+2019,Štirisobna,Jugovzhodna Slovenija,144032,7810,59
+2019,Štirisobna,Koroška,70588,3475,23
+2019,Štirisobna,Obalno-kraška,115016,4658,34
+2019,Štirisobna,Osrednjeslovenska,549171,22767,167
+2019,Štirisobna,Podravska,324104,29803,211
+2019,Štirisobna,Pomurska,114287,9873,76
+2019,Štirisobna,Primorsko-notranjska,52544,2379,18
+2019,Štirisobna,Savinjska,256359,18172,146
+2019,Štirisobna,Zasavska,56962,151,1
+2019,Trisobna,Gorenjska,204670,5547,47
+2019,Trisobna,Goriška,117616,1721,16
+2019,Trisobna,Jugovzhodna Slovenija,144032,4035,36
+2019,Trisobna,Koroška,70588,921,8
+2019,Trisobna,Obalno-kraška,115016,3430,32
+2019,Trisobna,Osrednjeslovenska,549171,17706,195
+2019,Trisobna,Podravska,324104,17417,161
+2019,Trisobna,Pomurska,114287,5170,54
+2019,Trisobna,Primorsko-notranjska,52544,975,9
+2019,Trisobna,Savinjska,256359,7562,69
+2019,Trisobna,Zasavska,56962,84,1
+2020,Dvosobna,Gorenjska,206621,1597,25
+2020,Dvosobna,Goriška,118041,602,8
+2020,Dvosobna,Jugovzhodna Slovenija,145357,2280,39
+2020,Dvosobna,Koroška,70755,912,16
+2020,Dvosobna,Obalno-kraška,115913,298,4
+2020,Dvosobna,Osrednjeslovenska,555274,7312,80
+2020,Dvosobna,Podravska,325994,3996,48
+2020,Dvosobna,Pomurska,114238,1785,28
+2020,Dvosobna,Primorsko-notranjska,52841,0,0
+2020,Dvosobna,Savinjska,257847,3783,58
+2020,Dvosobna,Zasavska,57156,273,1
+2020,Enosobna,Gorenjska,206621,4482,68
+2020,Enosobna,Goriška,118041,273,3
+2020,Enosobna,Jugovzhodna Slovenija,145357,1559,30
+2020,Enosobna,Koroška,70755,750,18
+2020,Enosobna,Obalno-kraška,115913,532,5
+2020,Enosobna,Osrednjeslovenska,555274,2988,31
+2020,Enosobna,Podravska,325994,1243,21
+2020,Enosobna,Pomurska,114238,1187,13
+2020,Enosobna,Primorsko-notranjska,52841,95,1
+2020,Enosobna,Savinjska,257847,1829,22
+2020,Enosobna,Zasavska,57156,302,2
+2020,Pet-,Gorenjska,206621,24737,134
+2020,Pet-,Goriška,118041,13737,74
+2020,Pet-,Jugovzhodna Slovenija,145357,25924,158
+2020,Pet-,Koroška,70755,8077,58
+2020,Pet-,Obalno-kraška,115913,9586,46
+2020,Pet-,Osrednjeslovenska,555274,86002,447
+2020,Pet-,Podravska,325994,56729,324
+2020,Pet-,Pomurska,114238,16399,89
+2020,Pet-,Primorsko-notranjska,52841,4726,27
+2020,Pet-,Savinjska,257847,26282,153
+2020,Pet-,Zasavska,57156,3418,19
+2020,Stanovanja,Gorenjska,206621,51945,373
+2020,Stanovanja,Goriška,118041,22215,139
+2020,Stanovanja,Jugovzhodna Slovenija,145357,42973,323
+2020,Stanovanja,Koroška,70755,14367,132
+2020,Stanovanja,Obalno-kraška,115913,21454,130
+2020,Stanovanja,Osrednjeslovenska,555274,132695,859
+2020,Stanovanja,Podravska,325994,99954,680
+2020,Stanovanja,Pomurska,114238,33329,245
+2020,Stanovanja,Primorsko-notranjska,52841,6892,43
+2020,Stanovanja,Savinjska,257847,55681,416
+2020,Stanovanja,Zasavska,57156,6187,39
+2020,Štirisobna,Gorenjska,206621,13071,74
+2020,Štirisobna,Goriška,118041,4172,27
+2020,Štirisobna,Jugovzhodna Slovenija,145357,9306,62
+2020,Štirisobna,Koroška,70755,2313,14
+2020,Štirisobna,Obalno-kraška,115913,7868,54
+2020,Štirisobna,Osrednjeslovenska,555274,22349,159
+2020,Štirisobna,Podravska,325994,26319,183
+2020,Štirisobna,Pomurska,114238,8088,58
+2020,Štirisobna,Primorsko-notranjska,52841,1346,8
+2020,Štirisobna,Savinjska,257847,15063,101
+2020,Štirisobna,Zasavska,57156,1042,8
+2020,Trisobna,Gorenjska,206621,8058,72
+2020,Trisobna,Goriška,118041,3431,27
+2020,Trisobna,Jugovzhodna Slovenija,145357,3904,34
+2020,Trisobna,Koroška,70755,2315,26
+2020,Trisobna,Obalno-kraška,115913,3170,21
+2020,Trisobna,Osrednjeslovenska,555274,14044,142
+2020,Trisobna,Podravska,325994,11667,104
+2020,Trisobna,Pomurska,114238,5870,57
+2020,Trisobna,Primorsko-notranjska,52841,725,7
+2020,Trisobna,Savinjska,257847,8724,82
+2020,Trisobna,Zasavska,57156,1152,9
+2010,NA,Posavska,70192,NA,NA
+2011,NA,Posavska,70167,NA,NA
+2012,NA,Posavska,70164,NA,NA
+2013,NA,Posavska,70211,NA,NA
+2014,NA,Posavska,69958,NA,NA
+2015,NA,Posavska,75619,NA,NA
+2016,NA,Posavska,75711,NA,NA
+2017,NA,Posavska,75544,NA,NA
+2018,NA,Posavska,75359,NA,NA
+2019,NA,Posavska,75559,NA,NA
+2020,NA,Posavska,75824,NA,NA

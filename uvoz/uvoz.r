@@ -207,10 +207,13 @@ tabela111 <- function(){
 shrani.tabela1 <- full_join(tabela11(),
                             tabela111(),
                             by = c("leto", "statisticna_regija", "stevilo_prebivalcev")) %>% 
-  filter(statisticna_regija != "SLOVENIJA") %>%
+  filter(statisticna_regija != "SLOVENIJA")
+shrani.tabela1$statisticna_regija <- as.factor(shrani.tabela1$statisticna_regija)
+shrani.tabela1$leto <- as.integer(shrani.tabela1$leto)
+shrani.tabela1 <- shrani.tabela1 %>%
   write_csv("podatki/shrani-st-izdanih-gradb-dovoljenj-in-ocena-dokoncanih-stanovanj.csv", 
-            na= "NA", 
-            append = FALSE, 
+            na= "NA",
+            append = FALSE,
             col_names = TRUE)
 
 # TABELA 2
@@ -227,17 +230,26 @@ tabela2 <- function(){
 shrani.tabela2 <- full_join(tabela2(), 
                             uvoz.prebivalstvo(),
                             by = c("statisticna_regija", "leto")) %>%
-  filter(statisticna_regija != "SLOVENIJA") %>%
+  filter(statisticna_regija != "SLOVENIJA")
+shrani.tabela2$leto <- as.integer(shrani.tabela2$leto)
+shrani.tabela2$vrsta <- factor(shrani.tabela2$vrsta, levels = c('Enosobna', 'Dvosobna', 'Trisobna', 'Štirisobna', 'Pet-', 'Stanovanja'))
+shrani.tabela2$statisticna_regija <- as.factor(shrani.tabela2$statisticna_regija)
+shrani.tabela2 <- shrani.tabela2 %>%
+  pivot_wider(names_from = MERITVE, values_from = vrednosti) %>%
+  select(-'NA') %>%
   write_csv("podatki/shrani-ocena-dokoncanih-stanovanj-po-vrstah-stanovanj.csv",
             na= "NA",
             append = FALSE,
-            col_names = TRUE) %>%
-  pivot_wider(names_from = MERITVE, values_from = vrednosti)
+            col_names = TRUE)
+  
 
 # TABELA 3
 
 # TABELA 4
-shrani.tabela4 <- uvoz.indeksi.cen.stan.nepremicnin() %>%
+shrani.tabela4 <- uvoz.indeksi.cen.stan.nepremicnin()
+shrani.tabela4$leto <- as.integer(shrani.tabela4$leto)
+shrani.tabela4$stanovanjske_nepremicnine <- as.factor(shrani.tabela4$stanovanjske_nepremicnine)
+shrani.tabela4 <- shrani.tabela4 %>%
   write_csv("podatki/shrani-indeksi-stan-nepremicnin.csv", na= "NA", append = FALSE, col_names = TRUE)
 
 # TABELA 5
@@ -249,7 +261,10 @@ tabela5 <- function(){
 }
 
 shrani.tabela5 <- full_join(tabela5(), uvoz.selitve.prebivalstva()) %>%
-  filter(statisticna_regija != "SLOVENIJA") %>%
+  filter(statisticna_regija != "SLOVENIJA")
+shrani.tabela5$statisticna_regija <- as.factor(shrani.tabela5$statisticna_regija)
+shrani.tabela5$leto <- as.integer(shrani.tabela5$leto)
+shrani.tabela5 <- shrani.tabela5 %>%
   write_csv("podatki/shrani-migracije-med-regijami.csv", 
             na= "NA", 
             append = FALSE, 
