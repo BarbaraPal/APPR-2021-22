@@ -14,6 +14,7 @@ pretvornik.regij <- function(){ # 2 regiji (Posavska in Jugovzhodna Slovenija) i
       "Podravska",
       "Pomurska",
       "Spodnjeposavska",
+      "Posavska",
       "Primorsko-notranjska",
       "Savinjska",
       "Zasavska",
@@ -28,6 +29,7 @@ pretvornik.regij <- function(){ # 2 regiji (Posavska in Jugovzhodna Slovenija) i
       "Osrednjeslovenska",
       "Podravska",
       "Pomurska",
+      "Posavska",
       "Posavska",
       "Primorsko-notranjska",
       "Savinjska",
@@ -116,9 +118,32 @@ uvoz.indeksi.gradbenih.stroskov <- function(){
   indeksi.gradbenih.stroskov <- read_csv2("podatki/indeksi-gradbenih-stroskov.csv", 
                                           skip=2,
                                           locale=locale(encoding="Windows-1250"))
-  return(indeksi.gradbenih.stroskov)
+  indeksi.gradbenih.stroskov <- separate(indeksi.gradbenih.stroskov,
+                                         col = 'ČETRTLETJE',
+                                         into = c('leto', 'četrtletje'),
+                                         sep = 'Q')
+  indeksi.gradbenih.stroskov$leto <- as.integer(indeksi.gradbenih.stroskov$leto)
+  nova.df <- data.frame(
+    leto = indeksi.gradbenih.stroskov$leto,
+    'stroški skupaj' = indeksi.gradbenih.stroskov$`Gradbeni stroški - SKUPAJ`,
+    'stroški materiala' = indeksi.gradbenih.stroskov$`Stroški materiala`,
+    'stroški dela' = indeksi.gradbenih.stroskov$`Stroški dela`
+  )
+  return(nova.df)
 }
 
+## INDEKSI CEN ŽIVLJENJSKIH POTREBŠČIN
+uvoz.indeksi.cen.zivljenjskih.potrebscin <- function(){
+  tabela <- read_excel("podatki/indeksi-cen-zivljenjskih-potrebscin.xlsx", 
+                       col_types = c('guess', 'numeric', 'numeric'),
+                       col_names = c('x', 'leto', 'indeks glede na leto 2015'),
+                       skip = 3,
+                       n_max = 11) %>%
+    select(-x)
+  tabela$leto <- as.integer(tabela$leto)
+  
+  return(tabela)
+} 
 ## OCENA DOKONČANIH STANOVANJ PO OBČINAH IN PO REGIJAH
 uvoz.ocena.dokoncanih.stanovanj.po.obcinah <- function(){
   ocena.dokoncanih.stanovanj.po.obcinah <- read_csv2("podatki/ocena-dokoncanih-stanovanj-po-obcinah.csv", 
@@ -168,7 +193,27 @@ uvoz.selitve.prebivalstva <- function(){
   selitve.prebivalstva <- selitve.prebivalstva %>%
     pivot_wider(names_from = "priseljeni/odseljeni",
                 values_from = "stevilo")
+  selitve.prebivalstva$leto <- as.integer(selitve.prebivalstva$leto)
   return(selitve.prebivalstva)
+}
+
+# KUPOPRODAJNI POSLI
+uvoz.kupoprodajni.posli <- function(podatki1, podatki2){
+  leto1 <- read_csv2(podatki1, locale = locale(encoding = 'UTF-8'))
+  leto2 <- read_csv2(podatki2, locale = locale(encoding = 'UTF-8'))
+  leto <- merge(leto1,leto2,by="ID Posla") %>% 
+    select(`Pogodbena cena / Odškodnina`, `Občina`, `Leto izgradnje dela stavbe`, `Stavba je dokončana`, `Dejanska raba dela stavbe`, `Uporabna površina`)
+  leto$`Dejanska raba dela stavbe` <- as.factor(leto$`Dejanska raba dela stavbe`)
+  leto <- leto %>% filter(`Dejanska raba dela stavbe` == str_subset(leto$`Dejanska raba dela stavbe`, '^11[0-9]'), 
+                          `Stavba je dokončana` == 1,
+                          `Pogodbena cena / Odškodnina` >= 1,
+                          `Uporabna površina` != 0,
+                          `Leto izgradnje dela stavbe` != 'NA',
+                          `Leto izgradnje dela stavbe` >= 100
+                          ) %>%
+    select(- c(`Stavba je dokončana`, `Dejanska raba dela stavbe`))
+    
+  return(leto)
 }
 
 
@@ -176,96 +221,219 @@ uvoz.selitve.prebivalstva <- function(){
 
 ## TABELA 1
 
-tabela11 <- function(){
-  tabela1 <- full_join(uvoz.stevilo.gradbenih.dovoljenj(),
+tabela.1 <- function(){
+  tabela1.1 <- full_join(uvoz.stevilo.gradbenih.dovoljenj(),
                        uvoz.prebivalstvo(),
                        by = c("statisticna_regija", "leto"))
-  stevilo_stanovanj <- tabela1 %>% 
+  stevilo_stanovanj <- tabela1.1 %>% 
     filter(tip == "stanovanj") %>%
     select(c(statisticna_regija, leto, vrednost, stevilo_prebivalcev))
   names(stevilo_stanovanj)[3] <- "stevilo_stanovanj"
-  povrsina_stanovanj <- tabela1 %>%
+  povrsina_stanovanj <- tabela1.1 %>%
     filter(`stevilo/povrsina_v_m2` == "Površina") %>%
     select(c(statisticna_regija, leto, vrednost, stevilo_prebivalcev))
   names(povrsina_stanovanj)[3] <- "povrsina_stanovanj"
-  tabela1 <- full_join(stevilo_stanovanj,
+  tabela1.1 <- full_join(stevilo_stanovanj,
                        povrsina_stanovanj,
                        by= c("statisticna_regija", "leto", "stevilo_prebivalcev"))
-  return(tabela1)
-}
-tabela111 <- function(){
-  tabela11 <- full_join(uvoz.ocena.dokoncanih.stanovanj.skupno.regije(), 
+  tabela1.2 <- full_join(uvoz.ocena.dokoncanih.stanovanj.skupno.regije(), 
                         uvoz.prebivalstvo(), 
                         by = c("statisticna_regija", "leto")) %>%
     pivot_wider(names_from = MERITVE, values_from = vrednosti) %>%
     select(-"NA")
-  names(tabela11)[4] <- "povrsina_ocena_dokoncanih"
-  names(tabela11)[5] <- "stevilo_ocena_dokoncanih"
-  return(tabela11)
+  names(tabela1.2)[4] <- "povrsina_ocena_dokoncanih"
+  names(tabela1.2)[5] <- "stevilo_ocena_dokoncanih"
+  tabela <- full_join(tabela1.1,
+                      tabela1.2,
+                      by = c("leto", "statisticna_regija", "stevilo_prebivalcev"))
+  tabela$statisticna_regija <- as.factor(tabela$statisticna_regija)
+  tabela$leto <- as.integer(tabela$leto)
+  return(tabela)
 }
 
-shrani.tabela1 <- full_join(tabela11(),
-                            tabela111(),
-                            by = c("leto", "statisticna_regija", "stevilo_prebivalcev")) %>% 
-  filter(statisticna_regija != "SLOVENIJA")
-shrani.tabela1$statisticna_regija <- as.factor(shrani.tabela1$statisticna_regija)
-shrani.tabela1$leto <- as.integer(shrani.tabela1$leto)
-shrani.tabela1 <- shrani.tabela1 %>%
+shrani.tabela1 <- tabela.1() %>% 
+  filter(statisticna_regija != "SLOVENIJA") %>%
   write_csv("podatki/shrani-st-izdanih-gradb-dovoljenj-in-ocena-dokoncanih-stanovanj.csv", 
             na= "NA",
             append = FALSE,
             col_names = TRUE)
 
 # TABELA 2
-tabela2 <- function(){
-  tabela2 <- full_join(uvoz.ocena.dokoncanih.stanovanj.po.obcinah(), 
+tabela.2 <- function(){
+  tabela2.1 <- full_join(uvoz.ocena.dokoncanih.stanovanj.po.obcinah(), 
                        uvoz.obcine.regije(),
                        by = c("obcine")) %>%
     filter(obcine != "SLOVENIJA") %>%
     select(-obcine) %>%
     group_by(MERITVE, leto, vrsta, statisticna_regija) %>%
     summarise(vrednosti = sum(vrednosti, na.rm = TRUE))
-  return(tabela2)
+  
+  tabela2.2 <- full_join(tabela2.1,
+                         uvoz.prebivalstvo(),
+                         by = c("statisticna_regija", "leto")) %>%
+    filter(statisticna_regija != "SLOVENIJA")
+  tabela2.2$leto <- as.integer(tabela2.2$leto)
+  tabela2.2$vrsta <- factor(tabela2.2$vrsta, levels = c('Enosobna', 'Dvosobna', 'Trisobna', 'Štirisobna', 'Pet-', 'Stanovanja'))
+  tabela2.2$statisticna_regija <- as.factor(tabela2.2$statisticna_regija)
+  tabela2.2 <- tabela2.2 %>% pivot_wider(names_from = MERITVE, values_from = vrednosti)
+
+  return(tabela2.2)
 }  
-shrani.tabela2 <- full_join(tabela2(), 
-                            uvoz.prebivalstvo(),
-                            by = c("statisticna_regija", "leto")) %>%
-  filter(statisticna_regija != "SLOVENIJA")
-shrani.tabela2$leto <- as.integer(shrani.tabela2$leto)
-shrani.tabela2$vrsta <- factor(shrani.tabela2$vrsta, levels = c('Enosobna', 'Dvosobna', 'Trisobna', 'Štirisobna', 'Pet-', 'Stanovanja'))
-shrani.tabela2$statisticna_regija <- as.factor(shrani.tabela2$statisticna_regija)
-shrani.tabela2 <- shrani.tabela2 %>%
-  pivot_wider(names_from = MERITVE, values_from = vrednosti) %>%
-  select(-'NA') %>%
+
+shrani.tabela2 <- tabela.2() %>%
   write_csv("podatki/shrani-ocena-dokoncanih-stanovanj-po-vrstah-stanovanj.csv",
             na= "NA",
             append = FALSE,
             col_names = TRUE)
-  
 
 # TABELA 3
+tabela.3 <- function(){
+  x.1 <- tabela.1() %>% 
+    filter(statisticna_regija == "SLOVENIJA") %>%
+    select(c(leto, stevilo_stanovanj))
+  x.2 <- full_join(x.1, uvoz.indeksi.cen.zivljenjskih.potrebscin(), by = 'leto')
+  x.3 <- uvoz.indeksi.gradbenih.stroskov() %>%
+    group_by(`leto`) %>% 
+    summarize(`indeks skupnih stroškov` = mean(`stroški.skupaj`),
+              `indeks stroškov materiala` = mean(`stroški.materiala`),
+              `indeks stroškov dela` = mean(`stroški.dela`))
+  tabela <- full_join(x.2, x.3, by = 'leto')
+}
 
+shrani.tabela3 <- tabela.3() %>%
+  write_csv("podatki/shrani-indeksi-gradbenih-stroskov-in-stroskov-zivljenjskih-potrebscin.csv",
+            na= "NA",
+            append = FALSE,
+            col_names = TRUE)
 # TABELA 4
-shrani.tabela4 <- uvoz.indeksi.cen.stan.nepremicnin()
-shrani.tabela4$leto <- as.integer(shrani.tabela4$leto)
-shrani.tabela4$stanovanjske_nepremicnine <- as.factor(shrani.tabela4$stanovanjske_nepremicnine)
-shrani.tabela4 <- shrani.tabela4 %>%
+tabela.4 <- function(){
+  tabela4.1 <- uvoz.indeksi.cen.stan.nepremicnin()
+  tabela4.1$leto <- as.integer(tabela4.1$leto)
+  tabela4.1$stanovanjske_nepremicnine <- as.factor(tabela4.1$stanovanjske_nepremicnine)
+  return(tabela4.1)
+}
+shrani.tabela4 <- tabela.4() %>%
   write_csv("podatki/shrani-indeksi-stan-nepremicnin.csv", na= "NA", append = FALSE, col_names = TRUE)
 
 # TABELA 5
-tabela5 <- function(){
-  full_join(tabela11(),
-            tabela111(),
-            by = c("leto", "statisticna_regija", "stevilo_prebivalcev")) %>%
+tabela.5 <- function(){
+  tabela5.1 <- shrani.tabela1 %>%
     select(-stevilo_prebivalcev)
+  
+  tabela5.2 <- full_join(tabela5.1, uvoz.selitve.prebivalstva()) %>%
+    filter(statisticna_regija != "SLOVENIJA")
+  tabela5.2$statisticna_regija <- as.factor(tabela5.2$statisticna_regija)
+  tabela5.2$leto <- as.integer(tabela5.2$leto)
+  
+  return(tabela5.2)
 }
 
-shrani.tabela5 <- full_join(tabela5(), uvoz.selitve.prebivalstva()) %>%
-  filter(statisticna_regija != "SLOVENIJA")
-shrani.tabela5$statisticna_regija <- as.factor(shrani.tabela5$statisticna_regija)
-shrani.tabela5$leto <- as.integer(shrani.tabela5$leto)
-shrani.tabela5 <- shrani.tabela5 %>%
+shrani.tabela5 <- tabela.5() %>%
   write_csv("podatki/shrani-migracije-med-regijami.csv", 
             na= "NA", 
             append = FALSE, 
             col_names = TRUE)
+
+# TABELA 6
+leto2010 <- uvoz.kupoprodajni.posli(podatki1 = 'podatki/2010-1.csv',
+                                   podatki2 = 'podatki/2010-2.csv')
+leto2015 <- uvoz.kupoprodajni.posli(podatki1 = 'podatki/2015-1.csv',
+                                   podatki2 = 'podatki/2015-2.csv')
+leto2020 <- uvoz.kupoprodajni.posli(podatki1 = 'podatki/2020-1.csv',
+                                   podatki2 = 'podatki/2020-2.csv')
+
+povezava.obcine.regije <- data.frame(`Statistična regija` = uvoz.obcine.regije()$statisticna_regija, 
+                                     `Občina` = toupper(uvoz.obcine.regije()$obcine)) %>% 
+  mutate(`Občina` = str_replace_all(`Občina`, ' - ', '-'), 
+         `Občina` = str_replace(`Občina`, 'SVETA TROJICA V SLOV. GORICAH\\*', 'SV. TROJICA V SLOV. GORICAH'))
+
+kupoprodajni.posli.2010 <- left_join(leto2010, povezava.obcine.regije, by = 'Občina') %>% 
+  select(-`Občina`)
+kupoprodajni.posli.2010$`Statistična.regija` <- as.factor(kupoprodajni.posli.2010$`Statistična.regija`)
+
+kupoprodajni.posli.2015 <- left_join(leto2015, povezava.obcine.regije, by = 'Občina') %>% 
+  select(-`Občina`)
+kupoprodajni.posli.2015$`Statistična.regija` <- as.factor(kupoprodajni.posli.2015$`Statistična.regija`)
+
+kupoprodajni.posli.2020 <- left_join(leto2020, povezava.obcine.regije, by = 'Občina') %>% 
+  filter(`Občina` != 'NA') %>%
+  select(-`Občina`)
+kupoprodajni.posli.2020$`Statistična.regija` <- as.factor(kupoprodajni.posli.2020$`Statistična.regija`)
+
+  
+povprecne.cene.na.kvadratni.meter.po.regijah <- function(posli){
+  tabela <- posli %>% 
+    group_by(`Statistična.regija`) %>% 
+    mutate(`Cena na kvadratni meter` = `Pogodbena cena / Odškodnina` / `Uporabna površina`) %>%
+    summarize(`Povprečna cena/m2` = mean(`Cena na kvadratni meter`))
+  return(tabela)
+}
+
+podatki.zemljevid1.1 <- povprecne.cene.na.kvadratni.meter.po.regijah(kupoprodajni.posli.2010) %>%
+  add_column(leto = as.integer(2010))
+podatki.zemljevid1.2 <- povprecne.cene.na.kvadratni.meter.po.regijah(kupoprodajni.posli.2015) %>%
+  add_column(leto = as.integer(2015))
+podatki.zemljevid1.3 <- povprecne.cene.na.kvadratni.meter.po.regijah(kupoprodajni.posli.2020) %>%
+  add_column(leto = as.integer(2020))
+
+tabela6.1 <- podatki.zemljevid1.1 %>% 
+  add_row(`Statistična.regija` = podatki.zemljevid1.2$`Statistična.regija`,
+          `Povprečna cena/m2` = podatki.zemljevid1.2$`Povprečna cena/m2`,
+          `leto` =  podatki.zemljevid1.2$`leto`) %>% 
+  add_row(`Statistična.regija` = podatki.zemljevid1.3$`Statistična.regija`,
+          `Povprečna cena/m2` = podatki.zemljevid1.3$`Povprečna cena/m2`,
+          `leto` =  podatki.zemljevid1.3$`leto`)
+
+povprecne.cene.na.kvadratni.meter.po.regijah.mlajse.od.10.let <- function(leto, posli){
+  tabela <- posli %>% 
+    group_by(`Statistična.regija`) %>% 
+    filter(`Leto izgradnje dela stavbe` >= leto - 10) %>%
+    mutate(`Cena na kvadratni meter` = `Pogodbena cena / Odškodnina` / `Uporabna površina`) %>%
+    summarize(`Povprečna cena/m2 (mlajše od 10let)` = mean(`Cena na kvadratni meter`))
+  return(tabela)
+}
+
+podatki.zemljevid2.1 <- povprecne.cene.na.kvadratni.meter.po.regijah.mlajse.od.10.let(2010, kupoprodajni.posli.2010) %>%
+  add_column(leto = as.integer(2010))
+podatki.zemljevid2.2 <- povprecne.cene.na.kvadratni.meter.po.regijah.mlajse.od.10.let(2015, kupoprodajni.posli.2015) %>%
+  add_column(leto = as.integer(2015))
+podatki.zemljevid2.3 <- povprecne.cene.na.kvadratni.meter.po.regijah.mlajse.od.10.let(2020, kupoprodajni.posli.2020) %>%
+  add_column(leto = as.integer(2020))
+
+tabela6.2 <- podatki.zemljevid2.1 %>% 
+  add_row(`Statistična.regija` = podatki.zemljevid2.2$`Statistična.regija`,
+          `Povprečna cena/m2 (mlajše od 10let)` = podatki.zemljevid2.2$`Povprečna cena/m2 (mlajše od 10let)`,
+          `leto` =  podatki.zemljevid2.2$`leto`) %>% 
+  add_row(`Statistična.regija` = podatki.zemljevid2.3$`Statistična.regija`,
+          `Povprečna cena/m2 (mlajše od 10let)` = podatki.zemljevid2.3$`Povprečna cena/m2 (mlajše od 10let)`,
+          `leto` =  podatki.zemljevid2.3$`leto`)
+
+
+povprecna.starost.oddanih.nepremicnin.po.regijah <- function(posli){
+  tabela <- posli %>%
+    group_by(`Statistična.regija`) %>%
+    summarize(`Povprečna starost stanovanjske nepremičnine` = round(mean(`Leto izgradnje dela stavbe`)))
+  return(tabela)
+}
+
+podatki.zemljevid3.1 <- povprecna.starost.oddanih.nepremicnin.po.regijah(kupoprodajni.posli.2010) %>%
+  add_column(leto = as.integer(2010))
+podatki.zemljevid3.2 <- povprecna.starost.oddanih.nepremicnin.po.regijah(kupoprodajni.posli.2015) %>%
+  add_column(leto = as.integer(2015))
+podatki.zemljevid3.3 <- povprecna.starost.oddanih.nepremicnin.po.regijah(kupoprodajni.posli.2020) %>%
+  add_column(leto = as.integer(2020))
+
+tabela6.3 <- podatki.zemljevid3.1 %>% 
+  add_row(`Statistična.regija` = podatki.zemljevid3.2$`Statistična.regija`,
+                                            `Povprečna starost stanovanjske nepremičnine` = podatki.zemljevid3.2$`Povprečna starost stanovanjske nepremičnine`,
+                                            `leto` =  podatki.zemljevid3.2$`leto`) %>% 
+  add_row(`Statistična.regija` = podatki.zemljevid3.3$`Statistična.regija`,
+          `Povprečna starost stanovanjske nepremičnine` = podatki.zemljevid3.3$`Povprečna starost stanovanjske nepremičnine`,
+          `leto` =  podatki.zemljevid3.3$`leto`)
+
+shrani.tabela6 <- full_join(tabela6.1, tabela6.2, tabela6.3, by = c('Statistična.regija', 'leto')) %>%
+  write_csv("podatki/shrani-kupoprodajni-posli.csv", 
+            na= "NA", 
+            append = FALSE, 
+            col_names = TRUE)
+

@@ -7,6 +7,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2010,Dvosobna,Osrednjeslovenska,529646,13506,249
 2010,Dvosobna,Podravska,323343,8349,116
 2010,Dvosobna,Pomurska,119548,2619,43
+2010,Dvosobna,Posavska,70192,3350,43
 2010,Dvosobna,Primorsko-notranjska,52217,1381,24
 2010,Dvosobna,Savinjska,260025,8835,178
 2010,Dvosobna,Zasavska,44706,381,3
@@ -18,6 +19,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2010,Enosobna,Osrednjeslovenska,529646,8130,221
 2010,Enosobna,Podravska,323343,1478,28
 2010,Enosobna,Pomurska,119548,769,17
+2010,Enosobna,Posavska,70192,797,12
 2010,Enosobna,Primorsko-notranjska,52217,161,3
 2010,Enosobna,Savinjska,260025,1906,50
 2010,Enosobna,Zasavska,44706,0,0
@@ -29,6 +31,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2010,Pet-,Osrednjeslovenska,529646,102432,548
 2010,Pet-,Podravska,323343,69690,373
 2010,Pet-,Pomurska,119548,19291,108
+2010,Pet-,Posavska,70192,13772,78
 2010,Pet-,Primorsko-notranjska,52217,15014,76
 2010,Pet-,Savinjska,260025,54100,289
 2010,Pet-,Zasavska,44706,9681,52
@@ -40,6 +43,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2010,Stanovanja,Osrednjeslovenska,529646,199905,1721
 2010,Stanovanja,Podravska,323343,129443,905
 2010,Stanovanja,Pomurska,119548,43413,317
+2010,Stanovanja,Posavska,70192,29259,221
 2010,Stanovanja,Primorsko-notranjska,52217,24473,173
 2010,Stanovanja,Savinjska,260025,116157,953
 2010,Stanovanja,Zasavska,44706,15755,94
@@ -51,6 +55,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2010,Štirisobna,Osrednjeslovenska,529646,49548,399
 2010,Štirisobna,Podravska,323343,24455,169
 2010,Štirisobna,Pomurska,119548,13467,86
+2010,Štirisobna,Posavska,70192,6650,53
 2010,Štirisobna,Primorsko-notranjska,52217,4868,36
 2010,Štirisobna,Savinjska,260025,33500,228
 2010,Štirisobna,Zasavska,44706,5125,34
@@ -62,6 +67,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2010,Trisobna,Osrednjeslovenska,529646,26289,304
 2010,Trisobna,Podravska,323343,25471,219
 2010,Trisobna,Pomurska,119548,7267,63
+2010,Trisobna,Posavska,70192,4690,35
 2010,Trisobna,Primorsko-notranjska,52217,3049,34
 2010,Trisobna,Savinjska,260025,17816,208
 2010,Trisobna,Zasavska,44706,568,5
@@ -73,6 +79,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2011,Dvosobna,Osrednjeslovenska,533213,21993,376
 2011,Dvosobna,Podravska,323119,4494,64
 2011,Dvosobna,Pomurska,119145,1859,23
+2011,Dvosobna,Posavska,70167,305,4
 2011,Dvosobna,Primorsko-notranjska,52287,658,13
 2011,Dvosobna,Savinjska,259726,10300,176
 2011,Dvosobna,Zasavska,44222,1230,25
@@ -84,6 +91,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2011,Enosobna,Osrednjeslovenska,533213,7575,196
 2011,Enosobna,Podravska,323119,1300,25
 2011,Enosobna,Pomurska,119145,644,12
+2011,Enosobna,Posavska,70167,134,2
 2011,Enosobna,Primorsko-notranjska,52287,344,8
 2011,Enosobna,Savinjska,259726,3752,84
 2011,Enosobna,Zasavska,44222,0,0
@@ -95,6 +103,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2011,Pet-,Osrednjeslovenska,533213,80548,404
 2011,Pet-,Podravska,323119,82966,537
 2011,Pet-,Pomurska,119145,20925,110
+2011,Pet-,Posavska,70167,17938,104
 2011,Pet-,Primorsko-notranjska,52287,15398,110
 2011,Pet-,Savinjska,259726,54339,282
 2011,Pet-,Zasavska,44222,12294,60
@@ -106,6 +115,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2011,Stanovanja,Osrednjeslovenska,533213,170011,1495
 2011,Stanovanja,Podravska,323119,140370,987
 2011,Stanovanja,Pomurska,119145,40273,271
+2011,Stanovanja,Posavska,70167,25931,171
 2011,Stanovanja,Primorsko-notranjska,52287,22302,185
 2011,Stanovanja,Savinjska,259726,103811,849
 2011,Stanovanja,Zasavska,44222,17384,115
@@ -117,6 +127,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2011,Štirisobna,Osrednjeslovenska,533213,33099,235
 2011,Štirisobna,Podravska,323119,36793,242
 2011,Štirisobna,Pomurska,119145,11268,71
+2011,Štirisobna,Posavska,70167,4598,35
 2011,Štirisobna,Primorsko-notranjska,52287,5011,44
 2011,Štirisobna,Savinjska,259726,24101,171
 2011,Štirisobna,Zasavska,44222,2670,21
@@ -128,6 +139,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2011,Trisobna,Osrednjeslovenska,533213,26796,284
 2011,Trisobna,Podravska,323119,14817,119
 2011,Trisobna,Pomurska,119145,5577,55
+2011,Trisobna,Posavska,70167,2956,26
 2011,Trisobna,Primorsko-notranjska,52287,891,10
 2011,Trisobna,Savinjska,259726,11319,136
 2011,Trisobna,Zasavska,44222,1190,9
@@ -139,6 +151,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2012,Dvosobna,Osrednjeslovenska,536484,4598,42
 2012,Dvosobna,Podravska,323534,6699,113
 2012,Dvosobna,Pomurska,118988,2187,26
+2012,Dvosobna,Posavska,70164,497,6
 2012,Dvosobna,Primorsko-notranjska,52387,188,3
 2012,Dvosobna,Savinjska,260253,3651,62
 2012,Dvosobna,Zasavska,43926,73,1
@@ -150,6 +163,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2012,Enosobna,Osrednjeslovenska,536484,915,20
 2012,Enosobna,Podravska,323534,1957,42
 2012,Enosobna,Pomurska,118988,351,9
+2012,Enosobna,Posavska,70164,63,1
 2012,Enosobna,Primorsko-notranjska,52387,436,5
 2012,Enosobna,Savinjska,260253,659,16
 2012,Enosobna,Zasavska,43926,0,0
@@ -161,6 +175,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2012,Pet-,Osrednjeslovenska,536484,72958,372
 2012,Pet-,Podravska,323534,58746,378
 2012,Pet-,Pomurska,118988,22212,106
+2012,Pet-,Posavska,70164,13287,94
 2012,Pet-,Primorsko-notranjska,52387,14089,66
 2012,Pet-,Savinjska,260253,43721,234
 2012,Pet-,Zasavska,43926,11615,61
@@ -172,6 +187,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2012,Stanovanja,Osrednjeslovenska,536484,112162,694
 2012,Stanovanja,Podravska,323534,114988,909
 2012,Stanovanja,Pomurska,118988,38516,234
+2012,Stanovanja,Posavska,70164,18647,139
 2012,Stanovanja,Primorsko-notranjska,52387,20669,120
 2012,Stanovanja,Savinjska,260253,81421,587
 2012,Stanovanja,Zasavska,43926,14950,88
@@ -183,6 +199,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2012,Štirisobna,Osrednjeslovenska,536484,24749,166
 2012,Štirisobna,Podravska,323534,30610,204
 2012,Štirisobna,Pomurska,118988,9017,58
+2012,Štirisobna,Posavska,70164,3042,24
 2012,Štirisobna,Primorsko-notranjska,52387,4981,36
 2012,Štirisobna,Savinjska,260253,22323,153
 2012,Štirisobna,Zasavska,43926,2595,18
@@ -194,6 +211,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2012,Trisobna,Osrednjeslovenska,536484,8942,94
 2012,Trisobna,Podravska,323534,16976,172
 2012,Trisobna,Pomurska,118988,4749,35
+2012,Trisobna,Posavska,70164,1758,14
 2012,Trisobna,Primorsko-notranjska,52387,975,10
 2012,Trisobna,Savinjska,260253,11067,122
 2012,Trisobna,Zasavska,43926,667,8
@@ -205,6 +223,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2013,Dvosobna,Osrednjeslovenska,541718,2335,33
 2013,Dvosobna,Podravska,323238,4885,70
 2013,Dvosobna,Pomurska,118022,1501,20
+2013,Dvosobna,Posavska,70211,254,3
 2013,Dvosobna,Primorsko-notranjska,52382,320,7
 2013,Dvosobna,Savinjska,260217,9488,105
 2013,Dvosobna,Zasavska,43502,379,7
@@ -216,6 +235,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2013,Enosobna,Osrednjeslovenska,541718,1314,16
 2013,Enosobna,Podravska,323238,1239,19
 2013,Enosobna,Pomurska,118022,405,8
+2013,Enosobna,Posavska,70211,139,4
 2013,Enosobna,Primorsko-notranjska,52382,0,0
 2013,Enosobna,Savinjska,260217,4923,49
 2013,Enosobna,Zasavska,43502,204,6
@@ -227,6 +247,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2013,Pet-,Osrednjeslovenska,541718,68715,352
 2013,Pet-,Podravska,323238,36456,194
 2013,Pet-,Pomurska,118022,17002,83
+2013,Pet-,Posavska,70211,9560,58
 2013,Pet-,Primorsko-notranjska,52382,12883,68
 2013,Pet-,Savinjska,260217,37984,219
 2013,Pet-,Zasavska,43502,8382,44
@@ -238,6 +259,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2013,Stanovanja,Osrednjeslovenska,541718,95651,566
 2013,Stanovanja,Podravska,323238,77202,547
 2013,Stanovanja,Pomurska,118022,34213,227
+2013,Stanovanja,Posavska,70211,17338,124
 2013,Stanovanja,Primorsko-notranjska,52382,17728,108
 2013,Stanovanja,Savinjska,260217,87652,681
 2013,Stanovanja,Zasavska,43502,10971,79
@@ -249,6 +271,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2013,Štirisobna,Osrednjeslovenska,541718,18403,117
 2013,Štirisobna,Podravska,323238,26098,177
 2013,Štirisobna,Pomurska,118022,11411,77
+2013,Štirisobna,Posavska,70211,4936,37
 2013,Štirisobna,Primorsko-notranjska,52382,3776,24
 2013,Štirisobna,Savinjska,260217,19662,128
 2013,Štirisobna,Zasavska,43502,990,9
@@ -260,6 +283,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2013,Trisobna,Osrednjeslovenska,541718,4884,48
 2013,Trisobna,Podravska,323238,8524,87
 2013,Trisobna,Pomurska,118022,3894,39
+2013,Trisobna,Posavska,70211,2449,22
 2013,Trisobna,Primorsko-notranjska,52382,749,9
 2013,Trisobna,Savinjska,260217,15595,180
 2013,Trisobna,Zasavska,43502,1016,13
@@ -271,6 +295,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2014,Dvosobna,Osrednjeslovenska,546314,9483,160
 2014,Dvosobna,Podravska,323328,3483,51
 2014,Dvosobna,Pomurska,117133,1954,23
+2014,Dvosobna,Posavska,69958,212,4
 2014,Dvosobna,Primorsko-notranjska,52449,180,3
 2014,Dvosobna,Savinjska,259853,622,11
 2014,Dvosobna,Zasavska,42983,202,4
@@ -282,6 +307,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2014,Enosobna,Osrednjeslovenska,546314,4496,127
 2014,Enosobna,Podravska,323328,1323,32
 2014,Enosobna,Pomurska,117133,397,10
+2014,Enosobna,Posavska,69958,111,1
 2014,Enosobna,Primorsko-notranjska,52449,0,0
 2014,Enosobna,Savinjska,259853,453,10
 2014,Enosobna,Zasavska,42983,22,1
@@ -293,6 +319,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2014,Pet-,Osrednjeslovenska,546314,67871,351
 2014,Pet-,Podravska,323328,38084,202
 2014,Pet-,Pomurska,117133,16016,91
+2014,Pet-,Posavska,69958,10758,68
 2014,Pet-,Primorsko-notranjska,52449,7921,43
 2014,Pet-,Savinjska,259853,38513,213
 2014,Pet-,Zasavska,42983,10763,54
@@ -304,6 +331,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2014,Stanovanja,Osrednjeslovenska,546314,112913,882
 2014,Stanovanja,Podravska,323328,73173,530
 2014,Stanovanja,Pomurska,117133,29559,216
+2014,Stanovanja,Posavska,69958,16025,111
 2014,Stanovanja,Primorsko-notranjska,52449,12474,79
 2014,Stanovanja,Savinjska,259853,57754,351
 2014,Stanovanja,Zasavska,42983,12883,76
@@ -315,6 +343,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2014,Štirisobna,Osrednjeslovenska,546314,18529,118
 2014,Štirisobna,Podravska,323328,21231,151
 2014,Štirisobna,Pomurska,117133,6548,50
+2014,Štirisobna,Posavska,69958,3260,24
 2014,Štirisobna,Primorsko-notranjska,52449,3676,28
 2014,Štirisobna,Savinjska,259853,14173,85
 2014,Štirisobna,Zasavska,42983,1159,9
@@ -326,6 +355,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2014,Trisobna,Osrednjeslovenska,546314,12534,126
 2014,Trisobna,Podravska,323328,9052,94
 2014,Trisobna,Pomurska,117133,4644,42
+2014,Trisobna,Posavska,69958,1684,14
 2014,Trisobna,Primorsko-notranjska,52449,697,5
 2014,Trisobna,Savinjska,259853,3993,32
 2014,Trisobna,Zasavska,42983,737,8
@@ -337,6 +367,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2015,Dvosobna,Osrednjeslovenska,534518,3009,47
 2015,Dvosobna,Podravska,323356,2085,29
 2015,Dvosobna,Pomurska,116670,2143,37
+2015,Dvosobna,Posavska,75619,526,10
 2015,Dvosobna,Primorsko-notranjska,52538,366,5
 2015,Dvosobna,Savinjska,253975,2127,39
 2015,Dvosobna,Zasavska,57711,0,0
@@ -348,6 +379,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2015,Enosobna,Osrednjeslovenska,534518,3861,64
 2015,Enosobna,Podravska,323356,1033,19
 2015,Enosobna,Pomurska,116670,513,13
+2015,Enosobna,Posavska,75619,0,0
 2015,Enosobna,Primorsko-notranjska,52538,44,1
 2015,Enosobna,Savinjska,253975,341,9
 2015,Enosobna,Zasavska,57711,88,2
@@ -359,6 +391,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2015,Pet-,Osrednjeslovenska,534518,59826,319
 2015,Pet-,Podravska,323356,37787,202
 2015,Pet-,Pomurska,116670,9451,59
+2015,Pet-,Posavska,75619,9271,61
 2015,Pet-,Primorsko-notranjska,52538,8219,48
 2015,Pet-,Savinjska,253975,32662,195
 2015,Pet-,Zasavska,57711,7605,38
@@ -370,6 +403,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2015,Stanovanja,Osrednjeslovenska,534518,94776,652
 2015,Stanovanja,Podravska,323356,63369,428
 2015,Stanovanja,Pomurska,116670,21540,187
+2015,Stanovanja,Posavska,75619,13502,103
 2015,Stanovanja,Primorsko-notranjska,52538,13712,86
 2015,Stanovanja,Savinjska,253975,49273,350
 2015,Stanovanja,Zasavska,57711,9113,51
@@ -381,6 +415,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2015,Štirisobna,Osrednjeslovenska,534518,19228,132
 2015,Štirisobna,Podravska,323356,16055,106
 2015,Štirisobna,Pomurska,116670,6796,52
+2015,Štirisobna,Posavska,75619,1974,17
 2015,Štirisobna,Primorsko-notranjska,52538,4247,24
 2015,Štirisobna,Savinjska,253975,10640,71
 2015,Štirisobna,Zasavska,57711,1267,9
@@ -392,6 +427,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2015,Trisobna,Osrednjeslovenska,534518,8852,90
 2015,Trisobna,Podravska,323356,6409,72
 2015,Trisobna,Pomurska,116670,2637,26
+2015,Trisobna,Posavska,75619,1731,15
 2015,Trisobna,Primorsko-notranjska,52538,836,8
 2015,Trisobna,Savinjska,253975,3503,36
 2015,Trisobna,Zasavska,57711,153,2
@@ -403,6 +439,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2016,Dvosobna,Osrednjeslovenska,537023,1454,17
 2016,Dvosobna,Podravska,322553,2826,48
 2016,Dvosobna,Pomurska,116078,3101,39
+2016,Dvosobna,Posavska,75711,939,12
 2016,Dvosobna,Primorsko-notranjska,52523,0,0
 2016,Dvosobna,Savinjska,254318,872,12
 2016,Dvosobna,Zasavska,57404,429,8
@@ -414,6 +451,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2016,Enosobna,Osrednjeslovenska,537023,1377,27
 2016,Enosobna,Podravska,322553,1044,28
 2016,Enosobna,Pomurska,116078,1345,34
+2016,Enosobna,Posavska,75711,96,2
 2016,Enosobna,Primorsko-notranjska,52523,0,0
 2016,Enosobna,Savinjska,254318,801,9
 2016,Enosobna,Zasavska,57404,266,3
@@ -425,6 +463,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2016,Pet-,Osrednjeslovenska,537023,67734,327
 2016,Pet-,Podravska,322553,35759,187
 2016,Pet-,Pomurska,116078,18305,110
+2016,Pet-,Posavska,75711,10519,59
 2016,Pet-,Primorsko-notranjska,52523,5599,33
 2016,Pet-,Savinjska,254318,34398,200
 2016,Pet-,Zasavska,57404,7816,41
@@ -436,6 +475,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2016,Stanovanja,Osrednjeslovenska,537023,101200,578
 2016,Stanovanja,Podravska,322553,72460,516
 2016,Stanovanja,Pomurska,116078,36569,305
+2016,Stanovanja,Posavska,75711,18044,124
 2016,Stanovanja,Primorsko-notranjska,52523,9395,61
 2016,Stanovanja,Savinjska,254318,49972,338
 2016,Stanovanja,Zasavska,57404,11501,77
@@ -447,6 +487,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2016,Štirisobna,Osrednjeslovenska,537023,21760,136
 2016,Štirisobna,Podravska,322553,21153,144
 2016,Štirisobna,Pomurska,116078,8522,68
+2016,Štirisobna,Posavska,75711,4274,30
 2016,Štirisobna,Primorsko-notranjska,52523,2593,18
 2016,Štirisobna,Savinjska,254318,8540,67
 2016,Štirisobna,Zasavska,57404,1521,11
@@ -458,6 +499,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2016,Trisobna,Osrednjeslovenska,537023,8875,71
 2016,Trisobna,Podravska,322553,11678,109
 2016,Trisobna,Pomurska,116078,5296,54
+2016,Trisobna,Posavska,75711,2216,21
 2016,Trisobna,Primorsko-notranjska,52523,1203,10
 2016,Trisobna,Savinjska,254318,5361,50
 2016,Trisobna,Zasavska,57404,1469,14
@@ -469,6 +511,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2017,Dvosobna,Osrednjeslovenska,539672,2448,43
 2017,Dvosobna,Podravska,322043,1771,22
 2017,Dvosobna,Pomurska,115477,1384,25
+2017,Dvosobna,Posavska,75544,1301,19
 2017,Dvosobna,Primorsko-notranjska,52582,261,4
 2017,Dvosobna,Savinjska,254761,2520,31
 2017,Dvosobna,Zasavska,57280,293,4
@@ -480,6 +523,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2017,Enosobna,Osrednjeslovenska,539672,1687,38
 2017,Enosobna,Podravska,322043,1378,32
 2017,Enosobna,Pomurska,115477,693,17
+2017,Enosobna,Posavska,75544,418,8
 2017,Enosobna,Primorsko-notranjska,52582,72,1
 2017,Enosobna,Savinjska,254761,1541,33
 2017,Enosobna,Zasavska,57280,98,3
@@ -491,6 +535,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2017,Pet-,Osrednjeslovenska,539672,75312,429
 2017,Pet-,Podravska,322043,42545,223
 2017,Pet-,Pomurska,115477,11456,67
+2017,Pet-,Posavska,75544,12155,78
 2017,Pet-,Primorsko-notranjska,52582,5535,27
 2017,Pet-,Savinjska,254761,27284,160
 2017,Pet-,Zasavska,57280,5881,31
@@ -502,6 +547,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2017,Stanovanja,Osrednjeslovenska,539672,106563,704
 2017,Stanovanja,Podravska,322043,75191,509
 2017,Stanovanja,Pomurska,115477,24649,195
+2017,Stanovanja,Posavska,75544,20220,150
 2017,Stanovanja,Primorsko-notranjska,52582,9499,61
 2017,Stanovanja,Savinjska,254761,49636,357
 2017,Stanovanja,Zasavska,57280,7863,55
@@ -513,6 +559,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2017,Štirisobna,Osrednjeslovenska,539672,22013,142
 2017,Štirisobna,Podravska,322043,20186,143
 2017,Štirisobna,Pomurska,115477,7990,55
+2017,Štirisobna,Posavska,75544,3605,25
 2017,Štirisobna,Primorsko-notranjska,52582,2255,15
 2017,Štirisobna,Savinjska,254761,12823,81
 2017,Štirisobna,Zasavska,57280,1051,11
@@ -524,6 +571,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2017,Trisobna,Osrednjeslovenska,539672,5103,52
 2017,Trisobna,Podravska,322043,9311,89
 2017,Trisobna,Pomurska,115477,3126,31
+2017,Trisobna,Posavska,75544,2741,20
 2017,Trisobna,Primorsko-notranjska,52582,1376,14
 2017,Trisobna,Savinjska,254761,5468,52
 2017,Trisobna,Zasavska,57280,540,6
@@ -535,6 +583,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2018,Dvosobna,Osrednjeslovenska,542306,8841,103
 2018,Dvosobna,Podravska,322058,4607,66
 2018,Dvosobna,Pomurska,114776,1183,18
+2018,Dvosobna,Posavska,75359,1005,10
 2018,Dvosobna,Primorsko-notranjska,52334,402,6
 2018,Dvosobna,Savinjska,254760,2918,43
 2018,Dvosobna,Zasavska,57061,46,1
@@ -546,6 +595,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2018,Enosobna,Osrednjeslovenska,542306,3311,34
 2018,Enosobna,Podravska,322058,1368,26
 2018,Enosobna,Pomurska,114776,852,21
+2018,Enosobna,Posavska,75359,125,2
 2018,Enosobna,Primorsko-notranjska,52334,46,1
 2018,Enosobna,Savinjska,254760,548,13
 2018,Enosobna,Zasavska,57061,0,0
@@ -557,6 +607,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2018,Pet-,Osrednjeslovenska,542306,67724,359
 2018,Pet-,Podravska,322058,41328,225
 2018,Pet-,Pomurska,114776,10616,63
+2018,Pet-,Posavska,75359,8491,49
 2018,Pet-,Primorsko-notranjska,52334,6288,32
 2018,Pet-,Savinjska,254760,28470,154
 2018,Pet-,Zasavska,57061,3747,22
@@ -568,6 +619,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2018,Stanovanja,Osrednjeslovenska,542306,109590,727
 2018,Stanovanja,Podravska,322058,87505,629
 2018,Stanovanja,Pomurska,114776,24828,200
+2018,Stanovanja,Posavska,75359,15897,100
 2018,Stanovanja,Primorsko-notranjska,52334,11193,69
 2018,Stanovanja,Savinjska,254760,52904,360
 2018,Stanovanja,Zasavska,57061,5341,39
@@ -579,6 +631,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2018,Štirisobna,Osrednjeslovenska,542306,20557,134
 2018,Štirisobna,Podravska,322058,29375,208
 2018,Štirisobna,Pomurska,114776,7256,52
+2018,Štirisobna,Posavska,75359,2483,16
 2018,Štirisobna,Primorsko-notranjska,52334,3960,25
 2018,Štirisobna,Savinjska,254760,14814,97
 2018,Štirisobna,Zasavska,57061,1101,10
@@ -590,6 +643,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2018,Trisobna,Osrednjeslovenska,542306,9157,97
 2018,Trisobna,Podravska,322058,10827,104
 2018,Trisobna,Pomurska,114776,4921,46
+2018,Trisobna,Posavska,75359,3793,23
 2018,Trisobna,Primorsko-notranjska,52334,497,5
 2018,Trisobna,Savinjska,254760,6154,53
 2018,Trisobna,Zasavska,57061,447,6
@@ -601,6 +655,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2019,Dvosobna,Osrednjeslovenska,549171,7554,100
 2019,Dvosobna,Podravska,324104,4279,67
 2019,Dvosobna,Pomurska,114287,2075,36
+2019,Dvosobna,Posavska,75559,618,8
 2019,Dvosobna,Primorsko-notranjska,52544,426,8
 2019,Dvosobna,Savinjska,256359,2645,32
 2019,Dvosobna,Zasavska,56962,201,3
@@ -612,6 +667,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2019,Enosobna,Osrednjeslovenska,549171,2071,37
 2019,Enosobna,Podravska,324104,1387,24
 2019,Enosobna,Pomurska,114287,856,22
+2019,Enosobna,Posavska,75559,298,6
 2019,Enosobna,Primorsko-notranjska,52544,225,3
 2019,Enosobna,Savinjska,256359,2014,22
 2019,Enosobna,Zasavska,56962,307,2
@@ -623,6 +679,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2019,Pet-,Osrednjeslovenska,549171,87351,450
 2019,Pet-,Podravska,324104,36374,202
 2019,Pet-,Pomurska,114287,9570,65
+2019,Pet-,Posavska,75559,7906,46
 2019,Pet-,Primorsko-notranjska,52544,6635,43
 2019,Pet-,Savinjska,256359,27355,148
 2019,Pet-,Zasavska,56962,4205,23
@@ -634,6 +691,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2019,Stanovanja,Osrednjeslovenska,549171,137449,949
 2019,Stanovanja,Podravska,324104,89260,665
 2019,Stanovanja,Pomurska,114287,27544,253
+2019,Stanovanja,Posavska,75559,14289,101
 2019,Stanovanja,Primorsko-notranjska,52544,10640,81
 2019,Stanovanja,Savinjska,256359,57748,417
 2019,Stanovanja,Zasavska,56962,4948,30
@@ -645,6 +703,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2019,Štirisobna,Osrednjeslovenska,549171,22767,167
 2019,Štirisobna,Podravska,324104,29803,211
 2019,Štirisobna,Pomurska,114287,9873,76
+2019,Štirisobna,Posavska,75559,2470,16
 2019,Štirisobna,Primorsko-notranjska,52544,2379,18
 2019,Štirisobna,Savinjska,256359,18172,146
 2019,Štirisobna,Zasavska,56962,151,1
@@ -656,6 +715,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2019,Trisobna,Osrednjeslovenska,549171,17706,195
 2019,Trisobna,Podravska,324104,17417,161
 2019,Trisobna,Pomurska,114287,5170,54
+2019,Trisobna,Posavska,75559,2997,25
 2019,Trisobna,Primorsko-notranjska,52544,975,9
 2019,Trisobna,Savinjska,256359,7562,69
 2019,Trisobna,Zasavska,56962,84,1
@@ -667,6 +727,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2020,Dvosobna,Osrednjeslovenska,555274,7312,80
 2020,Dvosobna,Podravska,325994,3996,48
 2020,Dvosobna,Pomurska,114238,1785,28
+2020,Dvosobna,Posavska,75824,1309,14
 2020,Dvosobna,Primorsko-notranjska,52841,0,0
 2020,Dvosobna,Savinjska,257847,3783,58
 2020,Dvosobna,Zasavska,57156,273,1
@@ -678,6 +739,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2020,Enosobna,Osrednjeslovenska,555274,2988,31
 2020,Enosobna,Podravska,325994,1243,21
 2020,Enosobna,Pomurska,114238,1187,13
+2020,Enosobna,Posavska,75824,223,5
 2020,Enosobna,Primorsko-notranjska,52841,95,1
 2020,Enosobna,Savinjska,257847,1829,22
 2020,Enosobna,Zasavska,57156,302,2
@@ -689,6 +751,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2020,Pet-,Osrednjeslovenska,555274,86002,447
 2020,Pet-,Podravska,325994,56729,324
 2020,Pet-,Pomurska,114238,16399,89
+2020,Pet-,Posavska,75824,9711,62
 2020,Pet-,Primorsko-notranjska,52841,4726,27
 2020,Pet-,Savinjska,257847,26282,153
 2020,Pet-,Zasavska,57156,3418,19
@@ -700,6 +763,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2020,Stanovanja,Osrednjeslovenska,555274,132695,859
 2020,Stanovanja,Podravska,325994,99954,680
 2020,Stanovanja,Pomurska,114238,33329,245
+2020,Stanovanja,Posavska,75824,20593,161
 2020,Stanovanja,Primorsko-notranjska,52841,6892,43
 2020,Stanovanja,Savinjska,257847,55681,416
 2020,Stanovanja,Zasavska,57156,6187,39
@@ -711,6 +775,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2020,Štirisobna,Osrednjeslovenska,555274,22349,159
 2020,Štirisobna,Podravska,325994,26319,183
 2020,Štirisobna,Pomurska,114238,8088,58
+2020,Štirisobna,Posavska,75824,2931,17
 2020,Štirisobna,Primorsko-notranjska,52841,1346,8
 2020,Štirisobna,Savinjska,257847,15063,101
 2020,Štirisobna,Zasavska,57156,1042,8
@@ -722,17 +787,7 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2020,Trisobna,Osrednjeslovenska,555274,14044,142
 2020,Trisobna,Podravska,325994,11667,104
 2020,Trisobna,Pomurska,114238,5870,57
+2020,Trisobna,Posavska,75824,6419,63
 2020,Trisobna,Primorsko-notranjska,52841,725,7
 2020,Trisobna,Savinjska,257847,8724,82
 2020,Trisobna,Zasavska,57156,1152,9
-2010,NA,Posavska,70192,NA,NA
-2011,NA,Posavska,70167,NA,NA
-2012,NA,Posavska,70164,NA,NA
-2013,NA,Posavska,70211,NA,NA
-2014,NA,Posavska,69958,NA,NA
-2015,NA,Posavska,75619,NA,NA
-2016,NA,Posavska,75711,NA,NA
-2017,NA,Posavska,75544,NA,NA
-2018,NA,Posavska,75359,NA,NA
-2019,NA,Posavska,75559,NA,NA
-2020,NA,Posavska,75824,NA,NA

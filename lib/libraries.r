@@ -12,7 +12,6 @@ library(tidyverse)
 library(xml2)
 library(ggthemes)
 library(readxl)
-library(xml2)
 library(Rcpp)
 
 options(gsubfn.engine="R")
