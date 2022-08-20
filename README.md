@@ -22,10 +22,11 @@ Analizirala bom stanovanjsko situacijo v Sloveniji v letih 2010-2020. Najprej me
 
 3.tabela: Število izdanih gradbenih dovoljenj za stanovanjske objekte in ocena dokončanih stanovanj glede na indekse gradbenih stroškov ter inflacijo
 * leto (integer)
-* indeksi gradbenih stroškov (double)
+* indeksi gradbenih stroškov skupaj(double)
+* indeksi stroškov gradbenega materiala(double)
+* indeksi stroškov dela(double)
 * indeksi cen življenskih potrebščin (double)
 * število gradbenih dovoljenj (integer)
-* ocena dokončanih stanovanj (integer)
 
 4.tabela: Indeksi cen stanovanjskih nepremičnin glede na stanje nepremičnin (novo/rabljeno) in njihovo lokacijo
 * indeksi cen stanovanjskih nepremičnin (double)
@@ -40,9 +41,16 @@ Analizirala bom stanovanjsko situacijo v Sloveniji v letih 2010-2020. Najprej me
 * število gradbenih dovoljenj (integer)
 * ocena dokončanih stanovanj (integer)
 
+6.tabela: kupoprodajni posli v letih 2010, 2015, 2020
+* statistična regija (factor)
+* leto (integer)
+* Povprečna cena/m2 (double)
+* Povprečna cena/m2 za nepremičnine mlajše od 10 let (double)
+
 ### Viri
-* [Statistični urad Republike Slovenije](#https://pxweb.stat.si/SiStat/sl)
-* [Wikipedia](#https://sl.wikipedia.org/wiki/Seznam_ob%C4%8Din_v_Sloveniji)
+* [Statistični urad Republike Slovenije](https://pxweb.stat.si/SiStat/sl)
+* [Geodetska uprava Republike Slovenije](https://egp.gu.gov.si/egp/)
+* [Wikipedia](https://sl.wikipedia.org/wiki/Seznam_ob%C4%8Din_v_Sloveniji)
 
 ## Program
 
