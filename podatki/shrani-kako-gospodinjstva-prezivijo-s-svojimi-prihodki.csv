@@ -1,0 +1,793 @@
+STATISTIČNA REGIJA,LETO,Stopnja,Delež ljudi
+Pomurska,2010,Zelo težko,11
+Pomurska,2010,Težko,27
+Pomurska,2010,Z manjšimi težavami,42
+Pomurska,2010,Dokaj lahko,16
+Pomurska,2010,Lahko,4
+Pomurska,2010,Zelo lahko,1
+Pomurska,2011,Zelo težko,13
+Pomurska,2011,Težko,29
+Pomurska,2011,Z manjšimi težavami,43
+Pomurska,2011,Dokaj lahko,11
+Pomurska,2011,Lahko,3
+Pomurska,2011,Zelo lahko,1
+Pomurska,2012,Zelo težko,8
+Pomurska,2012,Težko,30
+Pomurska,2012,Z manjšimi težavami,40
+Pomurska,2012,Dokaj lahko,15
+Pomurska,2012,Lahko,6
+Pomurska,2012,Zelo lahko,1
+Pomurska,2013,Zelo težko,6
+Pomurska,2013,Težko,26
+Pomurska,2013,Z manjšimi težavami,48
+Pomurska,2013,Dokaj lahko,16
+Pomurska,2013,Lahko,4
+Pomurska,2013,Zelo lahko,0
+Pomurska,2014,Zelo težko,10
+Pomurska,2014,Težko,21
+Pomurska,2014,Z manjšimi težavami,45
+Pomurska,2014,Dokaj lahko,15
+Pomurska,2014,Lahko,9
+Pomurska,2014,Zelo lahko,0
+Pomurska,2015,Zelo težko,6
+Pomurska,2015,Težko,20
+Pomurska,2015,Z manjšimi težavami,47
+Pomurska,2015,Dokaj lahko,20
+Pomurska,2015,Lahko,5
+Pomurska,2015,Zelo lahko,1
+Pomurska,2016,Zelo težko,9
+Pomurska,2016,Težko,18
+Pomurska,2016,Z manjšimi težavami,49
+Pomurska,2016,Dokaj lahko,15
+Pomurska,2016,Lahko,8
+Pomurska,2016,Zelo lahko,1
+Pomurska,2017,Zelo težko,6
+Pomurska,2017,Težko,23
+Pomurska,2017,Z manjšimi težavami,43
+Pomurska,2017,Dokaj lahko,21
+Pomurska,2017,Lahko,7
+Pomurska,2017,Zelo lahko,0
+Pomurska,2018,Zelo težko,8
+Pomurska,2018,Težko,22
+Pomurska,2018,Z manjšimi težavami,40
+Pomurska,2018,Dokaj lahko,18
+Pomurska,2018,Lahko,10
+Pomurska,2018,Zelo lahko,1
+Pomurska,2019,Zelo težko,6
+Pomurska,2019,Težko,21
+Pomurska,2019,Z manjšimi težavami,37
+Pomurska,2019,Dokaj lahko,24
+Pomurska,2019,Lahko,12
+Pomurska,2019,Zelo lahko,1
+Pomurska,2020,Zelo težko,8
+Pomurska,2020,Težko,18
+Pomurska,2020,Z manjšimi težavami,38
+Pomurska,2020,Dokaj lahko,26
+Pomurska,2020,Lahko,11
+Pomurska,2020,Zelo lahko,0
+Podravska,2010,Zelo težko,15
+Podravska,2010,Težko,25
+Podravska,2010,Z manjšimi težavami,36
+Podravska,2010,Dokaj lahko,15
+Podravska,2010,Lahko,7
+Podravska,2010,Zelo lahko,1
+Podravska,2011,Zelo težko,17
+Podravska,2011,Težko,23
+Podravska,2011,Z manjšimi težavami,35
+Podravska,2011,Dokaj lahko,17
+Podravska,2011,Lahko,6
+Podravska,2011,Zelo lahko,2
+Podravska,2012,Zelo težko,15
+Podravska,2012,Težko,20
+Podravska,2012,Z manjšimi težavami,36
+Podravska,2012,Dokaj lahko,17
+Podravska,2012,Lahko,10
+Podravska,2012,Zelo lahko,2
+Podravska,2013,Zelo težko,16
+Podravska,2013,Težko,24
+Podravska,2013,Z manjšimi težavami,36
+Podravska,2013,Dokaj lahko,14
+Podravska,2013,Lahko,8
+Podravska,2013,Zelo lahko,1
+Podravska,2014,Zelo težko,15
+Podravska,2014,Težko,20
+Podravska,2014,Z manjšimi težavami,37
+Podravska,2014,Dokaj lahko,19
+Podravska,2014,Lahko,9
+Podravska,2014,Zelo lahko,1
+Podravska,2015,Zelo težko,13
+Podravska,2015,Težko,20
+Podravska,2015,Z manjšimi težavami,36
+Podravska,2015,Dokaj lahko,20
+Podravska,2015,Lahko,9
+Podravska,2015,Zelo lahko,2
+Podravska,2016,Zelo težko,12
+Podravska,2016,Težko,21
+Podravska,2016,Z manjšimi težavami,33
+Podravska,2016,Dokaj lahko,20
+Podravska,2016,Lahko,12
+Podravska,2016,Zelo lahko,2
+Podravska,2017,Zelo težko,12
+Podravska,2017,Težko,18
+Podravska,2017,Z manjšimi težavami,37
+Podravska,2017,Dokaj lahko,19
+Podravska,2017,Lahko,13
+Podravska,2017,Zelo lahko,1
+Podravska,2018,Zelo težko,10
+Podravska,2018,Težko,17
+Podravska,2018,Z manjšimi težavami,34
+Podravska,2018,Dokaj lahko,24
+Podravska,2018,Lahko,13
+Podravska,2018,Zelo lahko,2
+Podravska,2019,Zelo težko,7
+Podravska,2019,Težko,18
+Podravska,2019,Z manjšimi težavami,33
+Podravska,2019,Dokaj lahko,26
+Podravska,2019,Lahko,13
+Podravska,2019,Zelo lahko,3
+Podravska,2020,Zelo težko,9
+Podravska,2020,Težko,17
+Podravska,2020,Z manjšimi težavami,30
+Podravska,2020,Dokaj lahko,28
+Podravska,2020,Lahko,15
+Podravska,2020,Zelo lahko,1
+Koroška,2010,Zelo težko,15
+Koroška,2010,Težko,33
+Koroška,2010,Z manjšimi težavami,33
+Koroška,2010,Dokaj lahko,14
+Koroška,2010,Lahko,4
+Koroška,2010,Zelo lahko,1
+Koroška,2011,Zelo težko,16
+Koroška,2011,Težko,29
+Koroška,2011,Z manjšimi težavami,35
+Koroška,2011,Dokaj lahko,12
+Koroška,2011,Lahko,9
+Koroška,2011,Zelo lahko,0
+Koroška,2012,Zelo težko,11
+Koroška,2012,Težko,27
+Koroška,2012,Z manjšimi težavami,32
+Koroška,2012,Dokaj lahko,20
+Koroška,2012,Lahko,11
+Koroška,2012,Zelo lahko,1
+Koroška,2013,Zelo težko,18
+Koroška,2013,Težko,26
+Koroška,2013,Z manjšimi težavami,37
+Koroška,2013,Dokaj lahko,12
+Koroška,2013,Lahko,7
+Koroška,2013,Zelo lahko,1
+Koroška,2014,Zelo težko,21
+Koroška,2014,Težko,30
+Koroška,2014,Z manjšimi težavami,27
+Koroška,2014,Dokaj lahko,13
+Koroška,2014,Lahko,9
+Koroška,2014,Zelo lahko,0
+Koroška,2015,Zelo težko,24
+Koroška,2015,Težko,30
+Koroška,2015,Z manjšimi težavami,26
+Koroška,2015,Dokaj lahko,11
+Koroška,2015,Lahko,8
+Koroška,2015,Zelo lahko,1
+Koroška,2016,Zelo težko,18
+Koroška,2016,Težko,30
+Koroška,2016,Z manjšimi težavami,25
+Koroška,2016,Dokaj lahko,15
+Koroška,2016,Lahko,11
+Koroška,2016,Zelo lahko,2
+Koroška,2017,Zelo težko,12
+Koroška,2017,Težko,29
+Koroška,2017,Z manjšimi težavami,33
+Koroška,2017,Dokaj lahko,16
+Koroška,2017,Lahko,9
+Koroška,2017,Zelo lahko,0
+Koroška,2018,Zelo težko,10
+Koroška,2018,Težko,32
+Koroška,2018,Z manjšimi težavami,30
+Koroška,2018,Dokaj lahko,18
+Koroška,2018,Lahko,8
+Koroška,2018,Zelo lahko,2
+Koroška,2019,Zelo težko,8
+Koroška,2019,Težko,20
+Koroška,2019,Z manjšimi težavami,36
+Koroška,2019,Dokaj lahko,24
+Koroška,2019,Lahko,10
+Koroška,2019,Zelo lahko,1
+Koroška,2020,Zelo težko,12
+Koroška,2020,Težko,20
+Koroška,2020,Z manjšimi težavami,39
+Koroška,2020,Dokaj lahko,18
+Koroška,2020,Lahko,10
+Koroška,2020,Zelo lahko,1
+Savinjska,2010,Zelo težko,12
+Savinjska,2010,Težko,24
+Savinjska,2010,Z manjšimi težavami,39
+Savinjska,2010,Dokaj lahko,17
+Savinjska,2010,Lahko,7
+Savinjska,2010,Zelo lahko,1
+Savinjska,2011,Zelo težko,12
+Savinjska,2011,Težko,22
+Savinjska,2011,Z manjšimi težavami,41
+Savinjska,2011,Dokaj lahko,16
+Savinjska,2011,Lahko,8
+Savinjska,2011,Zelo lahko,1
+Savinjska,2012,Zelo težko,9
+Savinjska,2012,Težko,23
+Savinjska,2012,Z manjšimi težavami,38
+Savinjska,2012,Dokaj lahko,19
+Savinjska,2012,Lahko,11
+Savinjska,2012,Zelo lahko,0
+Savinjska,2013,Zelo težko,11
+Savinjska,2013,Težko,27
+Savinjska,2013,Z manjšimi težavami,38
+Savinjska,2013,Dokaj lahko,15
+Savinjska,2013,Lahko,7
+Savinjska,2013,Zelo lahko,1
+Savinjska,2014,Zelo težko,12
+Savinjska,2014,Težko,24
+Savinjska,2014,Z manjšimi težavami,40
+Savinjska,2014,Dokaj lahko,17
+Savinjska,2014,Lahko,8
+Savinjska,2014,Zelo lahko,1
+Savinjska,2015,Zelo težko,8
+Savinjska,2015,Težko,26
+Savinjska,2015,Z manjšimi težavami,37
+Savinjska,2015,Dokaj lahko,18
+Savinjska,2015,Lahko,10
+Savinjska,2015,Zelo lahko,1
+Savinjska,2016,Zelo težko,9
+Savinjska,2016,Težko,24
+Savinjska,2016,Z manjšimi težavami,36
+Savinjska,2016,Dokaj lahko,20
+Savinjska,2016,Lahko,9
+Savinjska,2016,Zelo lahko,1
+Savinjska,2017,Zelo težko,10
+Savinjska,2017,Težko,21
+Savinjska,2017,Z manjšimi težavami,39
+Savinjska,2017,Dokaj lahko,16
+Savinjska,2017,Lahko,12
+Savinjska,2017,Zelo lahko,1
+Savinjska,2018,Zelo težko,10
+Savinjska,2018,Težko,18
+Savinjska,2018,Z manjšimi težavami,37
+Savinjska,2018,Dokaj lahko,21
+Savinjska,2018,Lahko,12
+Savinjska,2018,Zelo lahko,2
+Savinjska,2019,Zelo težko,7
+Savinjska,2019,Težko,18
+Savinjska,2019,Z manjšimi težavami,37
+Savinjska,2019,Dokaj lahko,23
+Savinjska,2019,Lahko,13
+Savinjska,2019,Zelo lahko,2
+Savinjska,2020,Zelo težko,7
+Savinjska,2020,Težko,17
+Savinjska,2020,Z manjšimi težavami,35
+Savinjska,2020,Dokaj lahko,25
+Savinjska,2020,Lahko,15
+Savinjska,2020,Zelo lahko,2
+Zasavska,2010,Zelo težko,10
+Zasavska,2010,Težko,15
+Zasavska,2010,Z manjšimi težavami,38
+Zasavska,2010,Dokaj lahko,24
+Zasavska,2010,Lahko,12
+Zasavska,2010,Zelo lahko,1
+Zasavska,2011,Zelo težko,11
+Zasavska,2011,Težko,22
+Zasavska,2011,Z manjšimi težavami,40
+Zasavska,2011,Dokaj lahko,18
+Zasavska,2011,Lahko,10
+Zasavska,2011,Zelo lahko,0
+Zasavska,2012,Zelo težko,13
+Zasavska,2012,Težko,17
+Zasavska,2012,Z manjšimi težavami,39
+Zasavska,2012,Dokaj lahko,20
+Zasavska,2012,Lahko,11
+Zasavska,2012,Zelo lahko,0
+Zasavska,2013,Zelo težko,13
+Zasavska,2013,Težko,24
+Zasavska,2013,Z manjšimi težavami,38
+Zasavska,2013,Dokaj lahko,18
+Zasavska,2013,Lahko,5
+Zasavska,2013,Zelo lahko,1
+Zasavska,2014,Zelo težko,13
+Zasavska,2014,Težko,26
+Zasavska,2014,Z manjšimi težavami,33
+Zasavska,2014,Dokaj lahko,19
+Zasavska,2014,Lahko,8
+Zasavska,2014,Zelo lahko,2
+Zasavska,2015,Zelo težko,13
+Zasavska,2015,Težko,23
+Zasavska,2015,Z manjšimi težavami,34
+Zasavska,2015,Dokaj lahko,20
+Zasavska,2015,Lahko,8
+Zasavska,2015,Zelo lahko,2
+Zasavska,2016,Zelo težko,8
+Zasavska,2016,Težko,26
+Zasavska,2016,Z manjšimi težavami,33
+Zasavska,2016,Dokaj lahko,21
+Zasavska,2016,Lahko,11
+Zasavska,2016,Zelo lahko,1
+Zasavska,2017,Zelo težko,15
+Zasavska,2017,Težko,20
+Zasavska,2017,Z manjšimi težavami,26
+Zasavska,2017,Dokaj lahko,23
+Zasavska,2017,Lahko,15
+Zasavska,2017,Zelo lahko,1
+Zasavska,2018,Zelo težko,6
+Zasavska,2018,Težko,23
+Zasavska,2018,Z manjšimi težavami,31
+Zasavska,2018,Dokaj lahko,27
+Zasavska,2018,Lahko,9
+Zasavska,2018,Zelo lahko,3
+Zasavska,2019,Zelo težko,5
+Zasavska,2019,Težko,20
+Zasavska,2019,Z manjšimi težavami,31
+Zasavska,2019,Dokaj lahko,27
+Zasavska,2019,Lahko,14
+Zasavska,2019,Zelo lahko,3
+Zasavska,2020,Zelo težko,11
+Zasavska,2020,Težko,14
+Zasavska,2020,Z manjšimi težavami,32
+Zasavska,2020,Dokaj lahko,26
+Zasavska,2020,Lahko,15
+Zasavska,2020,Zelo lahko,2
+Posavska,2010,Zelo težko,6
+Posavska,2010,Težko,28
+Posavska,2010,Z manjšimi težavami,33
+Posavska,2010,Dokaj lahko,21
+Posavska,2010,Lahko,12
+Posavska,2010,Zelo lahko,1
+Posavska,2011,Zelo težko,9
+Posavska,2011,Težko,19
+Posavska,2011,Z manjšimi težavami,42
+Posavska,2011,Dokaj lahko,17
+Posavska,2011,Lahko,11
+Posavska,2011,Zelo lahko,2
+Posavska,2012,Zelo težko,13
+Posavska,2012,Težko,26
+Posavska,2012,Z manjšimi težavami,34
+Posavska,2012,Dokaj lahko,18
+Posavska,2012,Lahko,8
+Posavska,2012,Zelo lahko,1
+Posavska,2013,Zelo težko,23
+Posavska,2013,Težko,35
+Posavska,2013,Z manjšimi težavami,28
+Posavska,2013,Dokaj lahko,11
+Posavska,2013,Lahko,4
+Posavska,2013,Zelo lahko,1
+Posavska,2014,Zelo težko,13
+Posavska,2014,Težko,39
+Posavska,2014,Z manjšimi težavami,28
+Posavska,2014,Dokaj lahko,14
+Posavska,2014,Lahko,6
+Posavska,2014,Zelo lahko,1
+Posavska,2015,Zelo težko,12
+Posavska,2015,Težko,24
+Posavska,2015,Z manjšimi težavami,42
+Posavska,2015,Dokaj lahko,14
+Posavska,2015,Lahko,7
+Posavska,2015,Zelo lahko,1
+Posavska,2016,Zelo težko,15
+Posavska,2016,Težko,20
+Posavska,2016,Z manjšimi težavami,39
+Posavska,2016,Dokaj lahko,14
+Posavska,2016,Lahko,10
+Posavska,2016,Zelo lahko,2
+Posavska,2017,Zelo težko,14
+Posavska,2017,Težko,15
+Posavska,2017,Z manjšimi težavami,36
+Posavska,2017,Dokaj lahko,25
+Posavska,2017,Lahko,9
+Posavska,2017,Zelo lahko,1
+Posavska,2018,Zelo težko,7
+Posavska,2018,Težko,20
+Posavska,2018,Z manjšimi težavami,42
+Posavska,2018,Dokaj lahko,24
+Posavska,2018,Lahko,6
+Posavska,2018,Zelo lahko,2
+Posavska,2019,Zelo težko,5
+Posavska,2019,Težko,18
+Posavska,2019,Z manjšimi težavami,38
+Posavska,2019,Dokaj lahko,25
+Posavska,2019,Lahko,13
+Posavska,2019,Zelo lahko,2
+Posavska,2020,Zelo težko,8
+Posavska,2020,Težko,17
+Posavska,2020,Z manjšimi težavami,39
+Posavska,2020,Dokaj lahko,22
+Posavska,2020,Lahko,13
+Posavska,2020,Zelo lahko,1
+Jugovzhodna Slovenija,2010,Zelo težko,11
+Jugovzhodna Slovenija,2010,Težko,21
+Jugovzhodna Slovenija,2010,Z manjšimi težavami,39
+Jugovzhodna Slovenija,2010,Dokaj lahko,22
+Jugovzhodna Slovenija,2010,Lahko,6
+Jugovzhodna Slovenija,2010,Zelo lahko,1
+Jugovzhodna Slovenija,2011,Zelo težko,10
+Jugovzhodna Slovenija,2011,Težko,27
+Jugovzhodna Slovenija,2011,Z manjšimi težavami,37
+Jugovzhodna Slovenija,2011,Dokaj lahko,18
+Jugovzhodna Slovenija,2011,Lahko,7
+Jugovzhodna Slovenija,2011,Zelo lahko,1
+Jugovzhodna Slovenija,2012,Zelo težko,13
+Jugovzhodna Slovenija,2012,Težko,20
+Jugovzhodna Slovenija,2012,Z manjšimi težavami,35
+Jugovzhodna Slovenija,2012,Dokaj lahko,21
+Jugovzhodna Slovenija,2012,Lahko,10
+Jugovzhodna Slovenija,2012,Zelo lahko,1
+Jugovzhodna Slovenija,2013,Zelo težko,16
+Jugovzhodna Slovenija,2013,Težko,24
+Jugovzhodna Slovenija,2013,Z manjšimi težavami,31
+Jugovzhodna Slovenija,2013,Dokaj lahko,18
+Jugovzhodna Slovenija,2013,Lahko,10
+Jugovzhodna Slovenija,2013,Zelo lahko,0
+Jugovzhodna Slovenija,2014,Zelo težko,14
+Jugovzhodna Slovenija,2014,Težko,20
+Jugovzhodna Slovenija,2014,Z manjšimi težavami,35
+Jugovzhodna Slovenija,2014,Dokaj lahko,20
+Jugovzhodna Slovenija,2014,Lahko,10
+Jugovzhodna Slovenija,2014,Zelo lahko,1
+Jugovzhodna Slovenija,2015,Zelo težko,12
+Jugovzhodna Slovenija,2015,Težko,17
+Jugovzhodna Slovenija,2015,Z manjšimi težavami,38
+Jugovzhodna Slovenija,2015,Dokaj lahko,21
+Jugovzhodna Slovenija,2015,Lahko,11
+Jugovzhodna Slovenija,2015,Zelo lahko,2
+Jugovzhodna Slovenija,2016,Zelo težko,12
+Jugovzhodna Slovenija,2016,Težko,19
+Jugovzhodna Slovenija,2016,Z manjšimi težavami,29
+Jugovzhodna Slovenija,2016,Dokaj lahko,24
+Jugovzhodna Slovenija,2016,Lahko,14
+Jugovzhodna Slovenija,2016,Zelo lahko,1
+Jugovzhodna Slovenija,2017,Zelo težko,9
+Jugovzhodna Slovenija,2017,Težko,13
+Jugovzhodna Slovenija,2017,Z manjšimi težavami,34
+Jugovzhodna Slovenija,2017,Dokaj lahko,28
+Jugovzhodna Slovenija,2017,Lahko,16
+Jugovzhodna Slovenija,2017,Zelo lahko,0
+Jugovzhodna Slovenija,2018,Zelo težko,4
+Jugovzhodna Slovenija,2018,Težko,16
+Jugovzhodna Slovenija,2018,Z manjšimi težavami,29
+Jugovzhodna Slovenija,2018,Dokaj lahko,32
+Jugovzhodna Slovenija,2018,Lahko,18
+Jugovzhodna Slovenija,2018,Zelo lahko,2
+Jugovzhodna Slovenija,2019,Zelo težko,4
+Jugovzhodna Slovenija,2019,Težko,11
+Jugovzhodna Slovenija,2019,Z manjšimi težavami,38
+Jugovzhodna Slovenija,2019,Dokaj lahko,31
+Jugovzhodna Slovenija,2019,Lahko,14
+Jugovzhodna Slovenija,2019,Zelo lahko,2
+Jugovzhodna Slovenija,2020,Zelo težko,4
+Jugovzhodna Slovenija,2020,Težko,13
+Jugovzhodna Slovenija,2020,Z manjšimi težavami,30
+Jugovzhodna Slovenija,2020,Dokaj lahko,34
+Jugovzhodna Slovenija,2020,Lahko,17
+Jugovzhodna Slovenija,2020,Zelo lahko,2
+Osrednjeslovenska,2010,Zelo težko,8
+Osrednjeslovenska,2010,Težko,14
+Osrednjeslovenska,2010,Z manjšimi težavami,37
+Osrednjeslovenska,2010,Dokaj lahko,25
+Osrednjeslovenska,2010,Lahko,14
+Osrednjeslovenska,2010,Zelo lahko,2
+Osrednjeslovenska,2011,Zelo težko,8
+Osrednjeslovenska,2011,Težko,18
+Osrednjeslovenska,2011,Z manjšimi težavami,38
+Osrednjeslovenska,2011,Dokaj lahko,23
+Osrednjeslovenska,2011,Lahko,12
+Osrednjeslovenska,2011,Zelo lahko,1
+Osrednjeslovenska,2012,Zelo težko,8
+Osrednjeslovenska,2012,Težko,19
+Osrednjeslovenska,2012,Z manjšimi težavami,33
+Osrednjeslovenska,2012,Dokaj lahko,21
+Osrednjeslovenska,2012,Lahko,16
+Osrednjeslovenska,2012,Zelo lahko,2
+Osrednjeslovenska,2013,Zelo težko,12
+Osrednjeslovenska,2013,Težko,18
+Osrednjeslovenska,2013,Z manjšimi težavami,34
+Osrednjeslovenska,2013,Dokaj lahko,23
+Osrednjeslovenska,2013,Lahko,10
+Osrednjeslovenska,2013,Zelo lahko,2
+Osrednjeslovenska,2014,Zelo težko,9
+Osrednjeslovenska,2014,Težko,17
+Osrednjeslovenska,2014,Z manjšimi težavami,35
+Osrednjeslovenska,2014,Dokaj lahko,22
+Osrednjeslovenska,2014,Lahko,15
+Osrednjeslovenska,2014,Zelo lahko,3
+Osrednjeslovenska,2015,Zelo težko,9
+Osrednjeslovenska,2015,Težko,16
+Osrednjeslovenska,2015,Z manjšimi težavami,32
+Osrednjeslovenska,2015,Dokaj lahko,27
+Osrednjeslovenska,2015,Lahko,13
+Osrednjeslovenska,2015,Zelo lahko,3
+Osrednjeslovenska,2016,Zelo težko,8
+Osrednjeslovenska,2016,Težko,15
+Osrednjeslovenska,2016,Z manjšimi težavami,31
+Osrednjeslovenska,2016,Dokaj lahko,28
+Osrednjeslovenska,2016,Lahko,15
+Osrednjeslovenska,2016,Zelo lahko,3
+Osrednjeslovenska,2017,Zelo težko,4
+Osrednjeslovenska,2017,Težko,14
+Osrednjeslovenska,2017,Z manjšimi težavami,32
+Osrednjeslovenska,2017,Dokaj lahko,29
+Osrednjeslovenska,2017,Lahko,18
+Osrednjeslovenska,2017,Zelo lahko,3
+Osrednjeslovenska,2018,Zelo težko,5
+Osrednjeslovenska,2018,Težko,12
+Osrednjeslovenska,2018,Z manjšimi težavami,31
+Osrednjeslovenska,2018,Dokaj lahko,30
+Osrednjeslovenska,2018,Lahko,19
+Osrednjeslovenska,2018,Zelo lahko,3
+Osrednjeslovenska,2019,Zelo težko,4
+Osrednjeslovenska,2019,Težko,11
+Osrednjeslovenska,2019,Z manjšimi težavami,29
+Osrednjeslovenska,2019,Dokaj lahko,33
+Osrednjeslovenska,2019,Lahko,19
+Osrednjeslovenska,2019,Zelo lahko,5
+Osrednjeslovenska,2020,Zelo težko,4
+Osrednjeslovenska,2020,Težko,10
+Osrednjeslovenska,2020,Z manjšimi težavami,29
+Osrednjeslovenska,2020,Dokaj lahko,32
+Osrednjeslovenska,2020,Lahko,20
+Osrednjeslovenska,2020,Zelo lahko,5
+Gorenjska,2010,Zelo težko,8
+Gorenjska,2010,Težko,18
+Gorenjska,2010,Z manjšimi težavami,39
+Gorenjska,2010,Dokaj lahko,24
+Gorenjska,2010,Lahko,9
+Gorenjska,2010,Zelo lahko,1
+Gorenjska,2011,Zelo težko,9
+Gorenjska,2011,Težko,19
+Gorenjska,2011,Z manjšimi težavami,41
+Gorenjska,2011,Dokaj lahko,22
+Gorenjska,2011,Lahko,7
+Gorenjska,2011,Zelo lahko,2
+Gorenjska,2012,Zelo težko,8
+Gorenjska,2012,Težko,21
+Gorenjska,2012,Z manjšimi težavami,36
+Gorenjska,2012,Dokaj lahko,21
+Gorenjska,2012,Lahko,13
+Gorenjska,2012,Zelo lahko,1
+Gorenjska,2013,Zelo težko,10
+Gorenjska,2013,Težko,20
+Gorenjska,2013,Z manjšimi težavami,41
+Gorenjska,2013,Dokaj lahko,18
+Gorenjska,2013,Lahko,11
+Gorenjska,2013,Zelo lahko,1
+Gorenjska,2014,Zelo težko,10
+Gorenjska,2014,Težko,19
+Gorenjska,2014,Z manjšimi težavami,39
+Gorenjska,2014,Dokaj lahko,20
+Gorenjska,2014,Lahko,12
+Gorenjska,2014,Zelo lahko,1
+Gorenjska,2015,Zelo težko,9
+Gorenjska,2015,Težko,19
+Gorenjska,2015,Z manjšimi težavami,34
+Gorenjska,2015,Dokaj lahko,26
+Gorenjska,2015,Lahko,9
+Gorenjska,2015,Zelo lahko,3
+Gorenjska,2016,Zelo težko,8
+Gorenjska,2016,Težko,15
+Gorenjska,2016,Z manjšimi težavami,41
+Gorenjska,2016,Dokaj lahko,20
+Gorenjska,2016,Lahko,14
+Gorenjska,2016,Zelo lahko,2
+Gorenjska,2017,Zelo težko,6
+Gorenjska,2017,Težko,17
+Gorenjska,2017,Z manjšimi težavami,34
+Gorenjska,2017,Dokaj lahko,28
+Gorenjska,2017,Lahko,13
+Gorenjska,2017,Zelo lahko,2
+Gorenjska,2018,Zelo težko,5
+Gorenjska,2018,Težko,12
+Gorenjska,2018,Z manjšimi težavami,35
+Gorenjska,2018,Dokaj lahko,23
+Gorenjska,2018,Lahko,22
+Gorenjska,2018,Zelo lahko,2
+Gorenjska,2019,Zelo težko,3
+Gorenjska,2019,Težko,12
+Gorenjska,2019,Z manjšimi težavami,30
+Gorenjska,2019,Dokaj lahko,30
+Gorenjska,2019,Lahko,22
+Gorenjska,2019,Zelo lahko,3
+Gorenjska,2020,Zelo težko,2
+Gorenjska,2020,Težko,10
+Gorenjska,2020,Z manjšimi težavami,27
+Gorenjska,2020,Dokaj lahko,30
+Gorenjska,2020,Lahko,27
+Gorenjska,2020,Zelo lahko,3
+Primorsko-notranjska,2010,Zelo težko,9
+Primorsko-notranjska,2010,Težko,23
+Primorsko-notranjska,2010,Z manjšimi težavami,41
+Primorsko-notranjska,2010,Dokaj lahko,18
+Primorsko-notranjska,2010,Lahko,9
+Primorsko-notranjska,2010,Zelo lahko,0
+Primorsko-notranjska,2011,Zelo težko,16
+Primorsko-notranjska,2011,Težko,16
+Primorsko-notranjska,2011,Z manjšimi težavami,39
+Primorsko-notranjska,2011,Dokaj lahko,20
+Primorsko-notranjska,2011,Lahko,6
+Primorsko-notranjska,2011,Zelo lahko,2
+Primorsko-notranjska,2012,Zelo težko,8
+Primorsko-notranjska,2012,Težko,17
+Primorsko-notranjska,2012,Z manjšimi težavami,36
+Primorsko-notranjska,2012,Dokaj lahko,22
+Primorsko-notranjska,2012,Lahko,14
+Primorsko-notranjska,2012,Zelo lahko,3
+Primorsko-notranjska,2013,Zelo težko,13
+Primorsko-notranjska,2013,Težko,17
+Primorsko-notranjska,2013,Z manjšimi težavami,44
+Primorsko-notranjska,2013,Dokaj lahko,16
+Primorsko-notranjska,2013,Lahko,8
+Primorsko-notranjska,2013,Zelo lahko,1
+Primorsko-notranjska,2014,Zelo težko,10
+Primorsko-notranjska,2014,Težko,20
+Primorsko-notranjska,2014,Z manjšimi težavami,36
+Primorsko-notranjska,2014,Dokaj lahko,22
+Primorsko-notranjska,2014,Lahko,12
+Primorsko-notranjska,2014,Zelo lahko,1
+Primorsko-notranjska,2015,Zelo težko,12
+Primorsko-notranjska,2015,Težko,15
+Primorsko-notranjska,2015,Z manjšimi težavami,36
+Primorsko-notranjska,2015,Dokaj lahko,22
+Primorsko-notranjska,2015,Lahko,14
+Primorsko-notranjska,2015,Zelo lahko,0
+Primorsko-notranjska,2016,Zelo težko,5
+Primorsko-notranjska,2016,Težko,16
+Primorsko-notranjska,2016,Z manjšimi težavami,39
+Primorsko-notranjska,2016,Dokaj lahko,22
+Primorsko-notranjska,2016,Lahko,15
+Primorsko-notranjska,2016,Zelo lahko,2
+Primorsko-notranjska,2017,Zelo težko,8
+Primorsko-notranjska,2017,Težko,12
+Primorsko-notranjska,2017,Z manjšimi težavami,37
+Primorsko-notranjska,2017,Dokaj lahko,28
+Primorsko-notranjska,2017,Lahko,9
+Primorsko-notranjska,2017,Zelo lahko,6
+Primorsko-notranjska,2018,Zelo težko,8
+Primorsko-notranjska,2018,Težko,17
+Primorsko-notranjska,2018,Z manjšimi težavami,36
+Primorsko-notranjska,2018,Dokaj lahko,19
+Primorsko-notranjska,2018,Lahko,20
+Primorsko-notranjska,2018,Zelo lahko,1
+Primorsko-notranjska,2019,Zelo težko,6
+Primorsko-notranjska,2019,Težko,20
+Primorsko-notranjska,2019,Z manjšimi težavami,29
+Primorsko-notranjska,2019,Dokaj lahko,28
+Primorsko-notranjska,2019,Lahko,16
+Primorsko-notranjska,2019,Zelo lahko,1
+Primorsko-notranjska,2020,Zelo težko,10
+Primorsko-notranjska,2020,Težko,12
+Primorsko-notranjska,2020,Z manjšimi težavami,30
+Primorsko-notranjska,2020,Dokaj lahko,29
+Primorsko-notranjska,2020,Lahko,17
+Primorsko-notranjska,2020,Zelo lahko,1
+Goriška,2010,Zelo težko,6
+Goriška,2010,Težko,21
+Goriška,2010,Z manjšimi težavami,37
+Goriška,2010,Dokaj lahko,23
+Goriška,2010,Lahko,12
+Goriška,2010,Zelo lahko,1
+Goriška,2011,Zelo težko,9
+Goriška,2011,Težko,17
+Goriška,2011,Z manjšimi težavami,44
+Goriška,2011,Dokaj lahko,23
+Goriška,2011,Lahko,8
+Goriška,2011,Zelo lahko,1
+Goriška,2012,Zelo težko,7
+Goriška,2012,Težko,17
+Goriška,2012,Z manjšimi težavami,40
+Goriška,2012,Dokaj lahko,24
+Goriška,2012,Lahko,11
+Goriška,2012,Zelo lahko,1
+Goriška,2013,Zelo težko,8
+Goriška,2013,Težko,21
+Goriška,2013,Z manjšimi težavami,40
+Goriška,2013,Dokaj lahko,22
+Goriška,2013,Lahko,8
+Goriška,2013,Zelo lahko,1
+Goriška,2014,Zelo težko,9
+Goriška,2014,Težko,20
+Goriška,2014,Z manjšimi težavami,35
+Goriška,2014,Dokaj lahko,26
+Goriška,2014,Lahko,9
+Goriška,2014,Zelo lahko,2
+Goriška,2015,Zelo težko,7
+Goriška,2015,Težko,22
+Goriška,2015,Z manjšimi težavami,38
+Goriška,2015,Dokaj lahko,20
+Goriška,2015,Lahko,11
+Goriška,2015,Zelo lahko,2
+Goriška,2016,Zelo težko,8
+Goriška,2016,Težko,19
+Goriška,2016,Z manjšimi težavami,37
+Goriška,2016,Dokaj lahko,24
+Goriška,2016,Lahko,11
+Goriška,2016,Zelo lahko,1
+Goriška,2017,Zelo težko,5
+Goriška,2017,Težko,15
+Goriška,2017,Z manjšimi težavami,38
+Goriška,2017,Dokaj lahko,28
+Goriška,2017,Lahko,12
+Goriška,2017,Zelo lahko,1
+Goriška,2018,Zelo težko,7
+Goriška,2018,Težko,14
+Goriška,2018,Z manjšimi težavami,39
+Goriška,2018,Dokaj lahko,25
+Goriška,2018,Lahko,14
+Goriška,2018,Zelo lahko,2
+Goriška,2019,Zelo težko,2
+Goriška,2019,Težko,13
+Goriška,2019,Z manjšimi težavami,37
+Goriška,2019,Dokaj lahko,34
+Goriška,2019,Lahko,12
+Goriška,2019,Zelo lahko,2
+Goriška,2020,Zelo težko,2
+Goriška,2020,Težko,10
+Goriška,2020,Z manjšimi težavami,30
+Goriška,2020,Dokaj lahko,35
+Goriška,2020,Lahko,20
+Goriška,2020,Zelo lahko,3
+Obalno-kraška,2010,Zelo težko,8
+Obalno-kraška,2010,Težko,16
+Obalno-kraška,2010,Z manjšimi težavami,40
+Obalno-kraška,2010,Dokaj lahko,25
+Obalno-kraška,2010,Lahko,10
+Obalno-kraška,2010,Zelo lahko,0
+Obalno-kraška,2011,Zelo težko,7
+Obalno-kraška,2011,Težko,21
+Obalno-kraška,2011,Z manjšimi težavami,41
+Obalno-kraška,2011,Dokaj lahko,21
+Obalno-kraška,2011,Lahko,9
+Obalno-kraška,2011,Zelo lahko,1
+Obalno-kraška,2012,Zelo težko,13
+Obalno-kraška,2012,Težko,16
+Obalno-kraška,2012,Z manjšimi težavami,36
+Obalno-kraška,2012,Dokaj lahko,23
+Obalno-kraška,2012,Lahko,10
+Obalno-kraška,2012,Zelo lahko,1
+Obalno-kraška,2013,Zelo težko,12
+Obalno-kraška,2013,Težko,18
+Obalno-kraška,2013,Z manjšimi težavami,45
+Obalno-kraška,2013,Dokaj lahko,18
+Obalno-kraška,2013,Lahko,7
+Obalno-kraška,2013,Zelo lahko,0
+Obalno-kraška,2014,Zelo težko,10
+Obalno-kraška,2014,Težko,23
+Obalno-kraška,2014,Z manjšimi težavami,32
+Obalno-kraška,2014,Dokaj lahko,24
+Obalno-kraška,2014,Lahko,10
+Obalno-kraška,2014,Zelo lahko,1
+Obalno-kraška,2015,Zelo težko,12
+Obalno-kraška,2015,Težko,16
+Obalno-kraška,2015,Z manjšimi težavami,35
+Obalno-kraška,2015,Dokaj lahko,23
+Obalno-kraška,2015,Lahko,12
+Obalno-kraška,2015,Zelo lahko,2
+Obalno-kraška,2016,Zelo težko,6
+Obalno-kraška,2016,Težko,19
+Obalno-kraška,2016,Z manjšimi težavami,35
+Obalno-kraška,2016,Dokaj lahko,28
+Obalno-kraška,2016,Lahko,10
+Obalno-kraška,2016,Zelo lahko,2
+Obalno-kraška,2017,Zelo težko,7
+Obalno-kraška,2017,Težko,19
+Obalno-kraška,2017,Z manjšimi težavami,35
+Obalno-kraška,2017,Dokaj lahko,28
+Obalno-kraška,2017,Lahko,10
+Obalno-kraška,2017,Zelo lahko,1
+Obalno-kraška,2018,Zelo težko,5
+Obalno-kraška,2018,Težko,16
+Obalno-kraška,2018,Z manjšimi težavami,30
+Obalno-kraška,2018,Dokaj lahko,31
+Obalno-kraška,2018,Lahko,15
+Obalno-kraška,2018,Zelo lahko,2
+Obalno-kraška,2019,Zelo težko,6
+Obalno-kraška,2019,Težko,9
+Obalno-kraška,2019,Z manjšimi težavami,33
+Obalno-kraška,2019,Dokaj lahko,34
+Obalno-kraška,2019,Lahko,16
+Obalno-kraška,2019,Zelo lahko,3
+Obalno-kraška,2020,Zelo težko,5
+Obalno-kraška,2020,Težko,15
+Obalno-kraška,2020,Z manjšimi težavami,29
+Obalno-kraška,2020,Dokaj lahko,24
+Obalno-kraška,2020,Lahko,24
+Obalno-kraška,2020,Zelo lahko,3

@@ -12,13 +12,17 @@ Analizirala bom stanovanjsko situacijo v Sloveniji v letih 2010-2020. Najprej me
 * leto (integer)
 * število prebivalcev (integer)
 * število gradbenih dovoljenj (integer)
-* ocena dokončanih stanovanj (integer)
+* površina gradbenih dovoljenj (double)
+* ocena števila dokončanih stanovanj (integer)
+* ocena površine dokončanih stanovanj (double)
 
 2.tabela: Ocena dokončanih stanovanj po vrstah stanovanj
 * statistična regija (factor)
 * leto (integer)
+* vrsta stanovanja (factor)
 * število prebivalcev (integer)
-* ocena dokončanih stanovanj po vrstah stanovanj (integer)
+* ocena števila dokončanih stanovanj (integer)
+* ocena površine dokončanih stanovanj (double)
 
 3.tabela: Število izdanih gradbenih dovoljenj za stanovanjske objekte in ocena dokončanih stanovanj glede na indekse gradbenih stroškov ter inflacijo
 * leto (integer)
@@ -29,9 +33,8 @@ Analizirala bom stanovanjsko situacijo v Sloveniji v letih 2010-2020. Najprej me
 * število gradbenih dovoljenj (integer)
 
 4.tabela: Indeksi cen stanovanjskih nepremičnin glede na stanje nepremičnin (novo/rabljeno) in njihovo lokacijo
+* stanje nepremičnin in lokacija(factor)
 * indeksi cen stanovanjskih nepremičnin (double)
-* stanje nepremičnin (factor)
-* lokacija (factor)
 
 5.tabela
 * statistična regija (factor)
@@ -44,8 +47,14 @@ Analizirala bom stanovanjsko situacijo v Sloveniji v letih 2010-2020. Najprej me
 6.tabela: kupoprodajni posli v letih 2010, 2015, 2020
 * statistična regija (factor)
 * leto (integer)
-* Povprečna cena/m2 (double)
-* Povprečna cena/m2 za nepremičnine mlajše od 10 let (double)
+* povprečna cena/m2 (double)
+* povprečna cena/m2 za nepremičnine mlajše od 10 let (double)
+
+7.tabela: Kako gospodinjstva preživijo s svojimi prihodki
+* statistična regija (factor)
+* leto (integer)
+* stopnja (factor)
+* delež ljudi (double)
 
 ### Viri
 * [Statistični urad Republike Slovenije](https://pxweb.stat.si/SiStat/sl)
