@@ -23,18 +23,18 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2010,Enosobna,Primorsko-notranjska,52217,161,3
 2010,Enosobna,Savinjska,260025,1906,50
 2010,Enosobna,Zasavska,44706,0,0
-2010,Pet-,Gorenjska,202903,49496,246
-2010,Pet-,Goriška,119080,24856,142
-2010,Pet-,Jugovzhodna Slovenija,142092,21380,105
-2010,Pet-,Koroška,72812,11087,56
-2010,Pet-,Obalno-kraška,110412,25300,138
-2010,Pet-,Osrednjeslovenska,529646,102432,548
-2010,Pet-,Podravska,323343,69690,373
-2010,Pet-,Pomurska,119548,19291,108
-2010,Pet-,Posavska,70192,13772,78
-2010,Pet-,Primorsko-notranjska,52217,15014,76
-2010,Pet-,Savinjska,260025,54100,289
-2010,Pet-,Zasavska,44706,9681,52
+2010,Pet ali večsobna,Gorenjska,202903,49496,246
+2010,Pet ali večsobna,Goriška,119080,24856,142
+2010,Pet ali večsobna,Jugovzhodna Slovenija,142092,21380,105
+2010,Pet ali večsobna,Koroška,72812,11087,56
+2010,Pet ali večsobna,Obalno-kraška,110412,25300,138
+2010,Pet ali večsobna,Osrednjeslovenska,529646,102432,548
+2010,Pet ali večsobna,Podravska,323343,69690,373
+2010,Pet ali večsobna,Pomurska,119548,19291,108
+2010,Pet ali večsobna,Posavska,70192,13772,78
+2010,Pet ali večsobna,Primorsko-notranjska,52217,15014,76
+2010,Pet ali večsobna,Savinjska,260025,54100,289
+2010,Pet ali večsobna,Zasavska,44706,9681,52
 2010,Stanovanja,Gorenjska,202903,104920,693
 2010,Stanovanja,Goriška,119080,47534,387
 2010,Stanovanja,Jugovzhodna Slovenija,142092,44786,346
@@ -95,18 +95,18 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2011,Enosobna,Primorsko-notranjska,52287,344,8
 2011,Enosobna,Savinjska,259726,3752,84
 2011,Enosobna,Zasavska,44222,0,0
-2011,Pet-,Gorenjska,203427,48335,224
-2011,Pet-,Goriška,119146,20808,112
-2011,Pet-,Jugovzhodna Slovenija,142483,24043,115
-2011,Pet-,Koroška,72494,12004,53
-2011,Pet-,Obalno-kraška,110760,16838,97
-2011,Pet-,Osrednjeslovenska,533213,80548,404
-2011,Pet-,Podravska,323119,82966,537
-2011,Pet-,Pomurska,119145,20925,110
-2011,Pet-,Posavska,70167,17938,104
-2011,Pet-,Primorsko-notranjska,52287,15398,110
-2011,Pet-,Savinjska,259726,54339,282
-2011,Pet-,Zasavska,44222,12294,60
+2011,Pet ali večsobna,Gorenjska,203427,48335,224
+2011,Pet ali večsobna,Goriška,119146,20808,112
+2011,Pet ali večsobna,Jugovzhodna Slovenija,142483,24043,115
+2011,Pet ali večsobna,Koroška,72494,12004,53
+2011,Pet ali večsobna,Obalno-kraška,110760,16838,97
+2011,Pet ali večsobna,Osrednjeslovenska,533213,80548,404
+2011,Pet ali večsobna,Podravska,323119,82966,537
+2011,Pet ali večsobna,Pomurska,119145,20925,110
+2011,Pet ali večsobna,Posavska,70167,17938,104
+2011,Pet ali večsobna,Primorsko-notranjska,52287,15398,110
+2011,Pet ali večsobna,Savinjska,259726,54339,282
+2011,Pet ali večsobna,Zasavska,44222,12294,60
 2011,Stanovanja,Gorenjska,203427,75630,493
 2011,Stanovanja,Goriška,119146,36125,241
 2011,Stanovanja,Jugovzhodna Slovenija,142483,42051,256
@@ -167,18 +167,18 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2012,Enosobna,Primorsko-notranjska,52387,436,5
 2012,Enosobna,Savinjska,260253,659,16
 2012,Enosobna,Zasavska,43926,0,0
-2012,Pet-,Gorenjska,204057,43903,219
-2012,Pet-,Goriška,119236,21353,108
-2012,Pet-,Jugovzhodna Slovenija,142680,23935,113
-2012,Pet-,Koroška,72364,7916,39
-2012,Pet-,Obalno-kraška,111423,13881,70
-2012,Pet-,Osrednjeslovenska,536484,72958,372
-2012,Pet-,Podravska,323534,58746,378
-2012,Pet-,Pomurska,118988,22212,106
-2012,Pet-,Posavska,70164,13287,94
-2012,Pet-,Primorsko-notranjska,52387,14089,66
-2012,Pet-,Savinjska,260253,43721,234
-2012,Pet-,Zasavska,43926,11615,61
+2012,Pet ali večsobna,Gorenjska,204057,43903,219
+2012,Pet ali večsobna,Goriška,119236,21353,108
+2012,Pet ali večsobna,Jugovzhodna Slovenija,142680,23935,113
+2012,Pet ali večsobna,Koroška,72364,7916,39
+2012,Pet ali večsobna,Obalno-kraška,111423,13881,70
+2012,Pet ali večsobna,Osrednjeslovenska,536484,72958,372
+2012,Pet ali večsobna,Podravska,323534,58746,378
+2012,Pet ali večsobna,Pomurska,118988,22212,106
+2012,Pet ali večsobna,Posavska,70164,13287,94
+2012,Pet ali večsobna,Primorsko-notranjska,52387,14089,66
+2012,Pet ali večsobna,Savinjska,260253,43721,234
+2012,Pet ali večsobna,Zasavska,43926,11615,61
 2012,Stanovanja,Gorenjska,204057,60491,367
 2012,Stanovanja,Goriška,119236,40452,291
 2012,Stanovanja,Jugovzhodna Slovenija,142680,36726,261
@@ -239,18 +239,18 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2013,Enosobna,Primorsko-notranjska,52382,0,0
 2013,Enosobna,Savinjska,260217,4923,49
 2013,Enosobna,Zasavska,43502,204,6
-2013,Pet-,Gorenjska,203984,29116,142
-2013,Pet-,Goriška,119002,17924,94
-2013,Pet-,Jugovzhodna Slovenija,142509,24237,118
-2013,Pet-,Koroška,72100,10040,52
-2013,Pet-,Obalno-kraška,111936,11143,55
-2013,Pet-,Osrednjeslovenska,541718,68715,352
-2013,Pet-,Podravska,323238,36456,194
-2013,Pet-,Pomurska,118022,17002,83
-2013,Pet-,Posavska,70211,9560,58
-2013,Pet-,Primorsko-notranjska,52382,12883,68
-2013,Pet-,Savinjska,260217,37984,219
-2013,Pet-,Zasavska,43502,8382,44
+2013,Pet ali večsobna,Gorenjska,203984,29116,142
+2013,Pet ali večsobna,Goriška,119002,17924,94
+2013,Pet ali večsobna,Jugovzhodna Slovenija,142509,24237,118
+2013,Pet ali večsobna,Koroška,72100,10040,52
+2013,Pet ali večsobna,Obalno-kraška,111936,11143,55
+2013,Pet ali večsobna,Osrednjeslovenska,541718,68715,352
+2013,Pet ali večsobna,Podravska,323238,36456,194
+2013,Pet ali večsobna,Pomurska,118022,17002,83
+2013,Pet ali večsobna,Posavska,70211,9560,58
+2013,Pet ali večsobna,Primorsko-notranjska,52382,12883,68
+2013,Pet ali večsobna,Savinjska,260217,37984,219
+2013,Pet ali večsobna,Zasavska,43502,8382,44
 2013,Stanovanja,Gorenjska,203984,59359,460
 2013,Stanovanja,Goriška,119002,28171,188
 2013,Stanovanja,Jugovzhodna Slovenija,142509,37741,227
@@ -311,18 +311,18 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2014,Enosobna,Primorsko-notranjska,52449,0,0
 2014,Enosobna,Savinjska,259853,453,10
 2014,Enosobna,Zasavska,42983,22,1
-2014,Pet-,Gorenjska,203894,27229,129
-2014,Pet-,Goriška,118374,18616,93
-2014,Pet-,Jugovzhodna Slovenija,142405,24212,127
-2014,Pet-,Koroška,71546,6090,32
-2014,Pet-,Obalno-kraška,112848,11238,58
-2014,Pet-,Osrednjeslovenska,546314,67871,351
-2014,Pet-,Podravska,323328,38084,202
-2014,Pet-,Pomurska,117133,16016,91
-2014,Pet-,Posavska,69958,10758,68
-2014,Pet-,Primorsko-notranjska,52449,7921,43
-2014,Pet-,Savinjska,259853,38513,213
-2014,Pet-,Zasavska,42983,10763,54
+2014,Pet ali večsobna,Gorenjska,203894,27229,129
+2014,Pet ali večsobna,Goriška,118374,18616,93
+2014,Pet ali večsobna,Jugovzhodna Slovenija,142405,24212,127
+2014,Pet ali večsobna,Koroška,71546,6090,32
+2014,Pet ali večsobna,Obalno-kraška,112848,11238,58
+2014,Pet ali večsobna,Osrednjeslovenska,546314,67871,351
+2014,Pet ali večsobna,Podravska,323328,38084,202
+2014,Pet ali večsobna,Pomurska,117133,16016,91
+2014,Pet ali večsobna,Posavska,69958,10758,68
+2014,Pet ali večsobna,Primorsko-notranjska,52449,7921,43
+2014,Pet ali večsobna,Savinjska,259853,38513,213
+2014,Pet ali večsobna,Zasavska,42983,10763,54
 2014,Stanovanja,Gorenjska,203894,47737,288
 2014,Stanovanja,Goriška,118374,28152,172
 2014,Stanovanja,Jugovzhodna Slovenija,142405,34867,217
@@ -383,18 +383,18 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2015,Enosobna,Primorsko-notranjska,52538,44,1
 2015,Enosobna,Savinjska,253975,341,9
 2015,Enosobna,Zasavska,57711,88,2
-2015,Pet-,Gorenjska,203850,23236,113
-2015,Pet-,Goriška,118188,17372,101
-2015,Pet-,Jugovzhodna Slovenija,142373,31331,161
-2015,Pet-,Koroška,71303,5845,33
-2015,Pet-,Obalno-kraška,112773,7167,40
-2015,Pet-,Osrednjeslovenska,534518,59826,319
-2015,Pet-,Podravska,323356,37787,202
-2015,Pet-,Pomurska,116670,9451,59
-2015,Pet-,Posavska,75619,9271,61
-2015,Pet-,Primorsko-notranjska,52538,8219,48
-2015,Pet-,Savinjska,253975,32662,195
-2015,Pet-,Zasavska,57711,7605,38
+2015,Pet ali večsobna,Gorenjska,203850,23236,113
+2015,Pet ali večsobna,Goriška,118188,17372,101
+2015,Pet ali večsobna,Jugovzhodna Slovenija,142373,31331,161
+2015,Pet ali večsobna,Koroška,71303,5845,33
+2015,Pet ali večsobna,Obalno-kraška,112773,7167,40
+2015,Pet ali večsobna,Osrednjeslovenska,534518,59826,319
+2015,Pet ali večsobna,Podravska,323356,37787,202
+2015,Pet ali večsobna,Pomurska,116670,9451,59
+2015,Pet ali večsobna,Posavska,75619,9271,61
+2015,Pet ali večsobna,Primorsko-notranjska,52538,8219,48
+2015,Pet ali večsobna,Savinjska,253975,32662,195
+2015,Pet ali večsobna,Zasavska,57711,7605,38
 2015,Stanovanja,Gorenjska,203850,42968,247
 2015,Stanovanja,Goriška,118188,27597,184
 2015,Stanovanja,Jugovzhodna Slovenija,142373,44589,284
@@ -455,18 +455,18 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2016,Enosobna,Primorsko-notranjska,52523,0,0
 2016,Enosobna,Savinjska,254318,801,9
 2016,Enosobna,Zasavska,57404,266,3
-2016,Pet-,Gorenjska,203838,22243,116
-2016,Pet-,Goriška,118064,19378,99
-2016,Pet-,Jugovzhodna Slovenija,142566,24741,115
-2016,Pet-,Koroška,71040,6057,29
-2016,Pet-,Obalno-kraška,113070,10858,57
-2016,Pet-,Osrednjeslovenska,537023,67734,327
-2016,Pet-,Podravska,322553,35759,187
-2016,Pet-,Pomurska,116078,18305,110
-2016,Pet-,Posavska,75711,10519,59
-2016,Pet-,Primorsko-notranjska,52523,5599,33
-2016,Pet-,Savinjska,254318,34398,200
-2016,Pet-,Zasavska,57404,7816,41
+2016,Pet ali večsobna,Gorenjska,203838,22243,116
+2016,Pet ali večsobna,Goriška,118064,19378,99
+2016,Pet ali večsobna,Jugovzhodna Slovenija,142566,24741,115
+2016,Pet ali večsobna,Koroška,71040,6057,29
+2016,Pet ali večsobna,Obalno-kraška,113070,10858,57
+2016,Pet ali večsobna,Osrednjeslovenska,537023,67734,327
+2016,Pet ali večsobna,Podravska,322553,35759,187
+2016,Pet ali večsobna,Pomurska,116078,18305,110
+2016,Pet ali večsobna,Posavska,75711,10519,59
+2016,Pet ali večsobna,Primorsko-notranjska,52523,5599,33
+2016,Pet ali večsobna,Savinjska,254318,34398,200
+2016,Pet ali večsobna,Zasavska,57404,7816,41
 2016,Stanovanja,Gorenjska,203838,38691,237
 2016,Stanovanja,Goriška,118064,33826,223
 2016,Stanovanja,Jugovzhodna Slovenija,142566,38776,221
@@ -527,18 +527,18 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2017,Enosobna,Primorsko-notranjska,52582,72,1
 2017,Enosobna,Savinjska,254761,1541,33
 2017,Enosobna,Zasavska,57280,98,3
-2017,Pet-,Gorenjska,203800,18280,99
-2017,Pet-,Goriška,117747,19276,97
-2017,Pet-,Jugovzhodna Slovenija,142711,27270,134
-2017,Pet-,Koroška,70761,7644,39
-2017,Pet-,Obalno-kraška,113517,6967,37
-2017,Pet-,Osrednjeslovenska,539672,75312,429
-2017,Pet-,Podravska,322043,42545,223
-2017,Pet-,Pomurska,115477,11456,67
-2017,Pet-,Posavska,75544,12155,78
-2017,Pet-,Primorsko-notranjska,52582,5535,27
-2017,Pet-,Savinjska,254761,27284,160
-2017,Pet-,Zasavska,57280,5881,31
+2017,Pet ali večsobna,Gorenjska,203800,18280,99
+2017,Pet ali večsobna,Goriška,117747,19276,97
+2017,Pet ali večsobna,Jugovzhodna Slovenija,142711,27270,134
+2017,Pet ali večsobna,Koroška,70761,7644,39
+2017,Pet ali večsobna,Obalno-kraška,113517,6967,37
+2017,Pet ali večsobna,Osrednjeslovenska,539672,75312,429
+2017,Pet ali večsobna,Podravska,322043,42545,223
+2017,Pet ali večsobna,Pomurska,115477,11456,67
+2017,Pet ali večsobna,Posavska,75544,12155,78
+2017,Pet ali večsobna,Primorsko-notranjska,52582,5535,27
+2017,Pet ali večsobna,Savinjska,254761,27284,160
+2017,Pet ali večsobna,Zasavska,57280,5881,31
 2017,Stanovanja,Gorenjska,203800,40000,306
 2017,Stanovanja,Goriška,117747,29834,177
 2017,Stanovanja,Jugovzhodna Slovenija,142711,49931,339
@@ -599,18 +599,18 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2018,Enosobna,Primorsko-notranjska,52334,46,1
 2018,Enosobna,Savinjska,254760,548,13
 2018,Enosobna,Zasavska,57061,0,0
-2018,Pet-,Gorenjska,203636,28602,137
-2018,Pet-,Goriška,117260,15768,88
-2018,Pet-,Jugovzhodna Slovenija,142819,25121,131
-2018,Pet-,Koroška,70550,5050,31
-2018,Pet-,Obalno-kraška,113961,11647,59
-2018,Pet-,Osrednjeslovenska,542306,67724,359
-2018,Pet-,Podravska,322058,41328,225
-2018,Pet-,Pomurska,114776,10616,63
-2018,Pet-,Posavska,75359,8491,49
-2018,Pet-,Primorsko-notranjska,52334,6288,32
-2018,Pet-,Savinjska,254760,28470,154
-2018,Pet-,Zasavska,57061,3747,22
+2018,Pet ali večsobna,Gorenjska,203636,28602,137
+2018,Pet ali večsobna,Goriška,117260,15768,88
+2018,Pet ali večsobna,Jugovzhodna Slovenija,142819,25121,131
+2018,Pet ali večsobna,Koroška,70550,5050,31
+2018,Pet ali večsobna,Obalno-kraška,113961,11647,59
+2018,Pet ali večsobna,Osrednjeslovenska,542306,67724,359
+2018,Pet ali večsobna,Podravska,322058,41328,225
+2018,Pet ali večsobna,Pomurska,114776,10616,63
+2018,Pet ali večsobna,Posavska,75359,8491,49
+2018,Pet ali večsobna,Primorsko-notranjska,52334,6288,32
+2018,Pet ali večsobna,Savinjska,254760,28470,154
+2018,Pet ali večsobna,Zasavska,57061,3747,22
 2018,Stanovanja,Gorenjska,203636,41460,245
 2018,Stanovanja,Goriška,117260,26811,191
 2018,Stanovanja,Jugovzhodna Slovenija,142819,41538,255
@@ -671,18 +671,18 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2019,Enosobna,Primorsko-notranjska,52544,225,3
 2019,Enosobna,Savinjska,256359,2014,22
 2019,Enosobna,Zasavska,56962,307,2
-2019,Pet-,Gorenjska,204670,23666,118
-2019,Pet-,Goriška,117616,14600,77
-2019,Pet-,Jugovzhodna Slovenija,144032,18386,119
-2019,Pet-,Koroška,70588,5220,33
-2019,Pet-,Obalno-kraška,115016,10223,68
-2019,Pet-,Osrednjeslovenska,549171,87351,450
-2019,Pet-,Podravska,324104,36374,202
-2019,Pet-,Pomurska,114287,9570,65
-2019,Pet-,Posavska,75559,7906,46
-2019,Pet-,Primorsko-notranjska,52544,6635,43
-2019,Pet-,Savinjska,256359,27355,148
-2019,Pet-,Zasavska,56962,4205,23
+2019,Pet ali večsobna,Gorenjska,204670,23666,118
+2019,Pet ali večsobna,Goriška,117616,14600,77
+2019,Pet ali večsobna,Jugovzhodna Slovenija,144032,18386,119
+2019,Pet ali večsobna,Koroška,70588,5220,33
+2019,Pet ali večsobna,Obalno-kraška,115016,10223,68
+2019,Pet ali večsobna,Osrednjeslovenska,549171,87351,450
+2019,Pet ali večsobna,Podravska,324104,36374,202
+2019,Pet ali večsobna,Pomurska,114287,9570,65
+2019,Pet ali večsobna,Posavska,75559,7906,46
+2019,Pet ali večsobna,Primorsko-notranjska,52544,6635,43
+2019,Pet ali večsobna,Savinjska,256359,27355,148
+2019,Pet ali večsobna,Zasavska,56962,4205,23
 2019,Stanovanja,Gorenjska,204670,45504,292
 2019,Stanovanja,Goriška,117616,22048,142
 2019,Stanovanja,Jugovzhodna Slovenija,144032,32892,260
@@ -743,18 +743,18 @@ leto,vrsta,statisticna_regija,stevilo_prebivalcev,Površina [m2],Število
 2020,Enosobna,Primorsko-notranjska,52841,95,1
 2020,Enosobna,Savinjska,257847,1829,22
 2020,Enosobna,Zasavska,57156,302,2
-2020,Pet-,Gorenjska,206621,24737,134
-2020,Pet-,Goriška,118041,13737,74
-2020,Pet-,Jugovzhodna Slovenija,145357,25924,158
-2020,Pet-,Koroška,70755,8077,58
-2020,Pet-,Obalno-kraška,115913,9586,46
-2020,Pet-,Osrednjeslovenska,555274,86002,447
-2020,Pet-,Podravska,325994,56729,324
-2020,Pet-,Pomurska,114238,16399,89
-2020,Pet-,Posavska,75824,9711,62
-2020,Pet-,Primorsko-notranjska,52841,4726,27
-2020,Pet-,Savinjska,257847,26282,153
-2020,Pet-,Zasavska,57156,3418,19
+2020,Pet ali večsobna,Gorenjska,206621,24737,134
+2020,Pet ali večsobna,Goriška,118041,13737,74
+2020,Pet ali večsobna,Jugovzhodna Slovenija,145357,25924,158
+2020,Pet ali večsobna,Koroška,70755,8077,58
+2020,Pet ali večsobna,Obalno-kraška,115913,9586,46
+2020,Pet ali večsobna,Osrednjeslovenska,555274,86002,447
+2020,Pet ali večsobna,Podravska,325994,56729,324
+2020,Pet ali večsobna,Pomurska,114238,16399,89
+2020,Pet ali večsobna,Posavska,75824,9711,62
+2020,Pet ali večsobna,Primorsko-notranjska,52841,4726,27
+2020,Pet ali večsobna,Savinjska,257847,26282,153
+2020,Pet ali večsobna,Zasavska,57156,3418,19
 2020,Stanovanja,Gorenjska,206621,51945,373
 2020,Stanovanja,Goriška,118041,22215,139
 2020,Stanovanja,Jugovzhodna Slovenija,145357,42973,323
