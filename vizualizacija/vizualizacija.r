@@ -1,6 +1,4 @@
 # 3. faza: Vizualizacija podatkov
-library(dplyr)
-
 graf.kako.gospodinjstva.prezivijo.s.svojimi.prihodki.po.regijah <- shrani.tabela7 %>%
   filter(LETO == 2020) %>%
   ggplot(
@@ -70,7 +68,7 @@ graf.indeksi <- shrani.tabela3 %>%
   )
 
 graf.gradbena.dovoljenja <- shrani.tabela3 %>%
-  select(leto, stevilo_stanovanj) %>%
+  dplyr::select(leto, stevilo_stanovanj) %>%
   ggplot(
     mapping = aes(x = leto, y = stevilo_stanovanj)
   ) +
@@ -188,3 +186,4 @@ zemljevid.povprecna.cena.na.kvadratni.meter <- function(podatek){
 
 zemljevid.povprecna.cena.na.kvadratni.meter.2010 <- zemljevid.povprecna.cena.na.kvadratni.meter("2010")
 zemljevid.povprecna.cena.na.kvadratni.meter.2020 <- zemljevid.povprecna.cena.na.kvadratni.meter("2020")
+

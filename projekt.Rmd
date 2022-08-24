@@ -214,8 +214,13 @@ Preko napovednega modela sem narisala graf napovedi števila gradenj za naslednj
 ```{r graf.napovedovanje, echo=FALSE, fig.align='center', message=FALSE, paged.print=TRUE, warning=FALSE}
 graf.napovedovanje
 ```
-***
+Za konec sem naredila še Shiny aplikacijo. Tukaj lahko vidimo koliko gradbenih dovoljenj je bilo izdanih v določenem letu in za točno določeno vrsto stanovanjskega objekta po posameznih statističnih regijah.
 
 ```{r shiny}
-#shinyAppDir("shiny", options=list(width="100%", height=600))
+shinyAppDir("shiny", options=list(width="100%", height=600))
 ```
+
+## Sklep
+
+V Sloveniji se največ gradi v Osrednjeslovenski regiji, sledi ji Podravska. Število gradenj je v 2020 upadlo, če primerjamo z letom 2010, saj so gradbeni stroški, predvsem stroški dela, narasli. Indeksi cen stanovanjskih nepremičnin so v letu 2020 zelo visoki, najvišji v Ljubljanski občini.
+Število gradenj v Osrednjeslovenski regiji po napovednem modelu naj ne bi naraslo, ampak naj bi otalo konstantno, torej indeksi cen stanovanjskih nepremičnin, še ne bodo padli.
