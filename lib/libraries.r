@@ -14,6 +14,10 @@ library(ggthemes)
 library(readxl)
 library(Rcpp)
 
+library(ggalt)
+library(cluster)
+library(ranger)
+library(iml)
 options(gsubfn.engine="R")
 
 # Uvozimo funkcije za pobiranje in uvoz zemljevida.

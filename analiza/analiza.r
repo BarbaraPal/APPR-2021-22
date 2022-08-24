@@ -425,9 +425,9 @@ precno.preverjanje = function(podatki, razbitje, formula, algoritem, razvrscanje
     pp.napovedi[ razbitje[[i]] ] = podatki[ razbitje[[i]], ] %>% napovedi(model, algoritem)
   }
   if (razvrscanje) {
-    mean(pp.napovedi != podatki$pricak)
+    mean(pp.napovedi != podatki$pricakov)
   } else {
-    mean((pp.napovedi - podatki$pricak) ^ 2)
+    mean((pp.napovedi - podatki$pricakov) ^ 2)
   }
 }
 
@@ -445,7 +445,7 @@ osrednjeslovenska <- shrani.tabela1 %>% filter(statisticna_regija == 'Osrednjesl
 
 # glede na preteklih 5 let:
 naredi.df.5 <- function(x){
-  data.frame(pricak  = x,
+  data.frame(pricakov  = x,
              "Leto 2020"  = zamakni(x, 1),
              "Leto 2019" = zamakni(x, 2),
              "Leto 2018" = zamakni(x, 3),
@@ -456,12 +456,12 @@ naredi.df.5 <- function(x){
 df.5 <- drop_na(naredi.df.5(osrednjeslovenska$stevilo_stanovanj))
 ucni.5 = pp.razbitje(nrow(df.5))
 
-precno.preverjanje(df.5, ucni.5, pricak ~ ., "ng", FALSE)
-precno.preverjanje(df.5, ucni.5, pricak ~ ., "lin.reg", FALSE)
+precno.preverjanje(df.5, ucni.5, pricakov ~ ., "ng", FALSE)
+precno.preverjanje(df.5, ucni.5, pricakov ~ ., "lin.reg", FALSE)
 
 # glede na pretekla 4 leta:
 naredi.df.4 <- function(x){
-  data.frame(pricak  = x,
+  data.frame(pricakov  = x,
              "Leto 2020"  = zamakni(x, 1),
              "Leto 2019" = zamakni(x, 2),
              "Leto 2018" = zamakni(x, 3),
@@ -470,12 +470,12 @@ naredi.df.4 <- function(x){
 df.4 <- drop_na(naredi.df.4(osrednjeslovenska$stevilo_stanovanj))
 ucni.4 = pp.razbitje(nrow(df.4))
 
-precno.preverjanje(df.4, ucni.4, pricak ~ ., "ng", FALSE)
-precno.preverjanje(df.4, ucni.4, pricak ~ ., "lin.reg", FALSE)
+precno.preverjanje(df.4, ucni.4, pricakov ~ ., "ng", FALSE)
+precno.preverjanje(df.4, ucni.4, pricakov ~ ., "lin.reg", FALSE)
 
 # glede na pretekla 3 leta:
 naredi.df.3 <- function(x){
-  data.frame(pricak  = x,
+  data.frame(pricakov  = x,
              "Leto 2020"  = zamakni(x, 1),
              "Leto 2019" = zamakni(x, 2),
              "Leto 2018" = zamakni(x, 3))
@@ -484,8 +484,8 @@ naredi.df.3 <- function(x){
 df.3 <- drop_na(naredi.df.3(osrednjeslovenska$stevilo_stanovanj))
 ucni.3 = pp.razbitje(nrow(df.3))
 
-precno.preverjanje(df.3, ucni.3, pricak ~ ., "ng", FALSE)
-precno.preverjanje(df.3, ucni.3, pricak ~ ., "lin.reg", FALSE)
+precno.preverjanje(df.3, ucni.3, pricakov ~ ., "ng", FALSE)
+precno.preverjanje(df.3, ucni.3, pricakov ~ ., "lin.reg", FALSE)
 
 # napaka je vsepovsod manjša pri uporabi algoritma nakjučnih gozdov
 
@@ -495,13 +495,13 @@ precno.preverjanje(df.3, ucni.3, pricak ~ ., "lin.reg", FALSE)
 # napovedovanje glede na preteklih 5 leta:
 
 df.5 <- naredi.df.5(osrednjeslovenska$stevilo_stanovanj)
-model.5 = ranger(formula = pricak ~ ., data = df.5 %>% drop_na())
+model.5 = ranger(formula = pricakov ~ ., data = df.5 %>% drop_na())
 
 n = nrow(df.5)
 
 df.5.2 = df.5
 for(i in 1:3){
-  df.5.2 = naredi.df.5(c(df.5.2$pricak, NA))
+  df.5.2 = naredi.df.5(c(df.5.2$pricakov, NA))
   napoved = predict(model.5, data = df.5.2[n+i,])$predictions
   df.5.2[n+i, 1] = napoved
 }
@@ -521,13 +521,13 @@ for (i in 1:3) {
 # prečno preverjanje napovedovanja glede na pretekla 4 leta:
 df.5 <- df.5 %>% drop_na()
 
-ucni <- pp.razbitje(df.5, stratifikacija = df.5$pricak)
+ucni <- pp.razbitje(df.5, stratifikacija = df.5$pricakov)
 
 X <- df.5[,-1]
 
 reg.pred = Predictor$new(
   model.5,
-  data = X, y = df.5$pricak,
+  data = X, y = df.5$pricakov,
   predict.fun = pfun
 )
 
@@ -538,13 +538,13 @@ reg.moci.5.plot <- plot(reg.moci) + theme_bw()
 # napovedovanje glede na prejšnja 4 leta:
 
 df.4 <- naredi.df.4(osrednjeslovenska$stevilo_stanovanj)
-model.4 = ranger(formula = pricak ~ ., data = df.3 %>% drop_na())
+model.4 = ranger(formula = pricakov ~ ., data = df.3 %>% drop_na())
 
 n = nrow(df.4)
 
 df.4.2 = df.4
 for(i in 1:4){
-  df.4.2 = naredi.df.4(c(df.4.2$pricak, NA))
+  df.4.2 = naredi.df.4(c(df.4.2$pricakov, NA))
   napoved = predict(model.4, data = df.4.2[n+i,])$predictions
   df.4.2[n+i, 1] = napoved
 }
@@ -565,13 +565,13 @@ for (i in 1:3) {
 # prečno preverjanje napovedovanja glede na pretekla 4 leta:
 df.4 <- df.4 %>% drop_na()
 
-ucni <- pp.razbitje(df.4, stratifikacija = df.4$pricak)
+ucni <- pp.razbitje(df.4, stratifikacija = df.4$pricakov)
 
 X <- df.4[,-1]
 
 reg.pred = Predictor$new(
   model.4,
-  data = X, y = df.4$pricak,
+  data = X, y = df.4$pricakov,
   predict.fun = pfun
 )
 
@@ -583,13 +583,13 @@ reg.moci.4.plot
 # napovedovanje glede na prejšnje 3 leta:
 
 df.3 <- naredi.df.3(osrednjeslovenska$stevilo_stanovanj)
-model.3 = ranger(formula = pricak ~ ., data = df.3 %>% drop_na())
+model.3 = ranger(formula = pricakov ~ ., data = df.3 %>% drop_na())
 
 n = nrow(df.3)
 
 df.3.2 = df.3
 for(i in 1:3){
-  df.3.2 = naredi.df.3(c(df.3.2$pricak, NA))
+  df.3.2 = naredi.df.3(c(df.3.2$pricakov, NA))
   napoved = predict(model.3, data = df.3.2[n+i,])$predictions
   df.3.2[n+i, 1] = napoved
 }
@@ -611,13 +611,13 @@ for (i in 1:3) {
 
 df.3 <- df.3 %>% na.omit()
 
-ucni.3 <- pp.razbitje(df.3, stratifikacija = df.3$pricak)
+ucni.3 <- pp.razbitje(df.3, stratifikacija = df.3$pricakov)
 
 X.3 <- df.3[,-1]
 
 reg.pred.3 = Predictor$new(
   model.3,
-  data = X.3, y = df.3$pricak,
+  data = X.3, y = df.3$pricakov,
   predict.fun = pfun
 )
 
