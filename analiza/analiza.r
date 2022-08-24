@@ -40,8 +40,8 @@ analiziran.graf <- g + geom_smooth(method="loess", formula = y ~ x, color = "blu
 ##################################################################################################
 
 podatki.za.razvrscanje <- shrani.tabela1 %>%
-  filter(leto == '2010')
-names(podatki.za.razvrscanje)[1] <- "statisticna_regija"
+  group_by(statisticna_regija) %>%
+  dplyr::summarize(stevilo_stanovanj = sum(stevilo_stanovanj), stevilo_ocena_dokoncanih = sum(stevilo_ocena_dokoncanih))
 
 # funkcije uporabljene pri razvrščanju v skupine
 
@@ -203,13 +203,14 @@ diagram.obrisi = function(k.obrisi) {
 r.hc = podatki.za.razvrscanje[, -1] %>% obrisi(hc = TRUE)
 r.km = podatki.za.razvrscanje[, -1] %>% obrisi(hc = FALSE)
 
-r.hc.plt <- diagram.obrisi(r.hc)  # ta predlaga k=2
-r.km.plt <- diagram.obrisi(r.km)  # ta predlaga k=3
+r.hc.plt <- diagram.obrisi(r.hc)
+r.km.plt <- diagram.obrisi(r.km)  
 
+# obe predlagata k = 5
 diagram.skupine = function(podatki, oznake, skupine, k) {
   podatki = podatki %>%
     bind_cols(skupine) %>%
-    rename(skupina = ...8)
+    rename(skupina = ...4)
   
   d = podatki %>%
     ggplot(
@@ -232,25 +233,18 @@ diagram.skupine = function(podatki, oznake, skupine, k) {
 }
 
 set.seed(72)
-k = 2
+k = 5
 skupine = podatki.za.razvrscanje[, -1] %>%
   kmeans(centers = k) %>%
   getElement("cluster") %>%
   as.ordered()
-diagram2 <- diagram.skupine(podatki.za.razvrscanje, podatki.za.razvrscanje$`statisticna_regija`, skupine, k)
+diagram5 <- diagram.skupine(podatki.za.razvrscanje, podatki.za.razvrscanje$`statisticna_regija`, skupine, k)
 
-set.seed(73)
-k = 3
-skupine = podatki.za.razvrscanje[, -1] %>%
-  kmeans(centers = k) %>%
-  getElement("cluster") %>%
-  as.ordered()
-diagram3 <- diagram.skupine(podatki.za.razvrscanje, podatki.za.razvrscanje$`statisticna_regija`, skupine, k)
 
 prostorski.diagram.skupine = function(drzave, skupine, k) {
   drzave %>%
     bind_cols(skupine) %>%
-    dplyr::select(`statisticna_regija` = `statisticna_regija`, skupina = ...8) %>%
+    dplyr::select(`statisticna_regija` = `statisticna_regija`, skupina = ...4) %>%
     left_join(
       zemljevid,
       by = "statisticna_regija"
@@ -273,20 +267,12 @@ prostorski.diagram.skupine = function(drzave, skupine, k) {
 
 set.seed(73)
 
-k = 2
+k = 5
 skupine = podatki.za.razvrscanje[, -1] %>%
   kmeans(centers = k) %>%
   getElement("cluster") %>%
   as.ordered()
-diagram.zemljevid2 <- prostorski.diagram.skupine(podatki.za.razvrscanje, skupine, k)
-
-set.seed(73)
-k = 3
-skupine = podatki.za.razvrscanje[, -1] %>%
-  kmeans(centers = k) %>%
-  getElement("cluster") %>%
-  as.ordered()
-diagram.zemljevid3 <- prostorski.diagram.skupine(podatki.za.razvrscanje, skupine, k)
+diagram.zemljevid5 <- prostorski.diagram.skupine(podatki.za.razvrscanje, skupine, k)
 
 # hierarhično razvrščanje
 
@@ -294,10 +280,10 @@ X <- podatki.za.razvrscanje[,-1] %>% as.matrix() %>% scale()
 dendrogram  <- dist(X) %>% hclust(method = "ward.D")
 
 r <-  hc.kolena(dendrogram)
-diagram.kolena <- diagram.kolena(r) # kolena so pri 2, 3, 5
+diagram.kolena <- diagram.kolena(r) # kolena so pri 2, 3, 4
 
 set.seed(73)
-k = 5   # ker sem pri metodi k-tih voditeljev že narisala zemljevid za k = 2 in k = 3
+k = 2
 skupine <- podatki.za.razvrscanje[, -1] %>%
   dist() %>%
   hclust(method = "ward.D") %>%
@@ -307,7 +293,59 @@ skupine <- podatki.za.razvrscanje[, -1] %>%
 tabela.skupine.hierarh <- podatki.za.razvrscanje %>%
   mutate(Skupine = as.numeric(skupine))
 
-prostorski.diagram.hierarhicno <- ggplot() +
+prostorski.diagram.hierarhicno2 <- ggplot() +
+  aes(x = long, y = lat, group = group, fill = factor(Skupine)) +
+  geom_polygon(data = tabela.skupine.hierarh %>% 
+                 right_join(zemljevid, by = "statisticna_regija"),
+               color = 'grey') +
+  scale_fill_brewer() +
+  coord_map() +
+  theme_classic() +
+  theme(
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    axis.text = element_blank(),
+    axis.title = element_blank()
+  )
+
+set.seed(73)
+k = 3
+skupine <- podatki.za.razvrscanje[, -1] %>%
+  dist() %>%
+  hclust(method = "ward.D") %>%
+  cutree(k = k) %>%
+  as.ordered()
+
+tabela.skupine.hierarh <- podatki.za.razvrscanje %>%
+  mutate(Skupine = as.numeric(skupine))
+
+prostorski.diagram.hierarhicno3 <- ggplot() +
+  aes(x = long, y = lat, group = group, fill = factor(Skupine)) +
+  geom_polygon(data = tabela.skupine.hierarh %>% 
+                 right_join(zemljevid, by = "statisticna_regija"),
+               color = 'grey') +
+  scale_fill_brewer() +
+  coord_map() +
+  theme_classic() +
+  theme(
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    axis.text = element_blank(),
+    axis.title = element_blank()
+  )
+
+set.seed(73)
+k = 4
+skupine <- podatki.za.razvrscanje[, -1] %>%
+  dist() %>%
+  hclust(method = "ward.D") %>%
+  cutree(k = k) %>%
+  as.ordered()
+
+tabela.skupine.hierarh <- podatki.za.razvrscanje %>%
+  mutate(Skupine = as.numeric(skupine))
+
+prostorski.diagram.hierarhicno4 <- ggplot() +
   aes(x = long, y = lat, group = group, fill = factor(Skupine)) +
   geom_polygon(data = tabela.skupine.hierarh %>% 
                  right_join(zemljevid, by = "statisticna_regija"),

@@ -1,4 +1,6 @@
 # 3. faza: Vizualizacija podatkov
+library(dplyr)
+
 graf.kako.gospodinjstva.prezivijo.s.svojimi.prihodki.po.regijah <- shrani.tabela7 %>%
   filter(LETO == 2020) %>%
   ggplot(

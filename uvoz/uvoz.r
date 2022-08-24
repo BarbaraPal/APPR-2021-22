@@ -1,5 +1,5 @@
 # 2. faza: Uvoz podatkov
-
+library(dplyr)
 sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
 pretvornik.regij <- function(){ # 2 regiji (Posavska in Jugovzhodna Slovenija) imata različno poimenovanje v različnih virih
@@ -50,7 +50,7 @@ uvoz.obcine.regije <- function(){
   tabela <- stran %>% 
     html_nodes(xpath="//table[@class='wikitable sortable']") %>%
     .[[1]] %>% html_table(dec=",") %>% 
-    select("Statistična regija", "Občina")
+    dplyr::select("Statistična regija", "Občina")
   tabela[162, 2] <- "Sveta Trojica v Slov. goricah*"
   tabela[163, 2] <- "Sveti Andraž v Slov. goricah"
   tabela[165, 2] <- "Sveti Jurij v Slov. goricah"
@@ -60,7 +60,7 @@ uvoz.obcine.regije <- function(){
   tabela <- right_join(pretvornik.regij(), 
                        tabela, 
                        by="regija") %>% 
-    select(-regija)   # spremenjeno poimenovanje dveh regij - zdaj se ujema z ostalimi podatki
+    dplyr::select(-regija)   # spremenjeno poimenovanje dveh regij - zdaj se ujema z ostalimi podatki
   return(tabela)
 }
 
@@ -95,7 +95,7 @@ uvoz.stevilo.gradbenih.dovoljenj <- function(){
                                   separate(col = "x",
                                     into = c("leto", "stevilo/povrsina_v_m2", "tip"),
                                     sep = c(" ", " "))
-  stevilo.gradbenih.dovoljenj <- select(stevilo.gradbenih.dovoljenj, 
+  stevilo.gradbenih.dovoljenj <- dplyr::select(stevilo.gradbenih.dovoljenj, 
                                         -c(INVESTITOR, tip_stavbe))
   return(stevilo.gradbenih.dovoljenj)
 }
@@ -114,7 +114,7 @@ uvoz.indeksi.cen.stan.nepremicnin <- function(){
     separate(col = "leto",
              into = c("leto", "x"),
              sep = " ") %>%
-    select(-x)
+    dplyr::select(-x)
   return(indeksi.cen.stan.nepremicnin)
 }
 
@@ -144,7 +144,7 @@ uvoz.indeksi.cen.zivljenjskih.potrebscin <- function(){
                        col_names = c("x", "leto", "indeks glede na leto 2015"),
                        skip = 3,
                        n_max = 11) %>%
-    select(-x)
+    dplyr::select(-x)
   tabela$leto <- as.integer(tabela$leto)
   
   return(tabela)
@@ -164,20 +164,20 @@ uvoz.ocena.dokoncanih.stanovanj.po.obcinah <- function(){
                                             separate(col = "x",
                                                      into = c("leto", "vrsta"),
                                                      sep = " ") %>%
-                                            select(-y)
+                                            dplyr::select(-y)
   return(ocena.dokoncanih.stanovanj.po.obcinah)
 }
 
 uvoz.ocena.dokoncanih.stanovanj.skupno.regije <- function(){
   ocena.dokoncanih.stanovanj.po.obcinah <- uvoz.ocena.dokoncanih.stanovanj.po.obcinah() %>% 
     filter(vrsta == "Stanovanja") %>% 
-    select(-vrsta)
+    dplyr::select(-vrsta)
   ocena.dokoncanih.stanovanj.skupno.regije <- right_join(ocena.dokoncanih.stanovanj.po.obcinah, 
                                                         uvoz.obcine.regije(),
                                                         by="obcine")
   ocena.dokoncanih.stanovanj.skupno.regije <- ocena.dokoncanih.stanovanj.skupno.regije %>%
     group_by(statisticna_regija, leto, MERITVE) %>% 
-    summarise(vrednosti = sum(vrednosti, 
+    dplyr::summarise(vrednosti = sum(vrednosti, 
                               na.rm = TRUE))
   return(ocena.dokoncanih.stanovanj.skupno.regije)
 }
@@ -209,7 +209,7 @@ uvoz.kupoprodajni.posli <- function(podatki1, podatki2){
   leto <- merge(leto1,
                 leto2,
                 by="ID Posla") %>% 
-    select(`Pogodbena cena / Odškodnina`, 
+    dplyr::select(`Pogodbena cena / Odškodnina`, 
            `Občina`, 
            `Leto izgradnje dela stavbe`, 
            `Stavba je dokončana`, 
@@ -224,7 +224,7 @@ uvoz.kupoprodajni.posli <- function(podatki1, podatki2){
                           `Leto izgradnje dela stavbe` != "NA",
                           `Leto izgradnje dela stavbe` >= 100
                           ) %>%
-    select(- c(`Stavba je dokončana`, 
+    dplyr::select(- c(`Stavba je dokončana`, 
                `Dejanska raba dela stavbe`))
   return(leto)
 }
@@ -240,14 +240,14 @@ tabela.1 <- function(){
                        by = c("statisticna_regija", "leto"))
   stevilo_stanovanj <- tabela1.1 %>% 
     filter(tip == "stanovanj") %>%
-    select(c(statisticna_regija, 
+    dplyr::select(c(statisticna_regija, 
              leto, 
              vrednost,
              stevilo_prebivalcev))
   names(stevilo_stanovanj)[3] <- "stevilo_stanovanj"
   povrsina_stanovanj <- tabela1.1 %>%
     filter(`stevilo/povrsina_v_m2` == "Površina") %>%
-    select(c(statisticna_regija, 
+    dplyr::select(c(statisticna_regija, 
              leto, 
              vrednost, 
              stevilo_prebivalcev))
@@ -259,7 +259,7 @@ tabela.1 <- function(){
                         uvoz.prebivalstvo(), 
                         by = c("statisticna_regija", "leto")) %>%
     pivot_wider(names_from = MERITVE, values_from = vrednosti) %>%
-    select(-"NA")
+    dplyr::select(-"NA")
   names(tabela1.2)[4] <- "povrsina_ocena_dokoncanih"
   names(tabela1.2)[5] <- "stevilo_ocena_dokoncanih"
   tabela <- full_join(tabela1.1,
@@ -283,9 +283,9 @@ tabela.2 <- function(){
                        uvoz.obcine.regije(),
                        by = c("obcine")) %>%
     filter(obcine != "SLOVENIJA") %>%
-    select(-obcine) %>%
+    dplyr::select(-obcine) %>%
     group_by(MERITVE, leto, vrsta, statisticna_regija) %>%
-    summarise(vrednosti = sum(vrednosti, na.rm = TRUE))
+    dplyr::summarise(vrednosti = sum(vrednosti, na.rm = TRUE))
   
   tabela2.2 <- full_join(tabela2.1,
                          uvoz.prebivalstvo(),
@@ -321,13 +321,13 @@ shrani.tabela2 <- tabela.2() %>%
 tabela.3 <- function(){
   x.1 <- tabela.1() %>% 
     filter(statisticna_regija == "SLOVENIJA") %>%
-    select(c(leto, stevilo_stanovanj))
+    dplyr::select(c(leto, stevilo_stanovanj))
   x.2 <- full_join(x.1, 
                    uvoz.indeksi.cen.zivljenjskih.potrebscin(),
                    by = "leto")
   x.3 <- uvoz.indeksi.gradbenih.stroskov() %>%
     group_by(`leto`) %>% 
-    summarize(`indeks skupnih stroškov` = mean(`stroški.skupaj`),
+    dplyr::summarize(`indeks skupnih stroškov` = mean(`stroški.skupaj`),
               `indeks stroškov materiala` = mean(`stroški.materiala`),
               `indeks stroškov dela` = mean(`stroški.dela`))
   tabela <- full_join(x.2, x.3, by = "leto")
@@ -385,7 +385,7 @@ shrani.tabela4 <- tabela.4() %>%
 # TABELA 5
 tabela.5 <- function(){
   tabela5.1 <- shrani.tabela1 %>%
-    select(-stevilo_prebivalcev)
+    dplyr::select(-stevilo_prebivalcev)
   tabela5.2 <- full_join(tabela5.1, 
                          uvoz.selitve.prebivalstva()) %>%
     filter(statisticna_regija != "SLOVENIJA")
@@ -415,12 +415,12 @@ povezava.obcine.regije <- data.frame(`statisticna_regija` = uvoz.obcine.regije()
                                 "SVETA TROJICA V SLOV. GORICAH\\*", 
                                 "SV. TROJICA V SLOV. GORICAH"))
 
-kupoprodajni.posli.2010 <- left_join(leto2010, povezava.obcine.regije, by = "Občina") %>% 
-  select(-`Občina`)
+kupoprodajni.posli.2010 <- dplyr::left_join(leto2010, povezava.obcine.regije, by = "Občina") %>% 
+  dplyr::select(-`Občina`)
 kupoprodajni.posli.2010$`statisticna_regija` <- as.factor(kupoprodajni.posli.2010$`statisticna_regija`)
-kupoprodajni.posli.2020 <- left_join(leto2020, povezava.obcine.regije, by = "Občina") %>% 
+kupoprodajni.posli.2020 <- dplyr::left_join(leto2020, povezava.obcine.regije, by = "Občina") %>% 
   filter(`Občina` != "NA") %>%
-  select(-`Občina`)
+  dplyr::select(-`Občina`)
 kupoprodajni.posli.2020$`statisticna_regija` <- as.factor(kupoprodajni.posli.2020$`statisticna_regija`)
 
   
@@ -428,7 +428,7 @@ povprecne.cene.na.kvadratni.meter.po.regijah <- function(posli){
   tabela <- posli %>% 
     group_by(`statisticna_regija`) %>% 
     mutate(`Cena na kvadratni meter` = `Pogodbena cena / Odškodnina` / `Uporabna površina`) %>%
-    summarize(`Povprečna cena/m2` = mean(`Cena na kvadratni meter`))
+    dplyr::summarize(`Povprečna cena/m2` = mean(`Cena na kvadratni meter`))
   return(tabela)
 }
 
@@ -447,7 +447,7 @@ povprecne.cene.na.kvadratni.meter.po.regijah.mlajse.od.10.let <- function(leto, 
     group_by(`statisticna_regija`) %>% 
     filter(`Leto izgradnje dela stavbe` >= leto - 10) %>%
     mutate(`Cena na kvadratni meter` = `Pogodbena cena / Odškodnina` / `Uporabna površina`) %>%
-    summarize(`Povprečna cena/m2 (mlajše od 10let)` = mean(`Cena na kvadratni meter`))
+    dplyr::summarize(`Povprečna cena/m2 (mlajše od 10let)` = mean(`Cena na kvadratni meter`))
   return(tabela)
 }
 
@@ -465,7 +465,7 @@ tabela6.2 <- podatki.zemljevid2.1 %>%
 povprecna.starost.oddanih.nepremicnin.po.regijah <- function(posli){
   tabela <- posli %>%
     group_by(`statisticna_regija`) %>%
-    summarize(`Povprečna starost stanovanjske nepremičnine` = round(mean(`Leto izgradnje dela stavbe`)))
+    dplyr::summarize(`Povprečna starost stanovanjske nepremičnine` = round(mean(`Leto izgradnje dela stavbe`)))
   return(tabela)
 }
 
@@ -489,15 +489,13 @@ shrani.tabela6 <- full_join(tabela6.1, tabela6.2, tabela6.3, by = c("statisticna
 uvoz.kako.gospodinjstva.prezivijo.s.svojimi.prihodki <- function(){
   tabela <- read_csv2("podatki/kako-gospodinjstva-prezivijo-s-svojimi-prihodki.csv", 
                       skip=2,
-                      locale=locale(encoding="Windows-1250"),
-                      col_types = cols(
-                        .default = col_guess(),
-                        `STATISTIČNA REGIJA` = col_factor(),
-                          LETO = col_integer()
-                        )) %>%
+                      locale=locale(encoding="Windows-1250")
+                      ) %>%
     pivot_longer(-c(`STATISTIČNA REGIJA`, LETO),
                  names_to = "Stopnja",
                  values_to = "Delež ljudi")
+  tabela$`STATISTIČNA REGIJA` <- as.factor(tabela$`STATISTIČNA REGIJA`)
+  tabela$LETO <- as.integer(tabela$LETO)
   tabela$Stopnja <- factor(tabela$Stopnja, levels = c("Zelo težko", 
                                                       "Težko",
                                                       "Z manjšimi težavami",
