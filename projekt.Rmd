@@ -207,7 +207,11 @@ analiziran.graf
 ```
 
 
-Preko analize sem ugotovila, da se največ gradi v Osrednjeslovenski regiji, sledi ji Podravska. 
+Pri razvrščanju v skupine opazimo (prikaz spodaj), da se največ gradi v Osrednjeslovenski in Podravski regiji, naslednja skupina regij po številu gradenj sta Savinjska in Gorenjska, tretja skupina so Jugovzhodna Slovenija, Pomurska in Obalno-kraška, četrta Posavska ter Primorsko-notranjska, v zadnji skupini pa se nahaja Posavska regija, torej je tam število gradenj najmnajše.
+
+```{r diagram5, echo=FALSE, fig.align='center', message=FALSE, paged.print=TRUE, warning=FALSE}
+diagram5
+```
 
 Preko napovednega modela sem narisala graf napovedi števila gradenj za naslednja 3 leta (2020, 2021, 2022) v Osrednjeslovenski regiji. Sestavila sem tri različne modele, ki pa so si dokaj enotni. Glede na te modele, bo število gradenj stanovanjskih objektov ostalo konstantno.
 
